@@ -1,0 +1,551 @@
+{
+  "id": "49162e0e-d3e2-4214-9267-99c0654860f0",
+  "source": "ncert_pdfs\\desm_s_Mathematics.pdf",
+  "raw_text_length": 12278,
+  "parsed": {
+    "total_lines": 191,
+    "title": "MATHEMATICS (CLASSES XI –XII)",
+    "sections": [
+      {
+        "grade": "XI",
+        "heading": "Introduction",
+        "content": [
+          "General Guidelines",
+          "(i) All concepts/identities must be illustrated by situational examples.",
+          "(ii) The language of ‘word problems’ must be clear, simple and unambiguous.",
+          "(iii) Problems given should be testing the understanding of the subject.",
+          "(iv) All proofs to be produced in a manner that allow the learner to see flow of reasons. Wherever",
+          "possible, give more than one proof.",
+          "(v) Motivate results, wherever possible. Prove explicitly those results where a short and clear argument",
+          "reinforces mathematical thinking and reasoning. There must be emphasis on correct way of",
+          "expressing the arguments."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Introduction",
+        "content": [
+          "(Total Periods 180)"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "UNIT I: SETS AND FUNCTIONS",
+        "content": [
+          "1. Sets (Periods 12)",
+          "Sets and their representations. Empty set. Finite and Infinite sets. Equal sets. Subsets. Subsets of the",
+          "set of real numbers especially intervals (with notations). Power set. Universal set. Venn diagrams. Union",
+          "and intersection of sets. Difference of sets. Complement of a set, Properties of Complement sets.",
+          "2. Relations and Functions (Periods 14)",
+          "Ordered pairs, Cartesian product of sets. Number of elements in the Cartesian product of two",
+          "finite sets. Cartesian product of the reals with itself (upto R × R × R).",
+          "Definition of relation, pictorial diagrams, domain, co-domain and range of a relation. Function as",
+          "a special kind of relation from one set to another. Pictorial representation of a function, domain,",
+          "co-domain and range of a function. Real valued function of the real variable, domain and range of",
+          "these functions, constant, identity, polynomial, rational, modulus, signum and greatest integer",
+          "functions with their graphs. Sum, difference, product and quotients of functions.",
+          "3. Trigonometric Functions (Periods 18)",
+          "Positive and negative angles. Measuring angles in radians and in degrees and conversion from",
+          "one measure to another. Definition of trigonometric functions with the help of unit circle. Truth of",
+          "the identity sin2x + cos2x = 1, for all x. Signs of trigonometric functions and sketch of their",
+          "graphs. Expressing sin (x+ y) and cos (x + y) in terms of sin x, sin y,"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "cos x and cos y. Deducing the identities like following",
+        "content": [
+          "tanx±tan y cotxcot y∓1",
+          "= ,cot(x± y)=",
+          "tan (x + y)",
+          "1∓tanx×tan y cot y±cotx",
+          "x+ y x−y x+ y x−y",
+          "sin x + sin y = 2sin .cos ,cosx+cosy=2cos cos",
+          "2 2 2 2",
+          "x+ y x−y x+ y x−y",
+          "sin x – sin y = 2cos .sin ,cosx−cosy=−2sin sin",
+          "2 2 2 2",
+          "Identities related to sin2x, cos2x, tan2x, sin3x, cos3x and tan3x. General solution of trigonometric",
+          "equations of the type sinθ = sin α, cosθ = cosα and tanθ = tan α. Proofs and simple applications",
+          "of sine and cosine formulae."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "UNIT II : ALGEBRA",
+        "content": [
+          "1. Principle of Mathematical Induction (Periods 06)",
+          "Process of the proof by induction, motivating the application of the method by looking at natural",
+          "numbers as the least inductive subset of real numbers. The principle of mathematical induction",
+          "and simple applications.",
+          "2. Complex Numbers and Quadratic Equations (Periods 10)",
+          "Need for complex numbers, especially −1, to be motivated by inability to solve every quadratic",
+          "equation. Brief description of algebraic properties of complex numbers. Argand plane and polar",
+          "representation of complex numbers. Statement of Fundamental Theorem of Algebra, solution of",
+          "quadratic equations in the complex number system, Square-root of a Complex number.",
+          "3. Linear Inequalities (Periods 10)",
+          "Linear inequalities, Algebraic solutions of linear inequalities in one variable and their representation",
+          "on the number line. Graphical solution of linear inequalities in two variables. Solution of system of",
+          "linear inequalities in two variables - graphially.",
+          "4. Permutations and Combinations (Periods 12)",
+          "Fundamental principle of counting. Factorial n. Permutations and combinations derivation of",
+          "formulae and their connections, simple applications.",
+          "5. Binomial Theorem (Periods 08)",
+          "History, statement and proof of the binomial theorem for positive integral indices. Pascal’s triangle,",
+          "general and middle term in binomial expansion, simple applications.",
+          "6. Sequence and Series (Periods 10)",
+          "Sequence and Series. Arithmetic Progression (A.P.), Arithmetic Mean (A.M.), Geometric",
+          "Progression (G.P.), general term of a G.P., sum of n terms of a G.P. Arithmetic and geometric",
+          "series, infinite G.P. and its sum, geometric mean (G.M.). Relation between A.M. and G.M. Sum",
+          "to n terms of the special series : ∑n, ∑n 2 and ∑n 3"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "UNIT III : COORDINATE GEOMETRY",
+        "content": [
+          "1. Straight Lines (Periods 09)",
+          "Brief recall of 2-D from earlier classes, shifting of origin. Slope of a line and angle between two",
+          "lines. Various forms of equations of a line: parallel to axes, point-slope form, slope-intercept",
+          "form, two-point form, intercepts form and normal form. General equation of a line. Equation of",
+          "family of lines passing through the point of intersection of two lines. Distance of a point from a",
+          "line.",
+          "2. Conic Sections (Periods 12)",
+          "Sections of a cone: Circles, ellipse, parabola, hyperbola, a point, a straight line and pair of",
+          "intersecting lines as a degenerated case of a conic section. Standard equations and simple properties",
+          "of parabola, ellipse and hyperbola. Standard equation of a circle.",
+          "3. Introduction to Three-dimensional Geometry (Periods 08)",
+          "Coordinate axes and coordinate planes in three dimensions. Coordinates of a point. Distance",
+          "between two points and section formula."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "UNIT IV : CALCULUS",
+        "content": [
+          "Limits and Derivatives (Periods 18)",
+          "Derivative introduced as rate of change both as that of distance function and geometrically,",
+          "log (1+ x) ex –1",
+          "intuitive idea of limit. lim e ,lim . Definition of derivative, relate it to slope",
+          "x→0 x x→0 x",
+          "of tangent of the curve, derivative of sum, difference, product and quotient of functions. Derivatives",
+          "of polynomial and trigonometric functions."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "UNIT V: MATHEMATICAL REASONING (Periods 08)",
+        "content": [
+          "Mathematically acceptable statements. Connecting words/phrases - consolidating the",
+          "understanding of “if and only if (necessary and sufficient) condition”, “implies”, “and/or”, “implied",
+          "by”, “and”, “or”, “there exists” and their use through variety of examples related to real life and",
+          "Mathematics. Validating the statements involving the connecting words - difference between",
+          "contradiction, converse and contrapositive."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "UNIT VI : STATISTICS AND PROBABILITY",
+        "content": [
+          "1. Statistics (Periods 10)",
+          "Measure of dispersion; mean deviation, variance and standard deviation of ungrouped/grouped",
+          "data. Analysis of frequency distributions with equal means but different variances.",
+          "2. Probability (Periods 15)",
+          "Random experiments: outcomes, sample spaces (set representation). Events: Occurrence of",
+          "events, ‘not’, ‘and’ & ‘or’ events, exhaustive events, mutually exclusive events. Axiomatic (set",
+          "theoretic) probability, connections with the theories of earlier classes. Probability of an event,",
+          "probability of ‘not’, ‘and’, & ‘or’ events."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Introduction",
+        "content": [
+          "(Total Periods 180)"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "UNIT I: RELATIONS AND FUNCTIONS",
+        "content": [
+          "1. Relations and Functions (Periods 10)",
+          "Types of relations: Reflexive, symmetric, transitive and equivalence relations. One to one and onto",
+          "functions, composite functions, inverse of a function. Binary operations.",
+          "2. Inverse Trigonometric Functions (Periods 12)",
+          "Definition, range, domain, principal value branches. Graphs of inverse trigonometric functions.",
+          "Elementary properties of inverse trigonometric functions."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "UNIT II: ALGEBRA",
+        "content": [
+          "1. Matrices (Periods 18)",
+          "Concept, notation, order, equality, types of matrices, zero matrix, transpose of a matrix, symmetric",
+          "and skew symmetric matrices. Addition, multiplication and scalar multiplication of matrices, simple",
+          "properties of addition, multiplication and scalar multiplication. Non-commutativity of multiplication",
+          "of matrices and existence of non-zero matrices whose product is the zero matrix (restrict to square",
+          "matrices of order 2). Concept of elementary row and column operations. Invertible matrices and",
+          "proof of the uniqueness of inverse, if it exists; (Here all matrices will have real entries).",
+          "2. Determinants (Periods 20)",
+          "Determinant of a square matrix (up to 3 × 3 matrices), properties of determinants, minors, cofactors",
+          "and applications of determinants in finding the area of a triangle. Adjoint and inverse of a square",
+          "matrix. Consistency, inconsistency and number of solutions of system of linear equations by examples,",
+          "solving system of linear equations in two or three variables (having unique solution) using inverse of",
+          "a matrix."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "UNIT III: CALCULUS",
+        "content": [
+          "1. Continuity and Differentiability (Periods 18)",
+          "Continuity and differentiability, derivative of composite functions, chain rule, derivatives of inverse",
+          "trigonometric functions, derivative of implicit function. Concepts of exponential, logarithmic functions.",
+          "Derivatives of logx and ex. Logarithmic differentiation. Derivative of functions expressed in parametric",
+          "e",
+          "forms. Second order derivatives. Rolle’s and Lagrange’s Mean Value Theorems (without proof)",
+          "and their geometric interpretations.",
+          "2. Applications of Derivatives (Periods 10)",
+          "Applications of derivatives: Rate of change, increasing/decreasing functions, tangents and normals,",
+          "approximation, maxima and minima (first derivative test motivated geometrically and second derivative",
+          "test given as a provable tool). Simple problems (that illustrate basic principles and understanding of",
+          "the subject as well as real-life situations).",
+          "3. Integrals (Periods 20)",
+          "Integration as inverse process of differentiation. Integration of a variety of functions by substitution,",
+          "by partial fractions and by parts, only simple integrals of the type –",
+          "dx dx dx dx dx",
+          "∫ , ∫ , ∫ , ∫ , ∫ ,",
+          "x2 ±a2 x2 ±a2 a2 −x2 ax2 +bx +c ax2 +bx +c",
+          "(px +q) (px +q)",
+          "∫ dx, ∫ dx,∫ a2 ± x2dx and∫ x2 −a2 dx,",
+          "ax2 +bx +c ax2 +bx +c",
+          "∫ ax2 +bx +c dx and ∫(px +q) ax2 +bx +c dx",
+          "to be evaluated.",
+          "Definite integrals as a limit of a sum. Fundamental Theorem of Calculus (without proof). Basic",
+          "properties of definite integrals and evaluation of definite integrals.",
+          "4. Applications of the Integrals (Periods 10)",
+          "Applications in finding the area under simple curves, especially lines, arcs of circles/parabolas/el-",
+          "lipses (in standard form only), area between the two above said curves (the region should be cleraly",
+          "identifiable).",
+          "5. Differential Equations (Periods 10)",
+          "Definition, order and degree, general and particular solutions of a differential equation. Formation of",
+          "differential equation whose general solution is given. Solution of differential equations by method of",
+          "separation of variables, homogeneous differential equations of first order and first degree. Solutions",
+          "of linear differential equation of the type –",
+          "dy",
+          "+Py = Q, where P and Q are functions of x or constant",
+          "dx",
+          "dx",
+          "+Px = Q, where P and Q are functions of y or constant",
+          "dy"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "UNIT IV: VECTORS AND THREE-DIMENSIONAL GEOMETRY",
+        "content": [
+          "1. Vectors (Periods 10)",
+          "Vectors and scalars, magnitude and direction of a vector. Direction cosines/ratios of vectors. Types",
+          "of vectors (equal, unit, zero, parallel and collinear vectors), position vector of a point, negative of a",
+          "vector, components of a vector, addition of vectors, multiplication of a vector by a scalar, position",
+          "vector of a point dividing a line segment in a given ratio. Scalar (dot) product of vectors, projection",
+          "of a vector on a line. Vector (cross) product of vectors, scalar triple product.",
+          "2. Three-dimensional Geometry (Periods 12)",
+          "Direction cosines/ratios of a line joining two points. Cartesian and vector equation of a line, coplanar",
+          "and skew lines, shortest distance between two lines. Cartesian and vector equation of a plane. Angle",
+          "between (i) two lines, (ii) two planes, (iii) a line and a plane. Distance of a point from a plane."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit V: Linear Programming (Periods 12)",
+        "content": [
+          "Introduction, related terminology such as constraints, objective function, optimization, different types",
+          "of linear programming (L.P.) problems, mathematical formulation of L.P. problems, graphical method",
+          "of solution for problems in two variables, feasible and infeasible regions, feasible and infeasible",
+          "solutions, optimal feasible solutions (up to three non-trivial constrains)."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VI: Probability (Periods 18)",
+        "content": [
+          "Multiplications theorem on probability. Conditional probability, independent events, total probability,",
+          "Baye’s theorem. Random variable and its probability distribution, mean and variance of haphazard",
+          "variable. Repeated independent (Bernoulli) trials and Binomial distribution.",
+          "MATHEMATICS"
+        ]
+      }
+    ],
+    "grades": [
+      {
+        "grade": "XI",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "General Guidelines",
+              "(i) All concepts/identities must be illustrated by situational examples.",
+              "(ii) The language of ‘word problems’ must be clear, simple and unambiguous.",
+              "(iii) Problems given should be testing the understanding of the subject.",
+              "(iv) All proofs to be produced in a manner that allow the learner to see flow of reasons. Wherever",
+              "possible, give more than one proof.",
+              "(v) Motivate results, wherever possible. Prove explicitly those results where a short and clear argument",
+              "reinforces mathematical thinking and reasoning. There must be emphasis on correct way of",
+              "expressing the arguments."
+            ]
+          },
+          {
+            "heading": "Introduction",
+            "content": [
+              "(Total Periods 180)"
+            ]
+          },
+          {
+            "heading": "UNIT I: SETS AND FUNCTIONS",
+            "content": [
+              "1. Sets (Periods 12)",
+              "Sets and their representations. Empty set. Finite and Infinite sets. Equal sets. Subsets. Subsets of the",
+              "set of real numbers especially intervals (with notations). Power set. Universal set. Venn diagrams. Union",
+              "and intersection of sets. Difference of sets. Complement of a set, Properties of Complement sets.",
+              "2. Relations and Functions (Periods 14)",
+              "Ordered pairs, Cartesian product of sets. Number of elements in the Cartesian product of two",
+              "finite sets. Cartesian product of the reals with itself (upto R × R × R).",
+              "Definition of relation, pictorial diagrams, domain, co-domain and range of a relation. Function as",
+              "a special kind of relation from one set to another. Pictorial representation of a function, domain,",
+              "co-domain and range of a function. Real valued function of the real variable, domain and range of",
+              "these functions, constant, identity, polynomial, rational, modulus, signum and greatest integer",
+              "functions with their graphs. Sum, difference, product and quotients of functions.",
+              "3. Trigonometric Functions (Periods 18)",
+              "Positive and negative angles. Measuring angles in radians and in degrees and conversion from",
+              "one measure to another. Definition of trigonometric functions with the help of unit circle. Truth of",
+              "the identity sin2x + cos2x = 1, for all x. Signs of trigonometric functions and sketch of their",
+              "graphs. Expressing sin (x+ y) and cos (x + y) in terms of sin x, sin y,"
+            ]
+          },
+          {
+            "heading": "cos x and cos y. Deducing the identities like following",
+            "content": [
+              "tanx±tan y cotxcot y∓1",
+              "= ,cot(x± y)=",
+              "tan (x + y)",
+              "1∓tanx×tan y cot y±cotx",
+              "x+ y x−y x+ y x−y",
+              "sin x + sin y = 2sin .cos ,cosx+cosy=2cos cos",
+              "2 2 2 2",
+              "x+ y x−y x+ y x−y",
+              "sin x – sin y = 2cos .sin ,cosx−cosy=−2sin sin",
+              "2 2 2 2",
+              "Identities related to sin2x, cos2x, tan2x, sin3x, cos3x and tan3x. General solution of trigonometric",
+              "equations of the type sinθ = sin α, cosθ = cosα and tanθ = tan α. Proofs and simple applications",
+              "of sine and cosine formulae."
+            ]
+          },
+          {
+            "heading": "UNIT II : ALGEBRA",
+            "content": [
+              "1. Principle of Mathematical Induction (Periods 06)",
+              "Process of the proof by induction, motivating the application of the method by looking at natural",
+              "numbers as the least inductive subset of real numbers. The principle of mathematical induction",
+              "and simple applications.",
+              "2. Complex Numbers and Quadratic Equations (Periods 10)",
+              "Need for complex numbers, especially −1, to be motivated by inability to solve every quadratic",
+              "equation. Brief description of algebraic properties of complex numbers. Argand plane and polar",
+              "representation of complex numbers. Statement of Fundamental Theorem of Algebra, solution of",
+              "quadratic equations in the complex number system, Square-root of a Complex number.",
+              "3. Linear Inequalities (Periods 10)",
+              "Linear inequalities, Algebraic solutions of linear inequalities in one variable and their representation",
+              "on the number line. Graphical solution of linear inequalities in two variables. Solution of system of",
+              "linear inequalities in two variables - graphially.",
+              "4. Permutations and Combinations (Periods 12)",
+              "Fundamental principle of counting. Factorial n. Permutations and combinations derivation of",
+              "formulae and their connections, simple applications.",
+              "5. Binomial Theorem (Periods 08)",
+              "History, statement and proof of the binomial theorem for positive integral indices. Pascal’s triangle,",
+              "general and middle term in binomial expansion, simple applications.",
+              "6. Sequence and Series (Periods 10)",
+              "Sequence and Series. Arithmetic Progression (A.P.), Arithmetic Mean (A.M.), Geometric",
+              "Progression (G.P.), general term of a G.P., sum of n terms of a G.P. Arithmetic and geometric",
+              "series, infinite G.P. and its sum, geometric mean (G.M.). Relation between A.M. and G.M. Sum",
+              "to n terms of the special series : ∑n, ∑n 2 and ∑n 3"
+            ]
+          },
+          {
+            "heading": "UNIT III : COORDINATE GEOMETRY",
+            "content": [
+              "1. Straight Lines (Periods 09)",
+              "Brief recall of 2-D from earlier classes, shifting of origin. Slope of a line and angle between two",
+              "lines. Various forms of equations of a line: parallel to axes, point-slope form, slope-intercept",
+              "form, two-point form, intercepts form and normal form. General equation of a line. Equation of",
+              "family of lines passing through the point of intersection of two lines. Distance of a point from a",
+              "line.",
+              "2. Conic Sections (Periods 12)",
+              "Sections of a cone: Circles, ellipse, parabola, hyperbola, a point, a straight line and pair of",
+              "intersecting lines as a degenerated case of a conic section. Standard equations and simple properties",
+              "of parabola, ellipse and hyperbola. Standard equation of a circle.",
+              "3. Introduction to Three-dimensional Geometry (Periods 08)",
+              "Coordinate axes and coordinate planes in three dimensions. Coordinates of a point. Distance",
+              "between two points and section formula."
+            ]
+          },
+          {
+            "heading": "UNIT IV : CALCULUS",
+            "content": [
+              "Limits and Derivatives (Periods 18)",
+              "Derivative introduced as rate of change both as that of distance function and geometrically,",
+              "log (1+ x) ex –1",
+              "intuitive idea of limit. lim e ,lim . Definition of derivative, relate it to slope",
+              "x→0 x x→0 x",
+              "of tangent of the curve, derivative of sum, difference, product and quotient of functions. Derivatives",
+              "of polynomial and trigonometric functions."
+            ]
+          },
+          {
+            "heading": "UNIT V: MATHEMATICAL REASONING (Periods 08)",
+            "content": [
+              "Mathematically acceptable statements. Connecting words/phrases - consolidating the",
+              "understanding of “if and only if (necessary and sufficient) condition”, “implies”, “and/or”, “implied",
+              "by”, “and”, “or”, “there exists” and their use through variety of examples related to real life and",
+              "Mathematics. Validating the statements involving the connecting words - difference between",
+              "contradiction, converse and contrapositive."
+            ]
+          },
+          {
+            "heading": "UNIT VI : STATISTICS AND PROBABILITY",
+            "content": [
+              "1. Statistics (Periods 10)",
+              "Measure of dispersion; mean deviation, variance and standard deviation of ungrouped/grouped",
+              "data. Analysis of frequency distributions with equal means but different variances.",
+              "2. Probability (Periods 15)",
+              "Random experiments: outcomes, sample spaces (set representation). Events: Occurrence of",
+              "events, ‘not’, ‘and’ & ‘or’ events, exhaustive events, mutually exclusive events. Axiomatic (set",
+              "theoretic) probability, connections with the theories of earlier classes. Probability of an event,",
+              "probability of ‘not’, ‘and’, & ‘or’ events."
+            ]
+          }
+        ]
+      },
+      {
+        "grade": "XII",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "(Total Periods 180)"
+            ]
+          },
+          {
+            "heading": "UNIT I: RELATIONS AND FUNCTIONS",
+            "content": [
+              "1. Relations and Functions (Periods 10)",
+              "Types of relations: Reflexive, symmetric, transitive and equivalence relations. One to one and onto",
+              "functions, composite functions, inverse of a function. Binary operations.",
+              "2. Inverse Trigonometric Functions (Periods 12)",
+              "Definition, range, domain, principal value branches. Graphs of inverse trigonometric functions.",
+              "Elementary properties of inverse trigonometric functions."
+            ]
+          },
+          {
+            "heading": "UNIT II: ALGEBRA",
+            "content": [
+              "1. Matrices (Periods 18)",
+              "Concept, notation, order, equality, types of matrices, zero matrix, transpose of a matrix, symmetric",
+              "and skew symmetric matrices. Addition, multiplication and scalar multiplication of matrices, simple",
+              "properties of addition, multiplication and scalar multiplication. Non-commutativity of multiplication",
+              "of matrices and existence of non-zero matrices whose product is the zero matrix (restrict to square",
+              "matrices of order 2). Concept of elementary row and column operations. Invertible matrices and",
+              "proof of the uniqueness of inverse, if it exists; (Here all matrices will have real entries).",
+              "2. Determinants (Periods 20)",
+              "Determinant of a square matrix (up to 3 × 3 matrices), properties of determinants, minors, cofactors",
+              "and applications of determinants in finding the area of a triangle. Adjoint and inverse of a square",
+              "matrix. Consistency, inconsistency and number of solutions of system of linear equations by examples,",
+              "solving system of linear equations in two or three variables (having unique solution) using inverse of",
+              "a matrix."
+            ]
+          },
+          {
+            "heading": "UNIT III: CALCULUS",
+            "content": [
+              "1. Continuity and Differentiability (Periods 18)",
+              "Continuity and differentiability, derivative of composite functions, chain rule, derivatives of inverse",
+              "trigonometric functions, derivative of implicit function. Concepts of exponential, logarithmic functions.",
+              "Derivatives of logx and ex. Logarithmic differentiation. Derivative of functions expressed in parametric",
+              "e",
+              "forms. Second order derivatives. Rolle’s and Lagrange’s Mean Value Theorems (without proof)",
+              "and their geometric interpretations.",
+              "2. Applications of Derivatives (Periods 10)",
+              "Applications of derivatives: Rate of change, increasing/decreasing functions, tangents and normals,",
+              "approximation, maxima and minima (first derivative test motivated geometrically and second derivative",
+              "test given as a provable tool). Simple problems (that illustrate basic principles and understanding of",
+              "the subject as well as real-life situations).",
+              "3. Integrals (Periods 20)",
+              "Integration as inverse process of differentiation. Integration of a variety of functions by substitution,",
+              "by partial fractions and by parts, only simple integrals of the type –",
+              "dx dx dx dx dx",
+              "∫ , ∫ , ∫ , ∫ , ∫ ,",
+              "x2 ±a2 x2 ±a2 a2 −x2 ax2 +bx +c ax2 +bx +c",
+              "(px +q) (px +q)",
+              "∫ dx, ∫ dx,∫ a2 ± x2dx and∫ x2 −a2 dx,",
+              "ax2 +bx +c ax2 +bx +c",
+              "∫ ax2 +bx +c dx and ∫(px +q) ax2 +bx +c dx",
+              "to be evaluated.",
+              "Definite integrals as a limit of a sum. Fundamental Theorem of Calculus (without proof). Basic",
+              "properties of definite integrals and evaluation of definite integrals.",
+              "4. Applications of the Integrals (Periods 10)",
+              "Applications in finding the area under simple curves, especially lines, arcs of circles/parabolas/el-",
+              "lipses (in standard form only), area between the two above said curves (the region should be cleraly",
+              "identifiable).",
+              "5. Differential Equations (Periods 10)",
+              "Definition, order and degree, general and particular solutions of a differential equation. Formation of",
+              "differential equation whose general solution is given. Solution of differential equations by method of",
+              "separation of variables, homogeneous differential equations of first order and first degree. Solutions",
+              "of linear differential equation of the type –",
+              "dy",
+              "+Py = Q, where P and Q are functions of x or constant",
+              "dx",
+              "dx",
+              "+Px = Q, where P and Q are functions of y or constant",
+              "dy"
+            ]
+          },
+          {
+            "heading": "UNIT IV: VECTORS AND THREE-DIMENSIONAL GEOMETRY",
+            "content": [
+              "1. Vectors (Periods 10)",
+              "Vectors and scalars, magnitude and direction of a vector. Direction cosines/ratios of vectors. Types",
+              "of vectors (equal, unit, zero, parallel and collinear vectors), position vector of a point, negative of a",
+              "vector, components of a vector, addition of vectors, multiplication of a vector by a scalar, position",
+              "vector of a point dividing a line segment in a given ratio. Scalar (dot) product of vectors, projection",
+              "of a vector on a line. Vector (cross) product of vectors, scalar triple product.",
+              "2. Three-dimensional Geometry (Periods 12)",
+              "Direction cosines/ratios of a line joining two points. Cartesian and vector equation of a line, coplanar",
+              "and skew lines, shortest distance between two lines. Cartesian and vector equation of a plane. Angle",
+              "between (i) two lines, (ii) two planes, (iii) a line and a plane. Distance of a point from a plane."
+            ]
+          },
+          {
+            "heading": "Unit V: Linear Programming (Periods 12)",
+            "content": [
+              "Introduction, related terminology such as constraints, objective function, optimization, different types",
+              "of linear programming (L.P.) problems, mathematical formulation of L.P. problems, graphical method",
+              "of solution for problems in two variables, feasible and infeasible regions, feasible and infeasible",
+              "solutions, optimal feasible solutions (up to three non-trivial constrains)."
+            ]
+          },
+          {
+            "heading": "Unit VI: Probability (Periods 18)",
+            "content": [
+              "Multiplications theorem on probability. Conditional probability, independent events, total probability,",
+              "Baye’s theorem. Random variable and its probability distribution, mean and variance of haphazard",
+              "variable. Repeated independent (Bernoulli) trials and Binomial distribution.",
+              "MATHEMATICS"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "raw_text": "MATHEMATICS (CLASSES XI –XII)\nGeneral Guidelines\n(i) All concepts/identities must be illustrated by situational examples.\n(ii) The language of ‘word problems’ must be clear, simple and unambiguous.\n(iii) Problems given should be testing the understanding of the subject.\n(iv) All proofs to be produced in a manner that allow the learner to see flow of reasons. Wherever\npossible, give more than one proof.\n(v) Motivate results, wherever possible. Prove explicitly those results where a short and clear argument\nreinforces mathematical thinking and reasoning. There must be emphasis on correct way of\nexpressing the arguments.\n1\n\nCLASS XI\n(Total Periods 180)\nUNIT I: SETS AND FUNCTIONS\n1. Sets (Periods 12)\nSets and their representations. Empty set. Finite and Infinite sets. Equal sets. Subsets. Subsets of the\nset of real numbers especially intervals (with notations). Power set. Universal set. Venn diagrams. Union\nand intersection of sets. Difference of sets. Complement of a set, Properties of Complement sets.\n2. Relations and Functions (Periods 14)\nOrdered pairs, Cartesian product of sets. Number of elements in the Cartesian product of two\nfinite sets. Cartesian product of the reals with itself (upto R × R × R).\nDefinition of relation, pictorial diagrams, domain, co-domain and range of a relation. Function as\na special kind of relation from one set to another. Pictorial representation of a function, domain,\nco-domain and range of a function. Real valued function of the real variable, domain and range of\nthese functions, constant, identity, polynomial, rational, modulus, signum and greatest integer\nfunctions with their graphs. Sum, difference, product and quotients of functions.\n3. Trigonometric Functions (Periods 18)\nPositive and negative angles. Measuring angles in radians and in degrees and conversion from\none measure to another. Definition of trigonometric functions with the help of unit circle. Truth of\nthe identity sin2x + cos2x = 1, for all x. Signs of trigonometric functions and sketch of their\ngraphs. Expressing sin (x+ y) and cos (x + y) in terms of sin x, sin y,\ncos x and cos y. Deducing the identities like following:\ntanx±tan y cotxcot y∓1\n= ,cot(x± y)=\ntan (x + y)\n1∓tanx×tan y cot y±cotx\nx+ y x−y x+ y x−y\nsin x + sin y = 2sin .cos ,cosx+cosy=2cos cos\n2 2 2 2\nx+ y x−y x+ y x−y\nsin x – sin y = 2cos .sin ,cosx−cosy=−2sin sin\n2 2 2 2\nIdentities related to sin2x, cos2x, tan2x, sin3x, cos3x and tan3x. General solution of trigonometric\nequations of the type sinθ = sin α, cosθ = cosα and tanθ = tan α. Proofs and simple applications\nof sine and cosine formulae.\n2\n\nUNIT II : ALGEBRA\n1. Principle of Mathematical Induction (Periods 06)\nProcess of the proof by induction, motivating the application of the method by looking at natural\nnumbers as the least inductive subset of real numbers. The principle of mathematical induction\nand simple applications.\n2. Complex Numbers and Quadratic Equations (Periods 10)\nNeed for complex numbers, especially −1, to be motivated by inability to solve every quadratic\nequation. Brief description of algebraic properties of complex numbers. Argand plane and polar\nrepresentation of complex numbers. Statement of Fundamental Theorem of Algebra, solution of\nquadratic equations in the complex number system, Square-root of a Complex number.\n3. Linear Inequalities (Periods 10)\nLinear inequalities, Algebraic solutions of linear inequalities in one variable and their representation\non the number line. Graphical solution of linear inequalities in two variables. Solution of system of\nlinear inequalities in two variables - graphially.\n4. Permutations and Combinations (Periods 12)\nFundamental principle of counting. Factorial n. Permutations and combinations derivation of\nformulae and their connections, simple applications.\n5. Binomial Theorem (Periods 08)\nHistory, statement and proof of the binomial theorem for positive integral indices. Pascal’s triangle,\ngeneral and middle term in binomial expansion, simple applications.\n6. Sequence and Series (Periods 10)\nSequence and Series. Arithmetic Progression (A.P.), Arithmetic Mean (A.M.), Geometric\nProgression (G.P.), general term of a G.P., sum of n terms of a G.P. Arithmetic and geometric\nseries, infinite G.P. and its sum, geometric mean (G.M.). Relation between A.M. and G.M. Sum\nto n terms of the special series : ∑n, ∑n 2 and ∑n 3\nUNIT III : COORDINATE GEOMETRY\n1. Straight Lines (Periods 09)\nBrief recall of 2-D from earlier classes, shifting of origin. Slope of a line and angle between two\nlines. Various forms of equations of a line: parallel to axes, point-slope form, slope-intercept\nform, two-point form, intercepts form and normal form. General equation of a line. Equation of\nfamily of lines passing through the point of intersection of two lines. Distance of a point from a\nline.\n3\n\n2. Conic Sections (Periods 12)\nSections of a cone: Circles, ellipse, parabola, hyperbola, a point, a straight line and pair of\nintersecting lines as a degenerated case of a conic section. Standard equations and simple properties\nof parabola, ellipse and hyperbola. Standard equation of a circle.\n3. Introduction to Three-dimensional Geometry (Periods 08)\nCoordinate axes and coordinate planes in three dimensions. Coordinates of a point. Distance\nbetween two points and section formula.\nUNIT IV : CALCULUS\nLimits and Derivatives (Periods 18)\nDerivative introduced as rate of change both as that of distance function and geometrically,\nlog (1+ x) ex –1\nintuitive idea of limit. lim e ,lim . Definition of derivative, relate it to slope\nx→0 x x→0 x\nof tangent of the curve, derivative of sum, difference, product and quotient of functions. Derivatives\nof polynomial and trigonometric functions.\nUNIT V: MATHEMATICAL REASONING (Periods 08)\nMathematically acceptable statements. Connecting words/phrases - consolidating the\nunderstanding of “if and only if (necessary and sufficient) condition”, “implies”, “and/or”, “implied\nby”, “and”, “or”, “there exists” and their use through variety of examples related to real life and\nMathematics. Validating the statements involving the connecting words - difference between\ncontradiction, converse and contrapositive.\nUNIT VI : STATISTICS AND PROBABILITY\n1. Statistics (Periods 10)\nMeasure of dispersion; mean deviation, variance and standard deviation of ungrouped/grouped\ndata. Analysis of frequency distributions with equal means but different variances.\n2. Probability (Periods 15)\nRandom experiments: outcomes, sample spaces (set representation). Events: Occurrence of\nevents, ‘not’, ‘and’ & ‘or’ events, exhaustive events, mutually exclusive events. Axiomatic (set\ntheoretic) probability, connections with the theories of earlier classes. Probability of an event,\nprobability of ‘not’, ‘and’, & ‘or’ events.\n4\n\nCLASS XII\n(Total Periods 180)\nUNIT I: RELATIONS AND FUNCTIONS\n1. Relations and Functions (Periods 10)\nTypes of relations: Reflexive, symmetric, transitive and equivalence relations. One to one and onto\nfunctions, composite functions, inverse of a function. Binary operations.\n2. Inverse Trigonometric Functions (Periods 12)\nDefinition, range, domain, principal value branches. Graphs of inverse trigonometric functions.\nElementary properties of inverse trigonometric functions.\nUNIT II: ALGEBRA\n1. Matrices (Periods 18)\nConcept, notation, order, equality, types of matrices, zero matrix, transpose of a matrix, symmetric\nand skew symmetric matrices. Addition, multiplication and scalar multiplication of matrices, simple\nproperties of addition, multiplication and scalar multiplication. Non-commutativity of multiplication\nof matrices and existence of non-zero matrices whose product is the zero matrix (restrict to square\nmatrices of order 2). Concept of elementary row and column operations. Invertible matrices and\nproof of the uniqueness of inverse, if it exists; (Here all matrices will have real entries).\n2. Determinants (Periods 20)\nDeterminant of a square matrix (up to 3 × 3 matrices), properties of determinants, minors, cofactors\nand applications of determinants in finding the area of a triangle. Adjoint and inverse of a square\nmatrix. Consistency, inconsistency and number of solutions of system of linear equations by examples,\nsolving system of linear equations in two or three variables (having unique solution) using inverse of\na matrix.\nUNIT III: CALCULUS\n1. Continuity and Differentiability (Periods 18)\nContinuity and differentiability, derivative of composite functions, chain rule, derivatives of inverse\ntrigonometric functions, derivative of implicit function. Concepts of exponential, logarithmic functions.\nDerivatives of logx and ex. Logarithmic differentiation. Derivative of functions expressed in parametric\ne\nforms. Second order derivatives. Rolle’s and Lagrange’s Mean Value Theorems (without proof)\nand their geometric interpretations.\n2. Applications of Derivatives (Periods 10)\nApplications of derivatives: Rate of change, increasing/decreasing functions, tangents and normals,\napproximation, maxima and minima (first derivative test motivated geometrically and second derivative\ntest given as a provable tool). Simple problems (that illustrate basic principles and understanding of\nthe subject as well as real-life situations).\n5\n\n3. Integrals (Periods 20)\nIntegration as inverse process of differentiation. Integration of a variety of functions by substitution,\nby partial fractions and by parts, only simple integrals of the type –\ndx dx dx dx dx\n∫ , ∫ , ∫ , ∫ , ∫ ,\nx2 ±a2 x2 ±a2 a2 −x2 ax2 +bx +c ax2 +bx +c\n(px +q) (px +q)\n∫ dx, ∫ dx,∫ a2 ± x2dx and∫ x2 −a2 dx,\nax2 +bx +c ax2 +bx +c\n∫ ax2 +bx +c dx and ∫(px +q) ax2 +bx +c dx\nto be evaluated.\nDefinite integrals as a limit of a sum. Fundamental Theorem of Calculus (without proof). Basic\nproperties of definite integrals and evaluation of definite integrals.\n4. Applications of the Integrals (Periods 10)\nApplications in finding the area under simple curves, especially lines, arcs of circles/parabolas/el-\nlipses (in standard form only), area between the two above said curves (the region should be cleraly\nidentifiable).\n5. Differential Equations (Periods 10)\nDefinition, order and degree, general and particular solutions of a differential equation. Formation of\ndifferential equation whose general solution is given. Solution of differential equations by method of\nseparation of variables, homogeneous differential equations of first order and first degree. Solutions\nof linear differential equation of the type –\ndy\n+Py = Q, where P and Q are functions of x or constant\ndx\ndx\n+Px = Q, where P and Q are functions of y or constant\ndy\nUNIT IV: VECTORS AND THREE-DIMENSIONAL GEOMETRY\n1. Vectors (Periods 10)\nVectors and scalars, magnitude and direction of a vector. Direction cosines/ratios of vectors. Types\nof vectors (equal, unit, zero, parallel and collinear vectors), position vector of a point, negative of a\nvector, components of a vector, addition of vectors, multiplication of a vector by a scalar, position\nvector of a point dividing a line segment in a given ratio. Scalar (dot) product of vectors, projection\nof a vector on a line. Vector (cross) product of vectors, scalar triple product.\n2. Three-dimensional Geometry (Periods 12)\nDirection cosines/ratios of a line joining two points. Cartesian and vector equation of a line, coplanar\nand skew lines, shortest distance between two lines. Cartesian and vector equation of a plane. Angle\nbetween (i) two lines, (ii) two planes, (iii) a line and a plane. Distance of a point from a plane.\n6\n\nUnit V: Linear Programming (Periods 12)\nIntroduction, related terminology such as constraints, objective function, optimization, different types\nof linear programming (L.P.) problems, mathematical formulation of L.P. problems, graphical method\nof solution for problems in two variables, feasible and infeasible regions, feasible and infeasible\nsolutions, optimal feasible solutions (up to three non-trivial constrains).\nUnit VI: Probability (Periods 18)\nMultiplications theorem on probability. Conditional probability, independent events, total probability,\nBaye’s theorem. Random variable and its probability distribution, mean and variance of haphazard\nvariable. Repeated independent (Bernoulli) trials and Binomial distribution.\n7\n\nMATHEMATICS",
+  "ai_summary": "AI summary failed: AI summary generation failed: Anthropic error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CZmxmSK7ATn532F6KCXg2'}"
+}

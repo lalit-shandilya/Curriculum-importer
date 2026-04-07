@@ -1,0 +1,97 @@
+{
+  "ncert_pdfs\\Art_Educationfinal_syllabus.pdf": {
+    "sha256": "ebac646474f47fda8a0c55ff0fbee2f431103377109bfae22b1f16d7cb35a5ae",
+    "processed_at": 1775452926.7723355,
+    "output": "ncert_json\\Art_Educationfinal_syllabus.json"
+  },
+  "ncert_pdfs\\CSHSS.pdf": {
+    "sha256": "c13ea7539e158ff37bf2250a1dad1645b374393234ae261ec7f072c4b89c6aeb",
+    "processed_at": 1775453100.3800824,
+    "output": "ncert_json\\CSHSS.json"
+  },
+  "ncert_pdfs\\desm_s_Biology.pdf": {
+    "sha256": "814dd9969e983dc50519cad24a30a382ce7dd6d0a7a6f68034296b8ab6855be7",
+    "processed_at": 1775453121.927144,
+    "output": "ncert_json\\desm_s_Biology.json"
+  },
+  "ncert_pdfs\\desm_s_Chemistry.pdf": {
+    "sha256": "c96e37811c274387d69c15a94ec8fcfb12ca9f993da41c345e8c0e4d41be99d0",
+    "processed_at": 1775453138.9814017,
+    "output": "ncert_json\\desm_s_Chemistry.json"
+  },
+  "ncert_pdfs\\desm_s_Mathematics.pdf": {
+    "sha256": "97fbdef7032df017b96a51fff921c80e8c701dbf60679a5fa6441159d7956c88",
+    "processed_at": 1775453164.8649743,
+    "output": "ncert_json\\desm_s_Mathematics.json"
+  },
+  "ncert_pdfs\\desm_s_Physics.pdf": {
+    "sha256": "70f65fbbe2c4d8eb89a40993fcb20be06d4502cb441837cc5f6e86e970c011d4",
+    "processed_at": 1775453183.533637,
+    "output": "ncert_json\\desm_s_Physics.json"
+  },
+  "ncert_pdfs\\graphic_design_Web_site.pdf": {
+    "sha256": "8cd7d209115b62877593416c81f7a4b050ca38e42382b9ee7d86d0321c7d3f06",
+    "processed_at": 1775453203.089018,
+    "output": "ncert_json\\graphic_design_Web_site.json"
+  },
+  "ncert_pdfs\\indian_crafts.pdf": {
+    "sha256": "a5703fc93b42c32c123b2a51b96764f4a9312ba31090301801f03247824d2766",
+    "processed_at": 1775453217.733839,
+    "output": "ncert_json\\indian_crafts.json"
+  },
+  "ncert_pdfs\\IPHSS.pdf": {
+    "sha256": "8ed875a53afbf8a3ed1781afa70e5ba74b913a6d7fe526d4c509f36556b4a948",
+    "processed_at": 1775453235.374353,
+    "output": "ncert_json\\IPHSS.json"
+  },
+  "ncert_pdfs\\leading_the_change.pdf": {
+    "sha256": "83c598b50813aac963bdd1577d3b0aaa84ecab2427bf781e7ef12463cae6bf94",
+    "processed_at": 1775453270.040231,
+    "output": "ncert_json\\leading_the_change.json"
+  },
+  "ncert_pdfs\\med_syllabus.pdf": {
+    "sha256": "251e88b83a786b0f0647b75d17f1425808ecec8139cfc2cc3a189e251a29b1bd",
+    "processed_at": 1775453348.7276676,
+    "output": "ncert_json\\med_syllabus.json"
+  },
+  "ncert_pdfs\\Microsoft%20Word%20-%20Final_Sullabus_on_H___P_I-X_for_Website.pdf": {
+    "sha256": "a4ab89a40685c401129c43b63236143ba1908967766da7395f3ff712cc89f784",
+    "processed_at": 1775526543.2186503,
+    "output": "ncert_json\\Microsoft%20Word%20-%20Final_Sullabus_on_H___P_I-X_for_Website.json"
+  },
+  "ncert_pdfs\\mphil_syllabus.pdf": {
+    "sha256": "0b527ac2c4612209bcfff18e1196af8acbe09596c30d1cf9f0408ecce12f858b",
+    "processed_at": 1775453551.9282737,
+    "output": "ncert_json\\mphil_syllabus.json"
+  },
+  "ncert_pdfs\\Preliams.pdf": {
+    "sha256": "433b49f7df5da41545e13cebb03ea7c9d0bbaa03b9bc64c2073449783809a076",
+    "processed_at": 1775453599.5612292,
+    "output": "ncert_json\\Preliams.json"
+  },
+  "ncert_pdfs\\Preliams2.pdf": {
+    "sha256": "0d5d341313d3270b56661bc88fbb04bac5cecdecdd1dcf866612ec21926384a9",
+    "processed_at": 1775453608.637655,
+    "output": "ncert_json\\Preliams2.json"
+  },
+  "ncert_pdfs\\Syllabus.pdf": {
+    "sha256": "c060490af61b89892510d44ce023803e96a4564c2e6abdca4e29e3d55c3b8fb1",
+    "processed_at": 1775453619.239546,
+    "output": "ncert_json\\Syllabus.json"
+  },
+  "ncert_pdfs\\Syllabus_BEd.pdf": {
+    "sha256": "5a14b27f4bd90c67f99f005e9146ef297d5cf71e991e874f0bb95ba733056a3c",
+    "processed_at": 1775453686.674275,
+    "output": "ncert_json\\Syllabus_BEd.json"
+  },
+  "ncert_pdfs\\Syllabus_for_CCT_Higher_Secondary_1.pdf": {
+    "sha256": "31aaeeb52bad1a685db83afd243ab4124392bcdf3d945ad3cdd4cd42d0d8b007",
+    "processed_at": 1775453721.9583066,
+    "output": "ncert_json\\Syllabus_for_CCT_Higher_Secondary_1.json"
+  },
+  "ncert_pdfs\\syllabus_media_studies.pdf": {
+    "sha256": "e417e9e028dcd13d88d6d23f0f73af39b56ad37a9559f63d439aea1ee26cb6da",
+    "processed_at": 1775453740.9009762,
+    "output": "ncert_json\\syllabus_media_studies.json"
+  }
+}

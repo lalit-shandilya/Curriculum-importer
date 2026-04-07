@@ -1,0 +1,1226 @@
+{
+  "id": "9130d119-f829-4d9d-875a-bf84f39ec73e",
+  "source": "ncert_pdfs\\desm_s_Chemistry.pdf",
+  "raw_text_length": 27364,
+  "parsed": {
+    "total_lines": 399,
+    "title": "CHEMISTRY (CLASSES XI –XII)",
+    "sections": [
+      {
+        "grade": "XI",
+        "heading": "Introduction",
+        "content": [
+          "RATIONALE",
+          "Higher Secondary Stage is the most crucial stage of school education because at this stage specialised",
+          "discipline based, content oriented courses are introduced. Students reach this stage after 10 years of",
+          "general education and opt for Chemistry with a purpose of mostly for pursuing their career in basic sciences",
+          "or professional courses like medicines, engineering, technology and studying courses in applied areas of",
+          "science and technology at tertiary level. Therefore, at this stage, there is a need to provide learners with",
+          "sufficient conceptual background of Chemistry, which will make them competent to meet the challenges of",
+          "academic and professional courses after the higher secondary stage.",
+          "National Curriculum Framework - 2005 recommends a disciplinary approach with appropriate rigour",
+          "and depth with the care that syllabus is not heavy and at the same time it is comparable to the international",
+          "level. It emphasizes a coherent focus on important ideas within the discipline that are properly sequenced",
+          "to optimize learning. It recommends that theoretical component of Higher Secondary Science should",
+          "emphasize on problem solving methods and the awareness of historical development of key concepts of",
+          "science be judiciously integrated into content. The present exercise of syllabus development in Chemistry",
+          "at Higher Secondary Stage is based on this framework."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Salient features of the present syllabus are thus",
+        "content": [
+          "• Some background of Chemistry from secondary stage is assumed; however, no specific knowledge",
+          "of topics in Chemistry is pre-supposed.",
+          "• The course is self-contained and broadly covers fundamental concepts of Chemistry.",
+          "• Attempt has been made to see discipline of Chemistry does not remain only the science of facts",
+          "but becomes related to modern applications in the world around us.",
+          "• The syllabus provides logical sequencing of the ‘Units’ of the subject matter with proper placement",
+          "of concepts with their linkages for better understanding.",
+          "• Emphasis has been on promoting process - skills, problem solving abilities and applications of",
+          "concepts of Chemistry useful in real life situation for making learning of Chemistry more relevant,",
+          "meaningful and interesting.",
+          "• An effort has been made on the basis of feedback, to remove repetition besides reducing the",
+          "content by suitably integrating the different content areas.",
+          "• Practical syllabus has two components. There are core experiments to be undertaken by the",
+          "students in the classroom and will be part of examination while each student will carry out one",
+          "investigatory project and submit the report for the examination.",
+          "With this background, the Chemistry curriculum at the higher secondary stage attempts to",
+          "• promote understanding of basic principles in Chemistry while retaining the excitement in Chemistry;",
+          "• develop an interest in students to study Chemistry as discipline;",
+          "• strengthen the concepts developed at the secondary stage and to provide firm foundation for",
+          "further learning of Chemistry at tertiary level more effectively;",
+          "• develop positive scientific attitude, and appreciate contribution of Chemistry towards the",
+          "improvement of quality of human life;",
+          "• develop problem solving skills and nurture curiosity, aesthetic sense and creativity;",
+          "• inculcate values of honesty, integrity, cooperation, concern for life and preservation of the",
+          "environment;",
+          "• make the learner realise the interface of Chemistry with other disciplines of science such as Physics,",
+          "Biology, Geology, etc;",
+          "• equip students to face challenges related to health, nutrition, environment, population, whether",
+          "industries and agriculture."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Introduction",
+        "content": [
+          "(Total Periods 180)"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit I: Some Basic Concepts of Chemistry (Periods 14)",
+        "content": [
+          "General Introduction: Importance and scope of chemistry.",
+          "Historical approach to particulate nature of matter, laws of chemical combination, Dalton’s atomic",
+          "theory: concept of elements, atoms and molecules.",
+          "Atomic and molecular masses. Mole concept and molar mass; percentage composition and empirical",
+          "and molecular formula; chemical reactions, stoichiometry and calculations based on stoichiometry."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit II: Structure of Atom (Periods 16)",
+        "content": [
+          "Discovery of electron, proton and neutron; atomic number, isotopes and isobars. Thompson’s model",
+          "and its limitations, Rutherford’s model and its limitations, Bohr’s model and its limitations, concept of shells",
+          "and subshells, dual nature of matter and light, de Broglie’s relationship, Heisenberg uncertainty principle,",
+          "concept of orbitals, quantum numbers, shapes of s, p and d orbitals, rules for filling electrons in orbitals -",
+          "Aufbau principle, Pauli exclusion principle and Hund’s rule, electronic configuration of atoms, stability of",
+          "half filled and completely filled orbitals."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit III: Classification of Elements and Periodicity in Properties",
+        "content": [
+          "(Periods 8)",
+          "Significance of classification, brief history of the development of periodic table, modern periodic law",
+          "and the present form of periodic table, periodic trends in properties of elements –atomic radii, ionic radii,",
+          "inert gas radii, ionization enthalpy, electron gain enthalpy, electronegativity, valence. Nomenclature of",
+          "elements with atomic number greater than 100."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit IV: Chemical Bonding and Molecular Structure (Periods 16)",
+        "content": [
+          "Valence electrons, ionic bond, covalent bond, bond parameters, Lewis structure, polar character of",
+          "covalent bond, covalent character of ionic bond, valence bond theory, resonance, geometry of covalent",
+          "molecules, VSEPR theory, concept of hybridization involving s, p and d orbitals and shapes of some",
+          "simple molecules, molecular orbital theory of homonuclear diatomic molecules (qualitative idea only).",
+          "Hydrogen bond."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit V: States of Matter: Gases and Liquids (Periods 14)",
+        "content": [
+          "Three states of matter, intermolecular interactions, types of bonding, melting and boiling points,role of",
+          "gas laws in elucidating the concept of the molecule, Boyle’s law, Charle’s law, Gay Lussac’s law, Avogadro’s",
+          "law, ideal behaviour, empirical derivation of gas equation, Avogadro number, ideal gas equation. Kinetic",
+          "energy and molecular speeds (elementary idea), deviation from ideal behaviour, liquefaction of gases,",
+          "critical temperature.",
+          "Liquid State – Vapour pressure, viscosity and surface tension (qualitative idea only, no mathematical",
+          "derivations)."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit VI: Thermodynamics (Periods 18)",
+        "content": [
+          "Concepts of system, types of systems, surroundings, work, heat, energy, extensive and intensive",
+          "properties, state functions.",
+          "First law of thermodynamics – internal energy and enthalpy, heat capacity and specific heat,",
+          "measurement of ΔU and ΔH, Hess’s law of constant heat summation, enthalpy of : bond dissociation,",
+          "combustion, formation, atomization, sublimation, phase transition, ionization, solution and dilution.",
+          "Introduction of entropy as a state function, Second law of thermodynamics, Gibbs energy change for",
+          "spontaneous and non-spontaneous process, criteria for equilibrium.",
+          "Third law of thermodynamics –Brief introduction."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit VII: Equilibrium (Periods 20)",
+        "content": [
+          "Equilibrium in physical and chemical processes, dynamic nature of equilibrium, law of mass action,",
+          "equilibrium constant, factors affecting equilibrium – Le Chatelier’s principle; ionic equilibrium – ionization",
+          "of acids and bases, strong and weak electrolytes, degree of ionization, ionization of polybasic acids, acid",
+          "strength, concept of pH., Hydrolysis of salts (elementary idea), , buffer solutions, Henderson equation,",
+          "solubility product, common ion effect (with illustrative examples)."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit VIII : Redox Reactions (Periods 6)",
+        "content": [
+          "Concept of oxidation and reduction, redox reactions, oxidation number, balancing redox reactions in",
+          "terms of loss and gain of electron and change in oxidation numbers , applications of redox reactions."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit IX Hydrogen (Periods 8)",
+        "content": [
+          "Position of hydrogen in periodic table, occurrence, isotopes, preparation, properties and uses of",
+          "hydrogen; hydrides – ionic, covalent and interstitial; physical and chemical properties of water, heavy",
+          "water; hydrogen peroxide-preparation, reactions, use and structure; hydrogen as a fuel."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit X: s- Block Elements (Alkali and Alkaline earth metals) (Periods 14)",
+        "content": []
+      },
+      {
+        "grade": "XI",
+        "heading": "Group 1 and Group 2 elements",
+        "content": [
+          "General introduction, electronic configuration, occurrence, anomalous properties of the first element",
+          "of each group, diagonal relationship, trends in the variation of properties (such as ionization enthalpy,",
+          "atomic and ionic radii), trends in chemical reactivity with oxygen, water, hydrogen and halogens; uses."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Preparation and Properties of Some Important Compounds",
+        "content": [
+          "Sodium carbonate, sodium chloride, sodium hydroxide and sodium hydrogencarbonate, biological",
+          "importance of sodium and potassium.",
+          "CaO, CaCO , and industrial use of lime and limestone, biological importance of Mg and Ca."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit XI: Some p-Block Elements (Periods 16)",
+        "content": [
+          "General Introduction to p-Block Elements",
+          "Group 13 elements: General introduction, electronic configuration, occurrence, variation of properties,",
+          "oxidation states, trends in chemical reactivity, anomalous properties of first element of the group; Boron-"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "physical and chemical properties, some important compounds: borax, boric acids, boron hydrides. Aluminium",
+        "content": [
+          "uses, reactions with acids and alkalies.",
+          "Group 14 elements: General introduction, electronic configuration, occurrence, variation of properties,",
+          "oxidation states, trends in chemical reactivity, anomalous behaviour of first element. Carbon - catenation,",
+          "allotropic forms, physical and chemical properties; uses of some important compounds: oxides.",
+          "Important compounds of silicon and a few uses : silicon tetrachloride, silicones, silicates and zeolites,",
+          "their uses."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit XII: Organic Chemistry – Some Basic Principles and Techniques",
+        "content": [
+          "(Periods 14)",
+          "General introduction, methods of purification, qualitative and quantitative analysis, classification and",
+          "IUPAC nomenclature of organic compounds.",
+          "Electronic displacements in a covalent bond: inductive effect, electromeric effect, resonance and",
+          "hyper conjugation.",
+          "Homolytic and heterolytic fission of a covalent bond: free radicals, carbocations, carbanions;",
+          "electrophiles and nucleophiles, types of organic reactions."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit XIII: Hydrocarbons (Periods 16)",
+        "content": [
+          "Classification of Hydrocarbons."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Aliphatic Hydrocarbons",
+        "content": [
+          "Alkanes – Nomenclature, isomerism, conformations (ethane only), physical properties, chemical",
+          "reactions including free radical mechanism of halogenation, combustion and pyrolysis.",
+          "Alkenes – Nomenclature, structure of double bond (ethene), geometrical isomerism, physical properties,",
+          "methods of preparation; chemical reactions: addition of hydrogen, halogen, water, hydrogen halides",
+          "(Markovnikov’s addition and peroxide effect), ozonolysis, oxidation, mechanism of electrophilic addition.",
+          "Alkynes – Nomenclature, structure of triple bond (ethyne), physical properties, methods of preparation,",
+          "chemical reactions: acidic character of alkynes, addition reaction of - hydrogen, halogens, hydrogen halides",
+          "and water.",
+          "Aromatic hydrocarbons – Introduction, IUPAC nomenclature; Benzene: resonance, aromaticity ;",
+          "chemical properties: mechanism of electrophilic substitution – nitration sulphonation, halogenation, Friedel",
+          "Craft’s alkylation and acylation; directive influence of functional group in mono-substituted benzene;",
+          "carcinogenicity and toxicity."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit XIV: Environmental Chemistry (Periods 6)",
+        "content": [
+          "Environmental pollution – Air, water and soil pollution, chemical reactions in atmosphere, smogs,",
+          "major atmospheric pollutants; acid rain, ozone and its reactions, effects of depletion of ozone layer,",
+          "greenhouse effect and global warming – pollution due to industrial wastes; green chemistry as an alternative",
+          "tool for reducing pollution, strategy for control of environmental pollution.",
+          "PRACTICALS",
+          "Total Periods 60",
+          "Micro-chemical methods are available for several of the practical experiments. Wherever possible",
+          "such techniques should be used.",
+          "A. Basic Laboratory Techniques (Periods 2)",
+          "1. Cutting glass tube and glass rod",
+          "2. Bending a glass tube",
+          "3. Drawing out a glass jet",
+          "4. Boring a cork",
+          "B. Characterization and Purification of Chemical Substance",
+          "(Periods 6)",
+          "1. Determination of melting point of an organic compound.",
+          "2. Determination of boiling point of an organic compound."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "3. Crystallization involving impure sample of any one of the following",
+        "content": [
+          "Alum, copper sulphate, Benzoic acid.",
+          "C. Experiments Related to pH Change (Periods 6)"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "(a) Any one of the following experiments",
+        "content": [
+          "• Determination of pH of some solutions obtained from fruit juices, solutions of known and",
+          "varied concentrations of acids, bases and salts using pH paper or universal indicator.",
+          "• Comparing the pH of solutions of strong and weak acid of same concentration.",
+          "• Study the pH change in the titration of a strong acid with a strong base using universal indicator.",
+          "( b)Study of pH change by common-ion effect in case of weak acids and weak bases.",
+          "D. Chemical Equilibrium (Periods 4)"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "One of the following experiments",
+        "content": [
+          "(a) Study the shift in equilibrium between ferric ions and thiocynate ions by increasing /decreasing",
+          "the concentration of either of the ions.",
+          "(b) Study the shift in equilibrium between [Co (HO)]2+and chloride ions by changing the concentration",
+          "2 6",
+          "of either of the ions .",
+          "E. Quantitative Estimation (Periods 16)",
+          "• Using a chemical balance.",
+          "• Preparation of standard solution of oxalic acid.",
+          "• Determination of strength of a given solution of sodium hydroxide by titrating it against standard",
+          "solution of oxalic acid.",
+          "• Preparation of standard solution of sodium carbonate.",
+          "• Determination of strength of a given solution of hydrochloric acid by titrating it against standard",
+          "sodium carbonate solution.",
+          "F. Qualitative Analysis (Periods 16)",
+          "(a) Determination of one anion and one cation in a given salt",
+          "Cations - Pb2+,Cu2+,As3+,Al3+,Fe3+,Mn2+,Ni2+,Zn2+,Co2+,Ca2+,Sr2+,Ba2+,Mg2+,NH+",
+          "- - - - - - - - - - - -",
+          "Anions - CO2 ,S2 ,SO2 ,SO2 ,NO ,NO ,Cl ,Br ,I ,PO3 ,C O2 ,CH COO",
+          "3 3 4 2 3 4 2 4 3",
+          "(Note : Insoluble salts excluded)",
+          "(b) Detection of nitrogen, sulphur, chlorine, in organic compounds.",
+          "Project (Periods 10)",
+          "Scientific investigations involving laboratory testing and collecting information from other sources.",
+          "A few suggested projects",
+          "• Checking the bacterial contamination in drinking water by testing sulphide ions.",
+          "• Study of the methods of purification of water.",
+          "• Testing the hardness, presence of iron, fluoride, chloride etc. depending upon the regional variation",
+          "in drinking water and the study of causes of presences of these ions above permissible limit (if",
+          "any)",
+          "• Investigation of the foaming capacity of different washing soaps and the effect of addition of",
+          "sodium carbonate on them.",
+          "• Study of the acidity of different samples of the tea leaves.",
+          "• Determination of the rate of evaporation of different liquids.",
+          "• Study of the effect of acids and bases on the tensile strength of fibers.",
+          "• Analysis of fruit and vegetable juices for their acidity.",
+          "Note: Any other investigatory project, which involves about 10 periods of work, can be chosen with",
+          "the approval of the teacher."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Introduction",
+        "content": [
+          "Total Periods 180"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit I: Solid State (Periods 12)",
+        "content": [
+          "Classification of solids based on different binding forces :molecular, ionic covalent and metallic solids,",
+          "amorphous and crystalline solids(elementary idea),unit cell in two dimensional and three dimensional lattices,",
+          "calculation of density of unit cell, packing in solids, packing efficiency, voids ,number of atoms per unit cell",
+          "in a cubic unit cell, point defects, electrical and magnetic properties, Band theory of metals ,conductors,",
+          "semiconductors and insulators and n and p type semiconductors ."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit II : Solutions (Periods 12)",
+        "content": [
+          "Types of solutions, expression of concentration of solutions of solids in liquids, solubility of gases in",
+          "liquids, solid solutions, colligative properties – relative lowering of vapour pressure, Raoult’s law , elevation",
+          "of B.P., depression of freezing point, osmotic pressure, determination of molecular masses using colligative",
+          "properties, abnormal molecular mass, Vant Hoff factor."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit III: Electrochemistry (Periods 14)",
+        "content": [
+          "Redox reactions; conductance in electrolytic solutions, specific and molar conductivity variations of",
+          "conductivity with concentration, Kohlrausch’s Law, electrolysis and laws of electrolysis (elementary idea),",
+          "dry cell – electrolytic cells and Galvanic cells; lead accumulator, EMF of a cell, standard electrode potential,",
+          "Nernst equation and its application to chemical cells. Relation between Gibbs energy change and EMF of",
+          "a cell, fuel cells; corrosion."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit IV: Chemical Kinetics (Periods 12)",
+        "content": [
+          "Rate of a reaction (average and instantaneous), factors affecting rates of reaction: concentration,",
+          "temperature, catalyst; order and molecularity of a reaction; rate law and specific rate constant, integrated",
+          "rate equations and half life (only for zero and first order reactions); concept of collision theory (elementary",
+          "idea, no mathematical treatment).Activation energy, Arrhenious equation."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit V: Surface Chemistry (Periods 8)",
+        "content": [
+          "Adsorption – physisorption and chemisorption; factors affecting adsorption of gases on solids; catalysis",
+          ":homogenous and heterogeneous, activity and selectivity: enzyme catalysis; colloidal state: distinction between",
+          "true solutions, colloids and suspensions; lyophillic, lyophobic multimolecular and macromolecular colloids;",
+          "properties of colloids; Tyndall effect, Brownian movement, electrophoresis, coagulation; emulsions – types",
+          "of emulsions."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VI: General Principles and Processes of Isolation of Elements (Periods 8 )",
+        "content": [
+          "Principles and methods of extraction – concentration, oxidation, reduction electrolytic method and",
+          "refining; occurrence and principles of extraction of aluminium, copper, zinc and iron."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VII: p-Block Elements (Periods 14)",
+        "content": [
+          "Group 15 elements: General introduction, electronic configuration, occurrence, oxidation states,",
+          "trends in physical and chemical properties; nitrogen – preparation, properties and uses; compounds of",
+          "nitrogen: preparation and properties of ammonia and nitric acid, oxides of nitrogen ( structure only);",
+          "Phosphorous-allotropic forms; compounds of phosphorous: preparation and properties of phosphine",
+          ",halides (PCl , PCl ) and oxoacids (elementary idea only).",
+          "3 5",
+          "Group 16 elements : General introduction, electronic configuration, oxidation states, occurrence,",
+          "trends in physical and chemical properties; dioxygen: preparation, properties and uses; classification of",
+          "oxides; ozone. Sulphur – allotropic forms; compounds of sulphur: preparation, properties and uses of",
+          "sulphur dioxide; sulphuric acid: industrial process of manufacture, properties and uses, oxoacids of sulphur",
+          "(structures only).",
+          "Group 17 elements : General introduction, electronic configuration, oxidation states, occurrence,",
+          "trends in physical and chemical properties; compounds of halogens: preparation, properties and uses of",
+          "chlorine and hydrochloric acid, interhalogen compounds, oxoacids of halogens (structures only).",
+          "Group 18 elements: General introduction, electronic configuration, occurrence, trends in physical",
+          "and chemical properties, uses."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VIII: d and f Block Elements (Period 14)",
+        "content": [
+          "General introduction ,electronic configuration, occurrence and characteristics of transition metals,",
+          "general trends in properties of the first row transition metals – metallic character, ionization enthalpy,",
+          "oxidation states, ionic radii, colour, catalytic property, magnetic properties, interstitial compounds, alloy",
+          "formation. Preparation and properties of K Cr O and KMnO .",
+          "2 2 7 4",
+          "Lanthanoids – electronic configuration, oxidation states, chemical reactivity and lanthanoid contraction",
+          "and its consequences.",
+          "Actinoids – Electronic configuration, oxidation states and comparison with lanthenoids ."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit IX Coordination Compounds (Period 12)",
+        "content": [
+          "Coordination compounds : Introduction, ligands, coordination number, colour, magnetic properties",
+          "and shapes, IUPAC nomenclature of mononuclear coordination compounds, bonding, Werner’s theory",
+          "VBT,CFT; isomerism (structural and stereo)importance of coordination compounds (in qualitative analysis,",
+          "extraction of metals and biological systems)."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit X: Haloalkanes and Haloarenes (Periods 12)",
+        "content": [
+          "Haloalkanes: Nomenclature, nature of C-X bond, physical and chemical properties, mechanism of",
+          "substitution reactions. Optical rotation.",
+          "Haloarenes: Nature of C-X bond, substitution reactions (directive influence of halogen for",
+          "monosubstituted compounds only).",
+          "Uses and environmental effects of – dichloromethane, trichloromethane, tetrachloromethane, iodoform,",
+          "freons, DDT."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit XI: Alcohols, Phenols and Ethers (Periods 12)",
+        "content": [
+          "Alcohols: Nomenclature, methods of preparation, physical and chemical properties (of primary",
+          "alcohols only); identification of primary, secondary and tertiary alcohols; mechanism of dehydration, uses,",
+          "with special reference to methanol and ethanol.",
+          "Phenols : Nomenclature, methods of preparation, physical and chemical properties, acidic nature of",
+          "phenol, electrophillic substitution reactions, uses of phenols.",
+          "Ethers : Nomenclature, methods of preparation, physical and chemical properties, uses."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit XII: Aldehydes, Ketones and Carboxylic Acids (Period 12)",
+        "content": [
+          "Aldehydes and Ketones: Nomenclature, nature of carbonyl group, methods of preparation, physical",
+          "and chemical properties, and mechanism of nucleophilic addition, reactivity of alpha hydrogen in aldehydes;",
+          "uses.",
+          "Carboxylic Acids: Nomenclature, acidic nature, methods of preparation, physical and chemical",
+          "properties; uses."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit XIII: Organic Compounds Containing Nitrogen (Periods 10)",
+        "content": [
+          "Amines: Nomenclature, classification, structure, methods of preparation, physical and chemical",
+          "properties, uses, identification of primary secondary and tertiary amines.",
+          "Cyanides and Isocyanides – will be mentioned at relevant places in context.",
+          "Diazonium salts: Preparation, chemical reactions and importance in synthetic organic chemistry."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit XIV: Biomolecules (Periods 12)",
+        "content": [
+          "Carbohydrates – Classification (aldoses and ketoses), monosaccharide (glucose and fructose), D-L"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "configuration, oligosaccharides (sucrose, lactose, maltose), polysaccharides (starch, cellulose, glycogen)",
+        "content": [
+          "importance.",
+          "Proteins - Elementary idea of a - amino acids, peptide bond, polypeptides, proteins, primary structure,",
+          "secondary structure, tertiary structure and quaternary structure (qualitative idea only), denaturation of",
+          "proteins; enzymes.",
+          "Hormones –Elementary idea (excluding structure).",
+          "Vitamins – Classification and functions.",
+          "Nucleic Acids: DNA and RNA"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit XV: Polymers (Periods 8)",
+        "content": [
+          "Classification – Natural and synthetic, methods of polymerization (addition and condensation),",
+          "copolymerization. Some important polymers: natural and synthetic like polythene, nylon, polyesters, bakelite,",
+          "rubber. Biodegradable and non-biodegradable polymers."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit XVI: Chemistry in Everyday Life (Periods 8)",
+        "content": [
+          "1. Chemicals in medicines – analgesics, tranquilizers, antiseptics, disinfectants, antimicrobials,",
+          "antifertility drugs, antibiotics, antacids, antihistamines.",
+          "2. Chemicals in food – preservatives, artificial sweetening agents, elementary idea of antioxidants.",
+          "3. Cleansing agents – soaps and detergents, cleansing action.",
+          "PRACTICALS",
+          "Total Periods 60",
+          "Micro-chemical methods are available for several of the practical experiments. Wherever possible",
+          "such techniques should be used.",
+          "A. Surface Chemistry (Periods 5)",
+          "(a) Preparation of one lyophilic and one lyophobic sol.",
+          "Lyophilic sol : starch , egg albumin and gum.",
+          "Lyophobic sol : aluminium hydroxide, ferric hydroxide, arsenious sulphide.",
+          "(b)Dialysis of sol prepared in (a) above.",
+          "(c) Study of the role of emulsifying agent in stabilizing the emulsions of different oils.",
+          "B. Chemical Kinetics (Periods 4)",
+          "(a) Effect of concentration and temperature on the rate of reaction between sodium thiosulphate",
+          "and hydrochloric acid ."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "(b) Study of reaction rates of any one of the following",
+        "content": [
+          "(i) Reaction of iodide ion with hydrogen peroxide at room temperature",
+          "using different concentrations of iodide ions.",
+          "(ii) Reaction between potassium iodate (KIO ) and sodium sulphite (Na SO ) using starch",
+          "3 2 3",
+          "solution as indicator (clock reaction).",
+          "C. Thermochemistry (Periods 4)"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Any one of the following experiments ",
+        "content": [
+          "(a) Enthalpy of dissolution of copper sulphate or potassium nitrate.",
+          "(b) Enthalpy of neutralization of strong acid (HCl) and strong base (NaOH)",
+          "(c) Determination of enthalpy change during interaction (Hydrogen bond formation) between acetone",
+          "and chloroform.",
+          "D. Electrochemistry (Periods 2)",
+          "Variation of cell potential in Zn/Zn2+//Cu2+/Cu with change in concentration of electrolytes (CuSO or",
+          "ZnSO ) at room temperature.",
+          "E. Chromatography (Periods 2)",
+          "(a) Separation of pigments from extracts of leaves and flowers by paper chromatography and",
+          "determination of R values.",
+          "f",
+          "(b) Separation of constituents present in an inorganic mixture containing two cations only (constituents",
+          "having wide difference in R values to be provided).",
+          "f",
+          "F. Preparation of Inorganic Compounds (Periods 4)",
+          "(a) Preparation of double salt of ferrous ammonium sulphate or potash alum.",
+          "(b) Preparation of potassium ferric oxalate.",
+          "G. Preparation of Organic Compounds (Periods 2)"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Preparation of any one of the following compounds",
+        "content": [
+          "(a) Acetanilide",
+          "(b) Di-benzal acetone",
+          "(c) p-Nitroacetanilide",
+          "(d) Aniline yellow or 2 - Napththol aniline dye",
+          "H. Test for the Functional Groups Present in Organic Compounds (Periods 5)",
+          "Unsaturation, alcoholic, phenolic, aldehydic, ketonic, carboxylic and amino (primary) groups.",
+          "I. Characteristic Tests of Carbohydrates, Fats and Proteins in Pure Samples and Their",
+          "Detection in Given Food Stuffs. (Period 4)",
+          "J. Determination of Concentration/Molarity of KMnO Solution by Titrating it against a",
+          "Standard Solution of – (Periods 10)",
+          "(i) Oxalic acid",
+          "(ii) Ferrous ammonium sulphate",
+          "(Students will be required to prepare standard solutions by weighing themselves).",
+          "K. Qualitative Analysis (Periods 16)",
+          "• Determination of one cation and one anion in a given salt.",
+          "Cations - Pb2+,Cu2+,As3+,Al3+,Fe3+,Mn2+,Ni2+,Zn2+,Co2+,Ca2+,Sr2+,Ba2+,Mg2+,NH+",
+          "- - - - - - - - - - - -",
+          "Anions - CO2 ,S2 ,SO2 ,SO2 ,NO ,NO ,Cl ,Br ,I ,PO3 ,C O2 ,CH COO",
+          "3 3 4 2 3 4 2 4 3",
+          "(Note : Insoluble salts excluded)",
+          "Projects (Periods10)",
+          "Scientific investigations involving laboratory testing and collecting information from other sources.",
+          "A few suggested projects",
+          "• Study of presence of oxalate ions in guava fruit at different stages of ripening.",
+          "• Study of quantity of casein present in different samples of milk.",
+          "• Preparation of soybean milk and its comparison with the natural milk with respect to curd",
+          "formation, effect of temperature, etc.",
+          "• Study of the effect of potassium bisulphate as food preservative under various conditions",
+          "(temperature, concentration, time etc.)",
+          "• Study of digestion of starch by salivary amylase and effect of pH and temperature on it.",
+          "• Comparative study of the rate of fermentation of following materials: wheat flour, gram flour,",
+          "potato juice, carrot juice etc.",
+          "• Extraction of essential oils present in Saunf (aniseed), Ajwain (carum), Illaichi (cardamom).",
+          "• Study of common food adulterants in fat, oil, butter, sugar, turmeric powder, chilli powder and",
+          "pepper.",
+          "Note: Any other investigatory project, which involves about 10 periods of work, can be chosen with",
+          "the approval of the teacher. In addition models and exhibits for exhibition ,depicting basic principles and",
+          "application in daily life may also be included .",
+          "CHEMISTRY"
+        ]
+      }
+    ],
+    "grades": [
+      {
+        "grade": "XI",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "RATIONALE",
+              "Higher Secondary Stage is the most crucial stage of school education because at this stage specialised",
+              "discipline based, content oriented courses are introduced. Students reach this stage after 10 years of",
+              "general education and opt for Chemistry with a purpose of mostly for pursuing their career in basic sciences",
+              "or professional courses like medicines, engineering, technology and studying courses in applied areas of",
+              "science and technology at tertiary level. Therefore, at this stage, there is a need to provide learners with",
+              "sufficient conceptual background of Chemistry, which will make them competent to meet the challenges of",
+              "academic and professional courses after the higher secondary stage.",
+              "National Curriculum Framework - 2005 recommends a disciplinary approach with appropriate rigour",
+              "and depth with the care that syllabus is not heavy and at the same time it is comparable to the international",
+              "level. It emphasizes a coherent focus on important ideas within the discipline that are properly sequenced",
+              "to optimize learning. It recommends that theoretical component of Higher Secondary Science should",
+              "emphasize on problem solving methods and the awareness of historical development of key concepts of",
+              "science be judiciously integrated into content. The present exercise of syllabus development in Chemistry",
+              "at Higher Secondary Stage is based on this framework."
+            ]
+          },
+          {
+            "heading": "Salient features of the present syllabus are thus",
+            "content": [
+              "• Some background of Chemistry from secondary stage is assumed; however, no specific knowledge",
+              "of topics in Chemistry is pre-supposed.",
+              "• The course is self-contained and broadly covers fundamental concepts of Chemistry.",
+              "• Attempt has been made to see discipline of Chemistry does not remain only the science of facts",
+              "but becomes related to modern applications in the world around us.",
+              "• The syllabus provides logical sequencing of the ‘Units’ of the subject matter with proper placement",
+              "of concepts with their linkages for better understanding.",
+              "• Emphasis has been on promoting process - skills, problem solving abilities and applications of",
+              "concepts of Chemistry useful in real life situation for making learning of Chemistry more relevant,",
+              "meaningful and interesting.",
+              "• An effort has been made on the basis of feedback, to remove repetition besides reducing the",
+              "content by suitably integrating the different content areas.",
+              "• Practical syllabus has two components. There are core experiments to be undertaken by the",
+              "students in the classroom and will be part of examination while each student will carry out one",
+              "investigatory project and submit the report for the examination.",
+              "With this background, the Chemistry curriculum at the higher secondary stage attempts to",
+              "• promote understanding of basic principles in Chemistry while retaining the excitement in Chemistry;",
+              "• develop an interest in students to study Chemistry as discipline;",
+              "• strengthen the concepts developed at the secondary stage and to provide firm foundation for",
+              "further learning of Chemistry at tertiary level more effectively;",
+              "• develop positive scientific attitude, and appreciate contribution of Chemistry towards the",
+              "improvement of quality of human life;",
+              "• develop problem solving skills and nurture curiosity, aesthetic sense and creativity;",
+              "• inculcate values of honesty, integrity, cooperation, concern for life and preservation of the",
+              "environment;",
+              "• make the learner realise the interface of Chemistry with other disciplines of science such as Physics,",
+              "Biology, Geology, etc;",
+              "• equip students to face challenges related to health, nutrition, environment, population, whether",
+              "industries and agriculture."
+            ]
+          },
+          {
+            "heading": "Introduction",
+            "content": [
+              "(Total Periods 180)"
+            ]
+          },
+          {
+            "heading": "Unit I: Some Basic Concepts of Chemistry (Periods 14)",
+            "content": [
+              "General Introduction: Importance and scope of chemistry.",
+              "Historical approach to particulate nature of matter, laws of chemical combination, Dalton’s atomic",
+              "theory: concept of elements, atoms and molecules.",
+              "Atomic and molecular masses. Mole concept and molar mass; percentage composition and empirical",
+              "and molecular formula; chemical reactions, stoichiometry and calculations based on stoichiometry."
+            ]
+          },
+          {
+            "heading": "Unit II: Structure of Atom (Periods 16)",
+            "content": [
+              "Discovery of electron, proton and neutron; atomic number, isotopes and isobars. Thompson’s model",
+              "and its limitations, Rutherford’s model and its limitations, Bohr’s model and its limitations, concept of shells",
+              "and subshells, dual nature of matter and light, de Broglie’s relationship, Heisenberg uncertainty principle,",
+              "concept of orbitals, quantum numbers, shapes of s, p and d orbitals, rules for filling electrons in orbitals -",
+              "Aufbau principle, Pauli exclusion principle and Hund’s rule, electronic configuration of atoms, stability of",
+              "half filled and completely filled orbitals."
+            ]
+          },
+          {
+            "heading": "Unit III: Classification of Elements and Periodicity in Properties",
+            "content": [
+              "(Periods 8)",
+              "Significance of classification, brief history of the development of periodic table, modern periodic law",
+              "and the present form of periodic table, periodic trends in properties of elements –atomic radii, ionic radii,",
+              "inert gas radii, ionization enthalpy, electron gain enthalpy, electronegativity, valence. Nomenclature of",
+              "elements with atomic number greater than 100."
+            ]
+          },
+          {
+            "heading": "Unit IV: Chemical Bonding and Molecular Structure (Periods 16)",
+            "content": [
+              "Valence electrons, ionic bond, covalent bond, bond parameters, Lewis structure, polar character of",
+              "covalent bond, covalent character of ionic bond, valence bond theory, resonance, geometry of covalent",
+              "molecules, VSEPR theory, concept of hybridization involving s, p and d orbitals and shapes of some",
+              "simple molecules, molecular orbital theory of homonuclear diatomic molecules (qualitative idea only).",
+              "Hydrogen bond."
+            ]
+          },
+          {
+            "heading": "Unit V: States of Matter: Gases and Liquids (Periods 14)",
+            "content": [
+              "Three states of matter, intermolecular interactions, types of bonding, melting and boiling points,role of",
+              "gas laws in elucidating the concept of the molecule, Boyle’s law, Charle’s law, Gay Lussac’s law, Avogadro’s",
+              "law, ideal behaviour, empirical derivation of gas equation, Avogadro number, ideal gas equation. Kinetic",
+              "energy and molecular speeds (elementary idea), deviation from ideal behaviour, liquefaction of gases,",
+              "critical temperature.",
+              "Liquid State – Vapour pressure, viscosity and surface tension (qualitative idea only, no mathematical",
+              "derivations)."
+            ]
+          },
+          {
+            "heading": "Unit VI: Thermodynamics (Periods 18)",
+            "content": [
+              "Concepts of system, types of systems, surroundings, work, heat, energy, extensive and intensive",
+              "properties, state functions.",
+              "First law of thermodynamics – internal energy and enthalpy, heat capacity and specific heat,",
+              "measurement of ΔU and ΔH, Hess’s law of constant heat summation, enthalpy of : bond dissociation,",
+              "combustion, formation, atomization, sublimation, phase transition, ionization, solution and dilution.",
+              "Introduction of entropy as a state function, Second law of thermodynamics, Gibbs energy change for",
+              "spontaneous and non-spontaneous process, criteria for equilibrium.",
+              "Third law of thermodynamics –Brief introduction."
+            ]
+          },
+          {
+            "heading": "Unit VII: Equilibrium (Periods 20)",
+            "content": [
+              "Equilibrium in physical and chemical processes, dynamic nature of equilibrium, law of mass action,",
+              "equilibrium constant, factors affecting equilibrium – Le Chatelier’s principle; ionic equilibrium – ionization",
+              "of acids and bases, strong and weak electrolytes, degree of ionization, ionization of polybasic acids, acid",
+              "strength, concept of pH., Hydrolysis of salts (elementary idea), , buffer solutions, Henderson equation,",
+              "solubility product, common ion effect (with illustrative examples)."
+            ]
+          },
+          {
+            "heading": "Unit VIII : Redox Reactions (Periods 6)",
+            "content": [
+              "Concept of oxidation and reduction, redox reactions, oxidation number, balancing redox reactions in",
+              "terms of loss and gain of electron and change in oxidation numbers , applications of redox reactions."
+            ]
+          },
+          {
+            "heading": "Unit IX Hydrogen (Periods 8)",
+            "content": [
+              "Position of hydrogen in periodic table, occurrence, isotopes, preparation, properties and uses of",
+              "hydrogen; hydrides – ionic, covalent and interstitial; physical and chemical properties of water, heavy",
+              "water; hydrogen peroxide-preparation, reactions, use and structure; hydrogen as a fuel."
+            ]
+          },
+          {
+            "heading": "Unit X: s- Block Elements (Alkali and Alkaline earth metals) (Periods 14)",
+            "content": []
+          },
+          {
+            "heading": "Group 1 and Group 2 elements",
+            "content": [
+              "General introduction, electronic configuration, occurrence, anomalous properties of the first element",
+              "of each group, diagonal relationship, trends in the variation of properties (such as ionization enthalpy,",
+              "atomic and ionic radii), trends in chemical reactivity with oxygen, water, hydrogen and halogens; uses."
+            ]
+          },
+          {
+            "heading": "Preparation and Properties of Some Important Compounds",
+            "content": [
+              "Sodium carbonate, sodium chloride, sodium hydroxide and sodium hydrogencarbonate, biological",
+              "importance of sodium and potassium.",
+              "CaO, CaCO , and industrial use of lime and limestone, biological importance of Mg and Ca."
+            ]
+          },
+          {
+            "heading": "Unit XI: Some p-Block Elements (Periods 16)",
+            "content": [
+              "General Introduction to p-Block Elements",
+              "Group 13 elements: General introduction, electronic configuration, occurrence, variation of properties,",
+              "oxidation states, trends in chemical reactivity, anomalous properties of first element of the group; Boron-"
+            ]
+          },
+          {
+            "heading": "physical and chemical properties, some important compounds: borax, boric acids, boron hydrides. Aluminium",
+            "content": [
+              "uses, reactions with acids and alkalies.",
+              "Group 14 elements: General introduction, electronic configuration, occurrence, variation of properties,",
+              "oxidation states, trends in chemical reactivity, anomalous behaviour of first element. Carbon - catenation,",
+              "allotropic forms, physical and chemical properties; uses of some important compounds: oxides.",
+              "Important compounds of silicon and a few uses : silicon tetrachloride, silicones, silicates and zeolites,",
+              "their uses."
+            ]
+          },
+          {
+            "heading": "Unit XII: Organic Chemistry – Some Basic Principles and Techniques",
+            "content": [
+              "(Periods 14)",
+              "General introduction, methods of purification, qualitative and quantitative analysis, classification and",
+              "IUPAC nomenclature of organic compounds.",
+              "Electronic displacements in a covalent bond: inductive effect, electromeric effect, resonance and",
+              "hyper conjugation.",
+              "Homolytic and heterolytic fission of a covalent bond: free radicals, carbocations, carbanions;",
+              "electrophiles and nucleophiles, types of organic reactions."
+            ]
+          },
+          {
+            "heading": "Unit XIII: Hydrocarbons (Periods 16)",
+            "content": [
+              "Classification of Hydrocarbons."
+            ]
+          },
+          {
+            "heading": "Aliphatic Hydrocarbons",
+            "content": [
+              "Alkanes – Nomenclature, isomerism, conformations (ethane only), physical properties, chemical",
+              "reactions including free radical mechanism of halogenation, combustion and pyrolysis.",
+              "Alkenes – Nomenclature, structure of double bond (ethene), geometrical isomerism, physical properties,",
+              "methods of preparation; chemical reactions: addition of hydrogen, halogen, water, hydrogen halides",
+              "(Markovnikov’s addition and peroxide effect), ozonolysis, oxidation, mechanism of electrophilic addition.",
+              "Alkynes – Nomenclature, structure of triple bond (ethyne), physical properties, methods of preparation,",
+              "chemical reactions: acidic character of alkynes, addition reaction of - hydrogen, halogens, hydrogen halides",
+              "and water.",
+              "Aromatic hydrocarbons – Introduction, IUPAC nomenclature; Benzene: resonance, aromaticity ;",
+              "chemical properties: mechanism of electrophilic substitution – nitration sulphonation, halogenation, Friedel",
+              "Craft’s alkylation and acylation; directive influence of functional group in mono-substituted benzene;",
+              "carcinogenicity and toxicity."
+            ]
+          },
+          {
+            "heading": "Unit XIV: Environmental Chemistry (Periods 6)",
+            "content": [
+              "Environmental pollution – Air, water and soil pollution, chemical reactions in atmosphere, smogs,",
+              "major atmospheric pollutants; acid rain, ozone and its reactions, effects of depletion of ozone layer,",
+              "greenhouse effect and global warming – pollution due to industrial wastes; green chemistry as an alternative",
+              "tool for reducing pollution, strategy for control of environmental pollution.",
+              "PRACTICALS",
+              "Total Periods 60",
+              "Micro-chemical methods are available for several of the practical experiments. Wherever possible",
+              "such techniques should be used.",
+              "A. Basic Laboratory Techniques (Periods 2)",
+              "1. Cutting glass tube and glass rod",
+              "2. Bending a glass tube",
+              "3. Drawing out a glass jet",
+              "4. Boring a cork",
+              "B. Characterization and Purification of Chemical Substance",
+              "(Periods 6)",
+              "1. Determination of melting point of an organic compound.",
+              "2. Determination of boiling point of an organic compound."
+            ]
+          },
+          {
+            "heading": "3. Crystallization involving impure sample of any one of the following",
+            "content": [
+              "Alum, copper sulphate, Benzoic acid.",
+              "C. Experiments Related to pH Change (Periods 6)"
+            ]
+          },
+          {
+            "heading": "(a) Any one of the following experiments",
+            "content": [
+              "• Determination of pH of some solutions obtained from fruit juices, solutions of known and",
+              "varied concentrations of acids, bases and salts using pH paper or universal indicator.",
+              "• Comparing the pH of solutions of strong and weak acid of same concentration.",
+              "• Study the pH change in the titration of a strong acid with a strong base using universal indicator.",
+              "( b)Study of pH change by common-ion effect in case of weak acids and weak bases.",
+              "D. Chemical Equilibrium (Periods 4)"
+            ]
+          },
+          {
+            "heading": "One of the following experiments",
+            "content": [
+              "(a) Study the shift in equilibrium between ferric ions and thiocynate ions by increasing /decreasing",
+              "the concentration of either of the ions.",
+              "(b) Study the shift in equilibrium between [Co (HO)]2+and chloride ions by changing the concentration",
+              "2 6",
+              "of either of the ions .",
+              "E. Quantitative Estimation (Periods 16)",
+              "• Using a chemical balance.",
+              "• Preparation of standard solution of oxalic acid.",
+              "• Determination of strength of a given solution of sodium hydroxide by titrating it against standard",
+              "solution of oxalic acid.",
+              "• Preparation of standard solution of sodium carbonate.",
+              "• Determination of strength of a given solution of hydrochloric acid by titrating it against standard",
+              "sodium carbonate solution.",
+              "F. Qualitative Analysis (Periods 16)",
+              "(a) Determination of one anion and one cation in a given salt",
+              "Cations - Pb2+,Cu2+,As3+,Al3+,Fe3+,Mn2+,Ni2+,Zn2+,Co2+,Ca2+,Sr2+,Ba2+,Mg2+,NH+",
+              "- - - - - - - - - - - -",
+              "Anions - CO2 ,S2 ,SO2 ,SO2 ,NO ,NO ,Cl ,Br ,I ,PO3 ,C O2 ,CH COO",
+              "3 3 4 2 3 4 2 4 3",
+              "(Note : Insoluble salts excluded)",
+              "(b) Detection of nitrogen, sulphur, chlorine, in organic compounds.",
+              "Project (Periods 10)",
+              "Scientific investigations involving laboratory testing and collecting information from other sources.",
+              "A few suggested projects",
+              "• Checking the bacterial contamination in drinking water by testing sulphide ions.",
+              "• Study of the methods of purification of water.",
+              "• Testing the hardness, presence of iron, fluoride, chloride etc. depending upon the regional variation",
+              "in drinking water and the study of causes of presences of these ions above permissible limit (if",
+              "any)",
+              "• Investigation of the foaming capacity of different washing soaps and the effect of addition of",
+              "sodium carbonate on them.",
+              "• Study of the acidity of different samples of the tea leaves.",
+              "• Determination of the rate of evaporation of different liquids.",
+              "• Study of the effect of acids and bases on the tensile strength of fibers.",
+              "• Analysis of fruit and vegetable juices for their acidity.",
+              "Note: Any other investigatory project, which involves about 10 periods of work, can be chosen with",
+              "the approval of the teacher."
+            ]
+          }
+        ]
+      },
+      {
+        "grade": "XII",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "Total Periods 180"
+            ]
+          },
+          {
+            "heading": "Unit I: Solid State (Periods 12)",
+            "content": [
+              "Classification of solids based on different binding forces :molecular, ionic covalent and metallic solids,",
+              "amorphous and crystalline solids(elementary idea),unit cell in two dimensional and three dimensional lattices,",
+              "calculation of density of unit cell, packing in solids, packing efficiency, voids ,number of atoms per unit cell",
+              "in a cubic unit cell, point defects, electrical and magnetic properties, Band theory of metals ,conductors,",
+              "semiconductors and insulators and n and p type semiconductors ."
+            ]
+          },
+          {
+            "heading": "Unit II : Solutions (Periods 12)",
+            "content": [
+              "Types of solutions, expression of concentration of solutions of solids in liquids, solubility of gases in",
+              "liquids, solid solutions, colligative properties – relative lowering of vapour pressure, Raoult’s law , elevation",
+              "of B.P., depression of freezing point, osmotic pressure, determination of molecular masses using colligative",
+              "properties, abnormal molecular mass, Vant Hoff factor."
+            ]
+          },
+          {
+            "heading": "Unit III: Electrochemistry (Periods 14)",
+            "content": [
+              "Redox reactions; conductance in electrolytic solutions, specific and molar conductivity variations of",
+              "conductivity with concentration, Kohlrausch’s Law, electrolysis and laws of electrolysis (elementary idea),",
+              "dry cell – electrolytic cells and Galvanic cells; lead accumulator, EMF of a cell, standard electrode potential,",
+              "Nernst equation and its application to chemical cells. Relation between Gibbs energy change and EMF of",
+              "a cell, fuel cells; corrosion."
+            ]
+          },
+          {
+            "heading": "Unit IV: Chemical Kinetics (Periods 12)",
+            "content": [
+              "Rate of a reaction (average and instantaneous), factors affecting rates of reaction: concentration,",
+              "temperature, catalyst; order and molecularity of a reaction; rate law and specific rate constant, integrated",
+              "rate equations and half life (only for zero and first order reactions); concept of collision theory (elementary",
+              "idea, no mathematical treatment).Activation energy, Arrhenious equation."
+            ]
+          },
+          {
+            "heading": "Unit V: Surface Chemistry (Periods 8)",
+            "content": [
+              "Adsorption – physisorption and chemisorption; factors affecting adsorption of gases on solids; catalysis",
+              ":homogenous and heterogeneous, activity and selectivity: enzyme catalysis; colloidal state: distinction between",
+              "true solutions, colloids and suspensions; lyophillic, lyophobic multimolecular and macromolecular colloids;",
+              "properties of colloids; Tyndall effect, Brownian movement, electrophoresis, coagulation; emulsions – types",
+              "of emulsions."
+            ]
+          },
+          {
+            "heading": "Unit VI: General Principles and Processes of Isolation of Elements (Periods 8 )",
+            "content": [
+              "Principles and methods of extraction – concentration, oxidation, reduction electrolytic method and",
+              "refining; occurrence and principles of extraction of aluminium, copper, zinc and iron."
+            ]
+          },
+          {
+            "heading": "Unit VII: p-Block Elements (Periods 14)",
+            "content": [
+              "Group 15 elements: General introduction, electronic configuration, occurrence, oxidation states,",
+              "trends in physical and chemical properties; nitrogen – preparation, properties and uses; compounds of",
+              "nitrogen: preparation and properties of ammonia and nitric acid, oxides of nitrogen ( structure only);",
+              "Phosphorous-allotropic forms; compounds of phosphorous: preparation and properties of phosphine",
+              ",halides (PCl , PCl ) and oxoacids (elementary idea only).",
+              "3 5",
+              "Group 16 elements : General introduction, electronic configuration, oxidation states, occurrence,",
+              "trends in physical and chemical properties; dioxygen: preparation, properties and uses; classification of",
+              "oxides; ozone. Sulphur – allotropic forms; compounds of sulphur: preparation, properties and uses of",
+              "sulphur dioxide; sulphuric acid: industrial process of manufacture, properties and uses, oxoacids of sulphur",
+              "(structures only).",
+              "Group 17 elements : General introduction, electronic configuration, oxidation states, occurrence,",
+              "trends in physical and chemical properties; compounds of halogens: preparation, properties and uses of",
+              "chlorine and hydrochloric acid, interhalogen compounds, oxoacids of halogens (structures only).",
+              "Group 18 elements: General introduction, electronic configuration, occurrence, trends in physical",
+              "and chemical properties, uses."
+            ]
+          },
+          {
+            "heading": "Unit VIII: d and f Block Elements (Period 14)",
+            "content": [
+              "General introduction ,electronic configuration, occurrence and characteristics of transition metals,",
+              "general trends in properties of the first row transition metals – metallic character, ionization enthalpy,",
+              "oxidation states, ionic radii, colour, catalytic property, magnetic properties, interstitial compounds, alloy",
+              "formation. Preparation and properties of K Cr O and KMnO .",
+              "2 2 7 4",
+              "Lanthanoids – electronic configuration, oxidation states, chemical reactivity and lanthanoid contraction",
+              "and its consequences.",
+              "Actinoids – Electronic configuration, oxidation states and comparison with lanthenoids ."
+            ]
+          },
+          {
+            "heading": "Unit IX Coordination Compounds (Period 12)",
+            "content": [
+              "Coordination compounds : Introduction, ligands, coordination number, colour, magnetic properties",
+              "and shapes, IUPAC nomenclature of mononuclear coordination compounds, bonding, Werner’s theory",
+              "VBT,CFT; isomerism (structural and stereo)importance of coordination compounds (in qualitative analysis,",
+              "extraction of metals and biological systems)."
+            ]
+          },
+          {
+            "heading": "Unit X: Haloalkanes and Haloarenes (Periods 12)",
+            "content": [
+              "Haloalkanes: Nomenclature, nature of C-X bond, physical and chemical properties, mechanism of",
+              "substitution reactions. Optical rotation.",
+              "Haloarenes: Nature of C-X bond, substitution reactions (directive influence of halogen for",
+              "monosubstituted compounds only).",
+              "Uses and environmental effects of – dichloromethane, trichloromethane, tetrachloromethane, iodoform,",
+              "freons, DDT."
+            ]
+          },
+          {
+            "heading": "Unit XI: Alcohols, Phenols and Ethers (Periods 12)",
+            "content": [
+              "Alcohols: Nomenclature, methods of preparation, physical and chemical properties (of primary",
+              "alcohols only); identification of primary, secondary and tertiary alcohols; mechanism of dehydration, uses,",
+              "with special reference to methanol and ethanol.",
+              "Phenols : Nomenclature, methods of preparation, physical and chemical properties, acidic nature of",
+              "phenol, electrophillic substitution reactions, uses of phenols.",
+              "Ethers : Nomenclature, methods of preparation, physical and chemical properties, uses."
+            ]
+          },
+          {
+            "heading": "Unit XII: Aldehydes, Ketones and Carboxylic Acids (Period 12)",
+            "content": [
+              "Aldehydes and Ketones: Nomenclature, nature of carbonyl group, methods of preparation, physical",
+              "and chemical properties, and mechanism of nucleophilic addition, reactivity of alpha hydrogen in aldehydes;",
+              "uses.",
+              "Carboxylic Acids: Nomenclature, acidic nature, methods of preparation, physical and chemical",
+              "properties; uses."
+            ]
+          },
+          {
+            "heading": "Unit XIII: Organic Compounds Containing Nitrogen (Periods 10)",
+            "content": [
+              "Amines: Nomenclature, classification, structure, methods of preparation, physical and chemical",
+              "properties, uses, identification of primary secondary and tertiary amines.",
+              "Cyanides and Isocyanides – will be mentioned at relevant places in context.",
+              "Diazonium salts: Preparation, chemical reactions and importance in synthetic organic chemistry."
+            ]
+          },
+          {
+            "heading": "Unit XIV: Biomolecules (Periods 12)",
+            "content": [
+              "Carbohydrates – Classification (aldoses and ketoses), monosaccharide (glucose and fructose), D-L"
+            ]
+          },
+          {
+            "heading": "configuration, oligosaccharides (sucrose, lactose, maltose), polysaccharides (starch, cellulose, glycogen)",
+            "content": [
+              "importance.",
+              "Proteins - Elementary idea of a - amino acids, peptide bond, polypeptides, proteins, primary structure,",
+              "secondary structure, tertiary structure and quaternary structure (qualitative idea only), denaturation of",
+              "proteins; enzymes.",
+              "Hormones –Elementary idea (excluding structure).",
+              "Vitamins – Classification and functions.",
+              "Nucleic Acids: DNA and RNA"
+            ]
+          },
+          {
+            "heading": "Unit XV: Polymers (Periods 8)",
+            "content": [
+              "Classification – Natural and synthetic, methods of polymerization (addition and condensation),",
+              "copolymerization. Some important polymers: natural and synthetic like polythene, nylon, polyesters, bakelite,",
+              "rubber. Biodegradable and non-biodegradable polymers."
+            ]
+          },
+          {
+            "heading": "Unit XVI: Chemistry in Everyday Life (Periods 8)",
+            "content": [
+              "1. Chemicals in medicines – analgesics, tranquilizers, antiseptics, disinfectants, antimicrobials,",
+              "antifertility drugs, antibiotics, antacids, antihistamines.",
+              "2. Chemicals in food – preservatives, artificial sweetening agents, elementary idea of antioxidants.",
+              "3. Cleansing agents – soaps and detergents, cleansing action.",
+              "PRACTICALS",
+              "Total Periods 60",
+              "Micro-chemical methods are available for several of the practical experiments. Wherever possible",
+              "such techniques should be used.",
+              "A. Surface Chemistry (Periods 5)",
+              "(a) Preparation of one lyophilic and one lyophobic sol.",
+              "Lyophilic sol : starch , egg albumin and gum.",
+              "Lyophobic sol : aluminium hydroxide, ferric hydroxide, arsenious sulphide.",
+              "(b)Dialysis of sol prepared in (a) above.",
+              "(c) Study of the role of emulsifying agent in stabilizing the emulsions of different oils.",
+              "B. Chemical Kinetics (Periods 4)",
+              "(a) Effect of concentration and temperature on the rate of reaction between sodium thiosulphate",
+              "and hydrochloric acid ."
+            ]
+          },
+          {
+            "heading": "(b) Study of reaction rates of any one of the following",
+            "content": [
+              "(i) Reaction of iodide ion with hydrogen peroxide at room temperature",
+              "using different concentrations of iodide ions.",
+              "(ii) Reaction between potassium iodate (KIO ) and sodium sulphite (Na SO ) using starch",
+              "3 2 3",
+              "solution as indicator (clock reaction).",
+              "C. Thermochemistry (Periods 4)"
+            ]
+          },
+          {
+            "heading": "Any one of the following experiments ",
+            "content": [
+              "(a) Enthalpy of dissolution of copper sulphate or potassium nitrate.",
+              "(b) Enthalpy of neutralization of strong acid (HCl) and strong base (NaOH)",
+              "(c) Determination of enthalpy change during interaction (Hydrogen bond formation) between acetone",
+              "and chloroform.",
+              "D. Electrochemistry (Periods 2)",
+              "Variation of cell potential in Zn/Zn2+//Cu2+/Cu with change in concentration of electrolytes (CuSO or",
+              "ZnSO ) at room temperature.",
+              "E. Chromatography (Periods 2)",
+              "(a) Separation of pigments from extracts of leaves and flowers by paper chromatography and",
+              "determination of R values.",
+              "f",
+              "(b) Separation of constituents present in an inorganic mixture containing two cations only (constituents",
+              "having wide difference in R values to be provided).",
+              "f",
+              "F. Preparation of Inorganic Compounds (Periods 4)",
+              "(a) Preparation of double salt of ferrous ammonium sulphate or potash alum.",
+              "(b) Preparation of potassium ferric oxalate.",
+              "G. Preparation of Organic Compounds (Periods 2)"
+            ]
+          },
+          {
+            "heading": "Preparation of any one of the following compounds",
+            "content": [
+              "(a) Acetanilide",
+              "(b) Di-benzal acetone",
+              "(c) p-Nitroacetanilide",
+              "(d) Aniline yellow or 2 - Napththol aniline dye",
+              "H. Test for the Functional Groups Present in Organic Compounds (Periods 5)",
+              "Unsaturation, alcoholic, phenolic, aldehydic, ketonic, carboxylic and amino (primary) groups.",
+              "I. Characteristic Tests of Carbohydrates, Fats and Proteins in Pure Samples and Their",
+              "Detection in Given Food Stuffs. (Period 4)",
+              "J. Determination of Concentration/Molarity of KMnO Solution by Titrating it against a",
+              "Standard Solution of – (Periods 10)",
+              "(i) Oxalic acid",
+              "(ii) Ferrous ammonium sulphate",
+              "(Students will be required to prepare standard solutions by weighing themselves).",
+              "K. Qualitative Analysis (Periods 16)",
+              "• Determination of one cation and one anion in a given salt.",
+              "Cations - Pb2+,Cu2+,As3+,Al3+,Fe3+,Mn2+,Ni2+,Zn2+,Co2+,Ca2+,Sr2+,Ba2+,Mg2+,NH+",
+              "- - - - - - - - - - - -",
+              "Anions - CO2 ,S2 ,SO2 ,SO2 ,NO ,NO ,Cl ,Br ,I ,PO3 ,C O2 ,CH COO",
+              "3 3 4 2 3 4 2 4 3",
+              "(Note : Insoluble salts excluded)",
+              "Projects (Periods10)",
+              "Scientific investigations involving laboratory testing and collecting information from other sources.",
+              "A few suggested projects",
+              "• Study of presence of oxalate ions in guava fruit at different stages of ripening.",
+              "• Study of quantity of casein present in different samples of milk.",
+              "• Preparation of soybean milk and its comparison with the natural milk with respect to curd",
+              "formation, effect of temperature, etc.",
+              "• Study of the effect of potassium bisulphate as food preservative under various conditions",
+              "(temperature, concentration, time etc.)",
+              "• Study of digestion of starch by salivary amylase and effect of pH and temperature on it.",
+              "• Comparative study of the rate of fermentation of following materials: wheat flour, gram flour,",
+              "potato juice, carrot juice etc.",
+              "• Extraction of essential oils present in Saunf (aniseed), Ajwain (carum), Illaichi (cardamom).",
+              "• Study of common food adulterants in fat, oil, butter, sugar, turmeric powder, chilli powder and",
+              "pepper.",
+              "Note: Any other investigatory project, which involves about 10 periods of work, can be chosen with",
+              "the approval of the teacher. In addition models and exhibits for exhibition ,depicting basic principles and",
+              "application in daily life may also be included .",
+              "CHEMISTRY"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "raw_text": "CHEMISTRY (CLASSES XI –XII)\nRATIONALE\nHigher Secondary Stage is the most crucial stage of school education because at this stage specialised\ndiscipline based, content oriented courses are introduced. Students reach this stage after 10 years of\ngeneral education and opt for Chemistry with a purpose of mostly for pursuing their career in basic sciences\nor professional courses like medicines, engineering, technology and studying courses in applied areas of\nscience and technology at tertiary level. Therefore, at this stage, there is a need to provide learners with\nsufficient conceptual background of Chemistry, which will make them competent to meet the challenges of\nacademic and professional courses after the higher secondary stage.\nNational Curriculum Framework - 2005 recommends a disciplinary approach with appropriate rigour\nand depth with the care that syllabus is not heavy and at the same time it is comparable to the international\nlevel. It emphasizes a coherent focus on important ideas within the discipline that are properly sequenced\nto optimize learning. It recommends that theoretical component of Higher Secondary Science should\nemphasize on problem solving methods and the awareness of historical development of key concepts of\nscience be judiciously integrated into content. The present exercise of syllabus development in Chemistry\nat Higher Secondary Stage is based on this framework.\nSalient features of the present syllabus are thus:\n• Some background of Chemistry from secondary stage is assumed; however, no specific knowledge\nof topics in Chemistry is pre-supposed.\n• The course is self-contained and broadly covers fundamental concepts of Chemistry.\n• Attempt has been made to see discipline of Chemistry does not remain only the science of facts\nbut becomes related to modern applications in the world around us.\n• The syllabus provides logical sequencing of the ‘Units’ of the subject matter with proper placement\nof concepts with their linkages for better understanding.\n• Emphasis has been on promoting process - skills, problem solving abilities and applications of\nconcepts of Chemistry useful in real life situation for making learning of Chemistry more relevant,\nmeaningful and interesting.\n• An effort has been made on the basis of feedback, to remove repetition besides reducing the\ncontent by suitably integrating the different content areas.\n• Practical syllabus has two components. There are core experiments to be undertaken by the\nstudents in the classroom and will be part of examination while each student will carry out one\ninvestigatory project and submit the report for the examination.\nWith this background, the Chemistry curriculum at the higher secondary stage attempts to\n• promote understanding of basic principles in Chemistry while retaining the excitement in Chemistry;\n• develop an interest in students to study Chemistry as discipline;\n1\n\n• strengthen the concepts developed at the secondary stage and to provide firm foundation for\nfurther learning of Chemistry at tertiary level more effectively;\n• develop positive scientific attitude, and appreciate contribution of Chemistry towards the\nimprovement of quality of human life;\n• develop problem solving skills and nurture curiosity, aesthetic sense and creativity;\n• inculcate values of honesty, integrity, cooperation, concern for life and preservation of the\nenvironment;\n• make the learner realise the interface of Chemistry with other disciplines of science such as Physics,\nBiology, Geology, etc;\n• equip students to face challenges related to health, nutrition, environment, population, whether\nindustries and agriculture.\n2\n\nCLASS XI (THEORY)\n(Total Periods 180)\nUnit I: Some Basic Concepts of Chemistry (Periods 14)\nGeneral Introduction: Importance and scope of chemistry.\nHistorical approach to particulate nature of matter, laws of chemical combination, Dalton’s atomic\ntheory: concept of elements, atoms and molecules.\nAtomic and molecular masses. Mole concept and molar mass; percentage composition and empirical\nand molecular formula; chemical reactions, stoichiometry and calculations based on stoichiometry.\nUnit II: Structure of Atom (Periods 16)\nDiscovery of electron, proton and neutron; atomic number, isotopes and isobars. Thompson’s model\nand its limitations, Rutherford’s model and its limitations, Bohr’s model and its limitations, concept of shells\nand subshells, dual nature of matter and light, de Broglie’s relationship, Heisenberg uncertainty principle,\nconcept of orbitals, quantum numbers, shapes of s, p and d orbitals, rules for filling electrons in orbitals -\nAufbau principle, Pauli exclusion principle and Hund’s rule, electronic configuration of atoms, stability of\nhalf filled and completely filled orbitals.\nUnit III: Classification of Elements and Periodicity in Properties\n(Periods 8)\nSignificance of classification, brief history of the development of periodic table, modern periodic law\nand the present form of periodic table, periodic trends in properties of elements –atomic radii, ionic radii,\ninert gas radii, ionization enthalpy, electron gain enthalpy, electronegativity, valence. Nomenclature of\nelements with atomic number greater than 100.\nUnit IV: Chemical Bonding and Molecular Structure (Periods 16)\nValence electrons, ionic bond, covalent bond, bond parameters, Lewis structure, polar character of\ncovalent bond, covalent character of ionic bond, valence bond theory, resonance, geometry of covalent\nmolecules, VSEPR theory, concept of hybridization involving s, p and d orbitals and shapes of some\nsimple molecules, molecular orbital theory of homonuclear diatomic molecules (qualitative idea only).\nHydrogen bond.\nUnit V: States of Matter: Gases and Liquids (Periods 14)\nThree states of matter, intermolecular interactions, types of bonding, melting and boiling points,role of\ngas laws in elucidating the concept of the molecule, Boyle’s law, Charle’s law, Gay Lussac’s law, Avogadro’s\nlaw, ideal behaviour, empirical derivation of gas equation, Avogadro number, ideal gas equation. Kinetic\nenergy and molecular speeds (elementary idea), deviation from ideal behaviour, liquefaction of gases,\ncritical temperature.\nLiquid State – Vapour pressure, viscosity and surface tension (qualitative idea only, no mathematical\nderivations).\n3\n\nUnit VI: Thermodynamics (Periods 18)\nConcepts of system, types of systems, surroundings, work, heat, energy, extensive and intensive\nproperties, state functions.\nFirst law of thermodynamics – internal energy and enthalpy, heat capacity and specific heat,\nmeasurement of ΔU and ΔH, Hess’s law of constant heat summation, enthalpy of : bond dissociation,\ncombustion, formation, atomization, sublimation, phase transition, ionization, solution and dilution.\nIntroduction of entropy as a state function, Second law of thermodynamics, Gibbs energy change for\nspontaneous and non-spontaneous process, criteria for equilibrium.\nThird law of thermodynamics –Brief introduction.\nUnit VII: Equilibrium (Periods 20)\nEquilibrium in physical and chemical processes, dynamic nature of equilibrium, law of mass action,\nequilibrium constant, factors affecting equilibrium – Le Chatelier’s principle; ionic equilibrium – ionization\nof acids and bases, strong and weak electrolytes, degree of ionization, ionization of polybasic acids, acid\nstrength, concept of pH., Hydrolysis of salts (elementary idea), , buffer solutions, Henderson equation,\nsolubility product, common ion effect (with illustrative examples).\nUnit VIII : Redox Reactions (Periods 6)\nConcept of oxidation and reduction, redox reactions, oxidation number, balancing redox reactions in\nterms of loss and gain of electron and change in oxidation numbers , applications of redox reactions.\nUnit IX Hydrogen (Periods 8)\nPosition of hydrogen in periodic table, occurrence, isotopes, preparation, properties and uses of\nhydrogen; hydrides – ionic, covalent and interstitial; physical and chemical properties of water, heavy\nwater; hydrogen peroxide-preparation, reactions, use and structure; hydrogen as a fuel.\nUnit X: s- Block Elements (Alkali and Alkaline earth metals) (Periods 14)\nGroup 1 and Group 2 elements:\nGeneral introduction, electronic configuration, occurrence, anomalous properties of the first element\nof each group, diagonal relationship, trends in the variation of properties (such as ionization enthalpy,\natomic and ionic radii), trends in chemical reactivity with oxygen, water, hydrogen and halogens; uses.\nPreparation and Properties of Some Important Compounds:\nSodium carbonate, sodium chloride, sodium hydroxide and sodium hydrogencarbonate, biological\nimportance of sodium and potassium.\nCaO, CaCO , and industrial use of lime and limestone, biological importance of Mg and Ca.\n3\nUnit XI: Some p-Block Elements (Periods 16)\nGeneral Introduction to p-Block Elements\nGroup 13 elements: General introduction, electronic configuration, occurrence, variation of properties,\noxidation states, trends in chemical reactivity, anomalous properties of first element of the group; Boron-\nphysical and chemical properties, some important compounds: borax, boric acids, boron hydrides. Aluminium:\nuses, reactions with acids and alkalies.\n4\n\nGroup 14 elements: General introduction, electronic configuration, occurrence, variation of properties,\noxidation states, trends in chemical reactivity, anomalous behaviour of first element. Carbon - catenation,\nallotropic forms, physical and chemical properties; uses of some important compounds: oxides.\nImportant compounds of silicon and a few uses : silicon tetrachloride, silicones, silicates and zeolites,\ntheir uses.\nUnit XII: Organic Chemistry – Some Basic Principles and Techniques\n(Periods 14)\nGeneral introduction, methods of purification, qualitative and quantitative analysis, classification and\nIUPAC nomenclature of organic compounds.\nElectronic displacements in a covalent bond: inductive effect, electromeric effect, resonance and\nhyper conjugation.\nHomolytic and heterolytic fission of a covalent bond: free radicals, carbocations, carbanions;\nelectrophiles and nucleophiles, types of organic reactions.\nUnit XIII: Hydrocarbons (Periods 16)\nClassification of Hydrocarbons.\nAliphatic Hydrocarbons:\nAlkanes – Nomenclature, isomerism, conformations (ethane only), physical properties, chemical\nreactions including free radical mechanism of halogenation, combustion and pyrolysis.\nAlkenes – Nomenclature, structure of double bond (ethene), geometrical isomerism, physical properties,\nmethods of preparation; chemical reactions: addition of hydrogen, halogen, water, hydrogen halides\n(Markovnikov’s addition and peroxide effect), ozonolysis, oxidation, mechanism of electrophilic addition.\nAlkynes – Nomenclature, structure of triple bond (ethyne), physical properties, methods of preparation,\nchemical reactions: acidic character of alkynes, addition reaction of - hydrogen, halogens, hydrogen halides\nand water.\nAromatic hydrocarbons – Introduction, IUPAC nomenclature; Benzene: resonance, aromaticity ;\nchemical properties: mechanism of electrophilic substitution – nitration sulphonation, halogenation, Friedel\nCraft’s alkylation and acylation; directive influence of functional group in mono-substituted benzene;\ncarcinogenicity and toxicity.\nUnit XIV: Environmental Chemistry (Periods 6)\nEnvironmental pollution – Air, water and soil pollution, chemical reactions in atmosphere, smogs,\nmajor atmospheric pollutants; acid rain, ozone and its reactions, effects of depletion of ozone layer,\ngreenhouse effect and global warming – pollution due to industrial wastes; green chemistry as an alternative\ntool for reducing pollution, strategy for control of environmental pollution.\n5\n\nPRACTICALS\nTotal Periods 60\nMicro-chemical methods are available for several of the practical experiments. Wherever possible\nsuch techniques should be used.\nA. Basic Laboratory Techniques (Periods 2)\n1. Cutting glass tube and glass rod\n2. Bending a glass tube\n3. Drawing out a glass jet\n4. Boring a cork\nB. Characterization and Purification of Chemical Substance\n(Periods 6)\n1. Determination of melting point of an organic compound.\n2. Determination of boiling point of an organic compound.\n3. Crystallization involving impure sample of any one of the following:\nAlum, copper sulphate, Benzoic acid.\nC. Experiments Related to pH Change (Periods 6)\n(a) Any one of the following experiments:\n• Determination of pH of some solutions obtained from fruit juices, solutions of known and\nvaried concentrations of acids, bases and salts using pH paper or universal indicator.\n• Comparing the pH of solutions of strong and weak acid of same concentration.\n• Study the pH change in the titration of a strong acid with a strong base using universal indicator.\n( b)Study of pH change by common-ion effect in case of weak acids and weak bases.\nD. Chemical Equilibrium (Periods 4)\nOne of the following experiments:\n(a) Study the shift in equilibrium between ferric ions and thiocynate ions by increasing /decreasing\nthe concentration of either of the ions.\n(b) Study the shift in equilibrium between [Co (HO)]2+and chloride ions by changing the concentration\n2 6\nof either of the ions .\nE. Quantitative Estimation (Periods 16)\n• Using a chemical balance.\n• Preparation of standard solution of oxalic acid.\n• Determination of strength of a given solution of sodium hydroxide by titrating it against standard\nsolution of oxalic acid.\n• Preparation of standard solution of sodium carbonate.\n6\n\n• Determination of strength of a given solution of hydrochloric acid by titrating it against standard\nsodium carbonate solution.\nF. Qualitative Analysis (Periods 16)\n(a) Determination of one anion and one cation in a given salt\nCations - Pb2+,Cu2+,As3+,Al3+,Fe3+,Mn2+,Ni2+,Zn2+,Co2+,Ca2+,Sr2+,Ba2+,Mg2+,NH+\n4\n- - - - - - - - - - - -\nAnions - CO2 ,S2 ,SO2 ,SO2 ,NO ,NO ,Cl ,Br ,I ,PO3 ,C O2 ,CH COO\n3 3 4 2 3 4 2 4 3\n(Note : Insoluble salts excluded)\n(b) Detection of nitrogen, sulphur, chlorine, in organic compounds.\nProject (Periods 10)\nScientific investigations involving laboratory testing and collecting information from other sources.\nA few suggested projects\n• Checking the bacterial contamination in drinking water by testing sulphide ions.\n• Study of the methods of purification of water.\n• Testing the hardness, presence of iron, fluoride, chloride etc. depending upon the regional variation\nin drinking water and the study of causes of presences of these ions above permissible limit (if\nany)\n• Investigation of the foaming capacity of different washing soaps and the effect of addition of\nsodium carbonate on them.\n• Study of the acidity of different samples of the tea leaves.\n• Determination of the rate of evaporation of different liquids.\n• Study of the effect of acids and bases on the tensile strength of fibers.\n• Analysis of fruit and vegetable juices for their acidity.\nNote: Any other investigatory project, which involves about 10 periods of work, can be chosen with\nthe approval of the teacher.\nCLASS XII (THEORY)\nTotal Periods 180\nUnit I: Solid State (Periods 12)\nClassification of solids based on different binding forces :molecular, ionic covalent and metallic solids,\namorphous and crystalline solids(elementary idea),unit cell in two dimensional and three dimensional lattices,\ncalculation of density of unit cell, packing in solids, packing efficiency, voids ,number of atoms per unit cell\nin a cubic unit cell, point defects, electrical and magnetic properties, Band theory of metals ,conductors,\nsemiconductors and insulators and n and p type semiconductors .\nUnit II : Solutions (Periods 12)\nTypes of solutions, expression of concentration of solutions of solids in liquids, solubility of gases in\nliquids, solid solutions, colligative properties – relative lowering of vapour pressure, Raoult’s law , elevation\n7\n\nof B.P., depression of freezing point, osmotic pressure, determination of molecular masses using colligative\nproperties, abnormal molecular mass, Vant Hoff factor.\nUnit III: Electrochemistry (Periods 14)\nRedox reactions; conductance in electrolytic solutions, specific and molar conductivity variations of\nconductivity with concentration, Kohlrausch’s Law, electrolysis and laws of electrolysis (elementary idea),\ndry cell – electrolytic cells and Galvanic cells; lead accumulator, EMF of a cell, standard electrode potential,\nNernst equation and its application to chemical cells. Relation between Gibbs energy change and EMF of\na cell, fuel cells; corrosion.\nUnit IV: Chemical Kinetics (Periods 12)\nRate of a reaction (average and instantaneous), factors affecting rates of reaction: concentration,\ntemperature, catalyst; order and molecularity of a reaction; rate law and specific rate constant, integrated\nrate equations and half life (only for zero and first order reactions); concept of collision theory (elementary\nidea, no mathematical treatment).Activation energy, Arrhenious equation.\nUnit V: Surface Chemistry (Periods 8)\nAdsorption – physisorption and chemisorption; factors affecting adsorption of gases on solids; catalysis\n:homogenous and heterogeneous, activity and selectivity: enzyme catalysis; colloidal state: distinction between\ntrue solutions, colloids and suspensions; lyophillic, lyophobic multimolecular and macromolecular colloids;\nproperties of colloids; Tyndall effect, Brownian movement, electrophoresis, coagulation; emulsions – types\nof emulsions.\nUnit VI: General Principles and Processes of Isolation of Elements (Periods 8 )\nPrinciples and methods of extraction – concentration, oxidation, reduction electrolytic method and\nrefining; occurrence and principles of extraction of aluminium, copper, zinc and iron.\nUnit VII: p-Block Elements (Periods 14)\nGroup 15 elements: General introduction, electronic configuration, occurrence, oxidation states,\ntrends in physical and chemical properties; nitrogen – preparation, properties and uses; compounds of\nnitrogen: preparation and properties of ammonia and nitric acid, oxides of nitrogen ( structure only);\nPhosphorous-allotropic forms; compounds of phosphorous: preparation and properties of phosphine\n,halides (PCl , PCl ) and oxoacids (elementary idea only).\n3 5\nGroup 16 elements : General introduction, electronic configuration, oxidation states, occurrence,\ntrends in physical and chemical properties; dioxygen: preparation, properties and uses; classification of\noxides; ozone. Sulphur – allotropic forms; compounds of sulphur: preparation, properties and uses of\nsulphur dioxide; sulphuric acid: industrial process of manufacture, properties and uses, oxoacids of sulphur\n(structures only).\nGroup 17 elements : General introduction, electronic configuration, oxidation states, occurrence,\ntrends in physical and chemical properties; compounds of halogens: preparation, properties and uses of\nchlorine and hydrochloric acid, interhalogen compounds, oxoacids of halogens (structures only).\nGroup 18 elements: General introduction, electronic configuration, occurrence, trends in physical\nand chemical properties, uses.\n8\n\nUnit VIII: d and f Block Elements (Period 14)\nGeneral introduction ,electronic configuration, occurrence and characteristics of transition metals,\ngeneral trends in properties of the first row transition metals – metallic character, ionization enthalpy,\noxidation states, ionic radii, colour, catalytic property, magnetic properties, interstitial compounds, alloy\nformation. Preparation and properties of K Cr O and KMnO .\n2 2 7 4\nLanthanoids – electronic configuration, oxidation states, chemical reactivity and lanthanoid contraction\nand its consequences.\nActinoids – Electronic configuration, oxidation states and comparison with lanthenoids .\nUnit IX Coordination Compounds (Period 12)\nCoordination compounds : Introduction, ligands, coordination number, colour, magnetic properties\nand shapes, IUPAC nomenclature of mononuclear coordination compounds, bonding, Werner’s theory\nVBT,CFT; isomerism (structural and stereo)importance of coordination compounds (in qualitative analysis,\nextraction of metals and biological systems).\nUnit X: Haloalkanes and Haloarenes (Periods 12)\nHaloalkanes: Nomenclature, nature of C-X bond, physical and chemical properties, mechanism of\nsubstitution reactions. Optical rotation.\nHaloarenes: Nature of C-X bond, substitution reactions (directive influence of halogen for\nmonosubstituted compounds only).\nUses and environmental effects of – dichloromethane, trichloromethane, tetrachloromethane, iodoform,\nfreons, DDT.\nUnit XI: Alcohols, Phenols and Ethers (Periods 12)\nAlcohols: Nomenclature, methods of preparation, physical and chemical properties (of primary\nalcohols only); identification of primary, secondary and tertiary alcohols; mechanism of dehydration, uses,\nwith special reference to methanol and ethanol.\nPhenols : Nomenclature, methods of preparation, physical and chemical properties, acidic nature of\nphenol, electrophillic substitution reactions, uses of phenols.\nEthers : Nomenclature, methods of preparation, physical and chemical properties, uses.\nUnit XII: Aldehydes, Ketones and Carboxylic Acids (Period 12)\nAldehydes and Ketones: Nomenclature, nature of carbonyl group, methods of preparation, physical\nand chemical properties, and mechanism of nucleophilic addition, reactivity of alpha hydrogen in aldehydes;\nuses.\nCarboxylic Acids: Nomenclature, acidic nature, methods of preparation, physical and chemical\nproperties; uses.\nUnit XIII: Organic Compounds Containing Nitrogen (Periods 10)\nAmines: Nomenclature, classification, structure, methods of preparation, physical and chemical\nproperties, uses, identification of primary secondary and tertiary amines.\nCyanides and Isocyanides – will be mentioned at relevant places in context.\nDiazonium salts: Preparation, chemical reactions and importance in synthetic organic chemistry.\n9\n\nUnit XIV: Biomolecules (Periods 12)\nCarbohydrates – Classification (aldoses and ketoses), monosaccharide (glucose and fructose), D-L\nconfiguration, oligosaccharides (sucrose, lactose, maltose), polysaccharides (starch, cellulose, glycogen):\nimportance.\nProteins - Elementary idea of a - amino acids, peptide bond, polypeptides, proteins, primary structure,\nsecondary structure, tertiary structure and quaternary structure (qualitative idea only), denaturation of\nproteins; enzymes.\nHormones –Elementary idea (excluding structure).\nVitamins – Classification and functions.\nNucleic Acids: DNA and RNA\nUnit XV: Polymers (Periods 8)\nClassification – Natural and synthetic, methods of polymerization (addition and condensation),\ncopolymerization. Some important polymers: natural and synthetic like polythene, nylon, polyesters, bakelite,\nrubber. Biodegradable and non-biodegradable polymers.\nUnit XVI: Chemistry in Everyday Life (Periods 8)\n1. Chemicals in medicines – analgesics, tranquilizers, antiseptics, disinfectants, antimicrobials,\nantifertility drugs, antibiotics, antacids, antihistamines.\n2. Chemicals in food – preservatives, artificial sweetening agents, elementary idea of antioxidants.\n3. Cleansing agents – soaps and detergents, cleansing action.\nPRACTICALS\nTotal Periods 60\nMicro-chemical methods are available for several of the practical experiments. Wherever possible\nsuch techniques should be used.\nA. Surface Chemistry (Periods 5)\n(a) Preparation of one lyophilic and one lyophobic sol.\nLyophilic sol : starch , egg albumin and gum.\nLyophobic sol : aluminium hydroxide, ferric hydroxide, arsenious sulphide.\n(b)Dialysis of sol prepared in (a) above.\n(c) Study of the role of emulsifying agent in stabilizing the emulsions of different oils.\nB. Chemical Kinetics (Periods 4)\n(a) Effect of concentration and temperature on the rate of reaction between sodium thiosulphate\nand hydrochloric acid .\n(b) Study of reaction rates of any one of the following:\n(i) Reaction of iodide ion with hydrogen peroxide at room temperature\nusing different concentrations of iodide ions.\n(ii) Reaction between potassium iodate (KIO ) and sodium sulphite (Na SO ) using starch\n3 2 3\nsolution as indicator (clock reaction).\n10\n\nC. Thermochemistry (Periods 4)\nAny one of the following experiments :\n(a) Enthalpy of dissolution of copper sulphate or potassium nitrate.\n(b) Enthalpy of neutralization of strong acid (HCl) and strong base (NaOH)\n(c) Determination of enthalpy change during interaction (Hydrogen bond formation) between acetone\nand chloroform.\nD. Electrochemistry (Periods 2)\nVariation of cell potential in Zn/Zn2+//Cu2+/Cu with change in concentration of electrolytes (CuSO or\n4\nZnSO ) at room temperature.\n4\nE. Chromatography (Periods 2)\n(a) Separation of pigments from extracts of leaves and flowers by paper chromatography and\ndetermination of R values.\nf\n(b) Separation of constituents present in an inorganic mixture containing two cations only (constituents\nhaving wide difference in R values to be provided).\nf\nF. Preparation of Inorganic Compounds (Periods 4)\n(a) Preparation of double salt of ferrous ammonium sulphate or potash alum.\n(b) Preparation of potassium ferric oxalate.\nG. Preparation of Organic Compounds (Periods 2)\nPreparation of any one of the following compounds:\n(a) Acetanilide\n(b) Di-benzal acetone\n(c) p-Nitroacetanilide\n(d) Aniline yellow or 2 - Napththol aniline dye\nH. Test for the Functional Groups Present in Organic Compounds (Periods 5)\nUnsaturation, alcoholic, phenolic, aldehydic, ketonic, carboxylic and amino (primary) groups.\nI. Characteristic Tests of Carbohydrates, Fats and Proteins in Pure Samples and Their\nDetection in Given Food Stuffs. (Period 4)\nJ. Determination of Concentration/Molarity of KMnO Solution by Titrating it against a\n4\nStandard Solution of – (Periods 10)\n(i) Oxalic acid\n(ii) Ferrous ammonium sulphate\n(Students will be required to prepare standard solutions by weighing themselves).\n11\n\nK. Qualitative Analysis (Periods 16)\n• Determination of one cation and one anion in a given salt.\nCations - Pb2+,Cu2+,As3+,Al3+,Fe3+,Mn2+,Ni2+,Zn2+,Co2+,Ca2+,Sr2+,Ba2+,Mg2+,NH+\n4\n- - - - - - - - - - - -\nAnions - CO2 ,S2 ,SO2 ,SO2 ,NO ,NO ,Cl ,Br ,I ,PO3 ,C O2 ,CH COO\n3 3 4 2 3 4 2 4 3\n(Note : Insoluble salts excluded)\nProjects (Periods10)\nScientific investigations involving laboratory testing and collecting information from other sources.\nA few suggested projects\n• Study of presence of oxalate ions in guava fruit at different stages of ripening.\n• Study of quantity of casein present in different samples of milk.\n• Preparation of soybean milk and its comparison with the natural milk with respect to curd\nformation, effect of temperature, etc.\n• Study of the effect of potassium bisulphate as food preservative under various conditions\n(temperature, concentration, time etc.)\n• Study of digestion of starch by salivary amylase and effect of pH and temperature on it.\n• Comparative study of the rate of fermentation of following materials: wheat flour, gram flour,\npotato juice, carrot juice etc.\n• Extraction of essential oils present in Saunf (aniseed), Ajwain (carum), Illaichi (cardamom).\n• Study of common food adulterants in fat, oil, butter, sugar, turmeric powder, chilli powder and\npepper.\nNote: Any other investigatory project, which involves about 10 periods of work, can be chosen with\nthe approval of the teacher. In addition models and exhibits for exhibition ,depicting basic principles and\napplication in daily life may also be included .\n12\n\nCHEMISTRY",
+  "ai_summary": "AI summary failed: AI summary generation failed: Anthropic error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CZmxjXGDEyWNbLrWqHFS3'}"
+}

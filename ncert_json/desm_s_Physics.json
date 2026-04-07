@@ -1,0 +1,959 @@
+{
+  "id": "d0598a4f-3105-4914-93bf-d7aee2659350",
+  "source": "ncert_pdfs\\desm_s_Physics.pdf",
+  "raw_text_length": 25984,
+  "parsed": {
+    "total_lines": 359,
+    "title": "PHYSICS (CLASSES XI –XII)",
+    "sections": [
+      {
+        "grade": "XI",
+        "heading": "Introduction",
+        "content": [
+          "The syllabus for Physics at the Higher Secondary Stage has been developed with a view that this stage of",
+          "school education is crucial and challenging as it is a transition from general science to discipline-based",
+          "curriculum. The recommendations of National Curriculum Framework-2005 have been followed, keeping",
+          "the disciplinary approach with rigour and depth, appropriate to the comprehension level of learners. Due",
+          "care has been taken that the syllabus is not heavy and at the same time it is comparable to the international",
+          "standards. The syllabus provides logical sequencing of the subject matter with proper placement of concepts",
+          "with their linkages for better understanding.",
+          "It is expected that the syllabus will help to develop an interest in the learners to study Physics as a",
+          "discipline and inculcate in learners the abilities, useful concepts of Physics in real-life situations for making",
+          "learning of Physics relevant, meaningful and interesting. The learner is expected to realize and appreciate",
+          "the interface of Physics with other disciplines.",
+          "RATIONALE",
+          "The higher secondary stage is crucial and challenging stage of school education as it is a transition from",
+          "general science to discipline-based curriculum. Physics is being offered as an elective subject at the higher",
+          "secondary stage of school education. At this stage, the students take up Physics, as a discipline, with a",
+          "purpose of pursuing their future careers in basic sciences or professional courses like medicine, engineering,",
+          "technology and studying courses in applied areas of science and technology at tertiary level. There is a",
+          "need to provide the learners with sufficient conceptual background of Physics which would eventually",
+          "make them competent to meet the challenges of academic and professional courses after the higher secondary",
+          "stage.",
+          "The present effort of reforming and updating the Physics curriculum is an exercise based on the",
+          "feedback received from the school system about existing syllabus and curricular material, large expansion",
+          "of Physics knowledge, and also the educational and curricular concerns and issues provided in the National",
+          "Curriculum Framework-2005.",
+          "The recommendations of National Curriculum Framework-2005 have been followed, keeping the",
+          "disciplinary approach with rigour and depth, appropriate to the comprehension level of learners. Due care",
+          "has been taken that the syllabus is not heavy and at the same time, it is comparable to the international",
+          "standards. Also, it is essential to develop linkages with other disciplines for better learning of Physics",
+          "concepts and establishing relationship with daily-life situations and life-skills.",
+          "SALIENT FEATURES",
+          "• Emphasis on basic conceptual understanding of content.",
+          "• Promoting process-skills, problem-solving abilities and applications of Physics concepts/content,",
+          "useful in real-life situations for making Physics learning more relevant, meaningful and interesting.",
+          "• Emphasis on use of SI Units, Symbols, nomenclature of physical quantities and formulations as",
+          "per international standards.",
+          "• Emphasis on Physics-related technological/industrial aspects to cope up with changing demand",
+          "of society committed to the use of Physics, technology and informatics.",
+          "• Providing logical sequencing of the ‘Units’ of the subject matter and proper placement of concepts",
+          "with their linkages for better learning and matching the concepts/content with comprehension",
+          "level of the learners.",
+          "• Reducing the curriculum load by eliminating overlapping of concepts/content within the discipline",
+          "of Physics or with other disciplines; reducing the descriptive portion and providing suitable",
+          "formulation/depth of treatment appropriate to the comprehension level of learners, making room",
+          "for contemporary core - topics and emerging curricular areas in Physics.",
+          "• The syllabus is arranged in Units spread over two years duration. The Units are so sequenced as",
+          "to provide different dimensions of Physics as a discipline. The time allocation for learning Physics",
+          "content per Unit in terms of instructional periods have been mentioned for each Unit to help the",
+          "Textbook Development Team members to develop the instructional material so as to cover it",
+          "within the time frame. Each Unit has been arranged with a topic, content related practical work",
+          "(one core experiment, two activities to be evaluated) and suggested investigatory projects (one",
+          "project to be evaluated). There is an imperative need for evaluating the learners through Continuous",
+          "and Comprehensive Evaluation of various concepts covered in a Unit."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "With this background, the Physics curriculum at the higher secondary stage attempts to",
+        "content": [
+          "• Strengthen the concepts developed at the secondary stage to provide firm ground work and",
+          "foundation for further learning Physics at the tertiary level more effectively and learning the",
+          "relationship with daily-life situations;",
+          "• Develop conceptual competence in the learners and make them realize and appreciate the interface",
+          "of Physics with other disciplines;",
+          "• Expose the learners to different processes used in Physics-related industrial and technological",
+          "applications;",
+          "• Develop process-skills and experimental, observational, manipulative, decision-making and",
+          "investigatory skills in the learners;",
+          "• Promote problem-solving abilities and creative thinking to develop interest in the learners in the",
+          "study of Physics as a discipline;",
+          "• Understand the relationship between nature and matter on scientific basis, develop positive scientific",
+          "attitude, and appreciate the contribution of Physics towards the improvement of quality of life and",
+          "human welfare;",
+          "• Physics teaching-learning at the higher secondary stage enables the learners to comprehend the",
+          "contemporary knowledge and develop aesthetic sensibilities and process skills. The experimental",
+          "skills and process-skills developed together with conceptual Physics knowledge prepare the",
+          "learners for more meaningful learning experiences and contribute to the significant improvement",
+          "of quality of life. The learners would also appreciate the role and impact of Physics and technology,",
+          "and their linkages with overall national development."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Introduction",
+        "content": [
+          "(Total Periods: 180)"
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit I: Physical World and Measurement (Periods 10)",
+        "content": [
+          "Physics: Scope and excitement; nature of physical laws; Physics, technology and society.",
+          "Need for measurement: Units of measurement; systems of units; SI units, fundamental and derived",
+          "units. Length, mass and time measurements; accuracy and precision of measuring instruments; errors in",
+          "measurement; significant figures.",
+          "Dimensions of physical quantities, dimensional analysis and its applications."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit II: Kinematics (Periods 30)",
+        "content": [
+          "Frame of reference, Motion in a straight line: Position-time graph, speed and velocity. Uniform and",
+          "non-uniform motion, average speed and instantaneous velocity. Uniformly accelerated motion, velocity-",
+          "time and position-time graphs, relations for uniformly accelerated motion (graphical treatment).",
+          "Elementary concepts of differentiation and integration for describing motion. Scalar and vector",
+          "quantities: Position and displacement vectors, general vectors and notation, equality of vectors, multiplication",
+          "of vectors by a real number; addition and subtraction of vectors. Relative velocity.",
+          "Unit vectors. Resolution of a vector in a plane – rectangular components.",
+          "Scalar and Vector products of Vectors. Motion in a plane. Cases of uniform velocity and uniform",
+          "acceleration – projectile motion. Uniform circular motion."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit III: Laws of Motion (Periods 16)",
+        "content": [
+          "Intuitive concept of force. Inertia, Newton’s first law of motion; momentum and Newton’s second",
+          "law of motion; impulse; Newton’s third law of motion. Law of conservation of linear momentum and its",
+          "applications.",
+          "Equilibrium of concurrent forces. Static and kinetic friction, laws of friction, rolling friction, lubrication.",
+          "Dynamics of uniform circular motion: Centripetal force, examples of circular motion (vehicle on",
+          "level circular road, vehicle on banked road)."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit IV: Work, Energy and Power (Periods 16)",
+        "content": [
+          "Work done by a constant force and a variable force; kinetic energy, work-energy theorem, power.",
+          "Notion of potential energy, potential energy of a spring, conservative forces; conservation of mechanical",
+          "energy (kinetic and potential energies); non-conservative forces; motion in a vertical circle, elastic and",
+          "inelastic collisions in one and two dimensions."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit V: Motion of System of Particles and Rigid Body (Periods 18)",
+        "content": [
+          "Centre of mass of a two-particle system, momentum conservation and centre of mass motion. Centre",
+          "of mass of a rigid body; centre of mass of uniform rod.",
+          "Moment of a force, torque, angular momentum, conservation of angular momentum with some",
+          "examples.",
+          "Equilibrium of rigid bodies, rigid body rotation and equation of rotational motion, comparison of linear",
+          "and rotational motions; moment of inertia, radius of gyration. Values of M.I. for simple geometrical objects",
+          "(no derivation). Statement of parallel and perpendicular axes theorems and their applications."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit VI: Gravitation (Periods 14)",
+        "content": [
+          "Kepler’s laws of planetary motion. The universal law of gravitation. Acceleration due to gravity and its",
+          "variation with altitude and depth.",
+          "Gravitational potential energy; gravitational potential. Escape velocity, orbital velocity of a satellite.",
+          "Geostationary satellites."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit VII: Properties of Bulk Matter (Periods 28)",
+        "content": [
+          "Elastic behaviour, Stress-strain relationship, Hooke’s law, Young’s modulus, bulk modulus, shear,",
+          "modulus of rigidity, poisson’s ratio; elastic energy.",
+          "Pressure due to a fluid column; Pascal’s law and its applications (hydraulic lift and hydraulic brakes).",
+          "Effect of gravity on fluid pressure.",
+          "Viscosity, Stokes’ law, terminal velocity, Reynold’s number, streamline and turbulent flow. Critical",
+          "velocity, Bernoulli’s theorem and its applications.",
+          "Surface energy and surface tension, angle of contact, excess of pressure, application of surface tension",
+          "ideas to drops, bubbles and capillary rise.",
+          "Heat, temperature, thermal expansion; thermal expansion of solids, liquids, and gases. Anomalous",
+          "expansion. Specific heat capacity: C , C – calorimetry; change of state – latent heat.",
+          "p v",
+          "Heat transfer – conduction and thermal conductivity, convection and radiation. Qualitative ideas of",
+          "Black Body Radiation, Wein’s displacement law, and Green House effect.",
+          "Newton’s law of cooling and Stefan’s law."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit VIII: Thermodynamics (Periods 12)",
+        "content": [
+          "Thermal equilibrium and definition of temperature (zeroth law of Thermodynamics). Heat, work and",
+          "internal energy. First law of thermodynamics. Isothermal and adiabatic processes.",
+          "Second law of thermodynamics: Reversible and irreversible processes. Heat engines and refrigerators."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit IX: Behaviour of Perfect Gas and Kinetic Theory (Periods 8)",
+        "content": [
+          "Equation of state of a perfect gas, work done on compressing a gas.",
+          "Kinetic theory of gases: Assumptions, concept of pressure. Kinetic energy and temperature; rms",
+          "speed of gas molecules; degrees of freedom, law of equipartition of energy (statement only) and application",
+          "to specific heat capacities of gases; concept of mean free path, Avogadro’s number."
+        ]
+      },
+      {
+        "grade": "XI",
+        "heading": "Unit X: Oscillations and Waves (Periods 28)",
+        "content": [
+          "Periodic motion – period, frequency, displacement as a function of time. Periodic functions. Simple",
+          "harmonic motion (SHM) and its equation; phase; oscillations of a spring – restoring force and force constant;",
+          "energy in SHM – kinetic and potential energies; simple pendulum – derivation of expression for its time",
+          "period; free, forced and damped oscillations (qualitative ideas only), resonance.",
+          "Wave motion. Longitudinal and transverse waves, speed of wave motion. Displacement relation for a",
+          "progressive wave. Principle of superposition of waves, reflection of waves, standing waves in strings and",
+          "organ pipes, fundamental mode and harmonics. Beats. Doppler effect.",
+          "PRACTICALS",
+          "Total Periods 60",
+          "Section A",
+          "Experiments",
+          "1. To measure diameter of a small spherical/cylindrical body using Vernier callipers.",
+          "2. To measure internal diameter and depth of a given beaker/calorimeter using Vernier callipers and",
+          "hence find its volume.",
+          "3. To measure diameter of a given wire using screw gauge.",
+          "4. To measure thickness of a given sheet using screw gauge.",
+          "5. To measure volume of an irregular lamina using screw gauge.",
+          "6. To determine radius of curvature of a given spherical surface by a spherometer.",
+          "7. To determine the mass of two different objects using a beam balance.",
+          "8. To find the weight of a given body using parallelogram law of vectors.",
+          "9. Using a simple pendulum, plot L-T and L-T2 graphs. Hence find the effective length of a second’s",
+          "pendulum using appropriate graph.",
+          "10. To study the relationship between force of limiting friction and normal reaction and to find the",
+          "coefficient of friction between a block and a horizontal surface.",
+          "11. To find the downward force, along an inclined plane, acting on a roller due to gravitational pull of",
+          "the earth and study its relationship with the angle of inclination (θ) by plotting graph between force",
+          "and sin θ.",
+          "Activities",
+          "1. To make a paper scale of given least count, e.g. 0.2 cm, 0.5 cm.",
+          "2. To determine mass of a given body using a metre scale by principle of moments.",
+          "3. To plot a graph for a given set of data, with proper choice of scales and error bars.",
+          "4. To measure the force of limiting friction for rolling of a roller on a horizontal plane.",
+          "5. To study the variation in the range of a jet of water with the angle of projection.",
+          "6. To study the conservation of energy of a ball rolling down on inclined plane (using a double",
+          "inclined plane).",
+          "7. To study dissipation of energy of a simple pendulum by plotting a graph between square of",
+          "amplitude and time.",
+          "Section B",
+          "Experiments",
+          "1. To determine Young’s modulus of elasticity of the material of a given wire.",
+          "2. To find the force constant of a helical spring by plotting a graph between load and extension.",
+          "3. To study the variation in volume with pressure for a sample of air at constant temperature by",
+          "plotting graphs between P and V, and between P and 1/V.",
+          "4. To determine the surface tension of water by capillary rise method.",
+          "5. To determine the coefficient of viscosity of a given viscous liquid by measuring the terminal velocity",
+          "of a given spherical body.",
+          "6. To study the relationship between the temperature of a hot body and time by plotting a cooling",
+          "curve.",
+          "7. To determine specific heat capacity of a given (i) solid (ii) liquid, by method of mixtures.",
+          "8. (i) To study the relation between frequency and length of a given wire under constant tension",
+          "using sonometer.",
+          "(ii) To study the relation between the length of a given wire and tension for constant frequency",
+          "using sonometer.",
+          "9. To find the speed of sound in air at room temperature using a resonance tube by two resonance",
+          "positions.",
+          "Activities",
+          "1. To observe change of state and plot a cooling curve for molten wax.",
+          "2. To observe and explain the effect of heating on a bi-metallic strip.",
+          "3. To note the change in level of liquid in a container on heating and interpret the observations.",
+          "4. To study the effect of detergent on surface tension of water by observing capillary rise.",
+          "5. To study the factors affecting the rate of loss of heat of a liquid.",
+          "6. To study the effect of load on depression of a suitably clamped meter scale loaded at (i) at its end",
+          "(ii) in the middle."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Introduction",
+        "content": [
+          "(Total Periods: 180)"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit I: Electrostatics (Periods 25)",
+        "content": [
+          "Electric charges and their conservation. Coulomb’s law – force between two point charges, forces",
+          "between multiple charges; superposition principle and continuous charge distribution.",
+          "Electric field, electric field due to a point charge, electric field lines; electric dipole, electric field due to",
+          "a dipole; torque on a dipole in a uniform electric field.",
+          "Electric flux, statement of Gauss’s theorem and its applications to find field due to infinitely long",
+          "straight wire, uniformly charged infinite plane sheet and uniformly charged thin spherical shell (field inside",
+          "and outside).",
+          "Electric potential, potential difference, electric potential due to a point charge, a dipole and system of",
+          "charges; equipotential surfaces, electrical potential energy of a system of two point charges and of electric",
+          "dipoles in an electrostatic field.",
+          "Conductors and insulators, free charges and bound charges inside a conductor. Dielectrics and electric",
+          "polarisation, capacitors and capacitance, combination of capacitors in series and in parallel, capacitance",
+          "of a parallel plate capacitor with and without dielectric medium between the plates, energy stored in a",
+          "capacitor, Van de Graaff generator."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit II: Current Electricity (Periods 22)",
+        "content": [
+          "Electric current, flow of electric charges in a metallic conductor, drift velocity and mobility, and their",
+          "relation with electric current; Ohm’s law, electrical resistance, V-I characteristics (linear and non-linear),",
+          "electrical energy and power, electrical resistivity and conductivity.",
+          "Carbon resistors, colour code for carbon resistors; series and parallel combinations of resistors;",
+          "temperature dependence of resistance.",
+          "Internal resistance of a cell, potential difference and emf of a cell, combination of cells in series and in",
+          "parallel.",
+          "Kirchhoff ’s laws and simple applications. Wheatstone bridge, metre bridge.",
+          "Potentiometer – principle and applications to measure potential difference, and for comparing emf of",
+          "two cells; measurement of internal resistance of a cell."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit III: Magnetic Effects of Current and Magnetism (Periods 25)",
+        "content": [
+          "Concept of magnetic field, Oersted’s experiment. Biot - Savart law and its application to current",
+          "carrying circular loop.",
+          "Ampere’s law and its applications to infinitely long straight wire, straight and toroidal solenoids. Force",
+          "on a moving charge in uniform magnetic and electric fields. Cyclotron.",
+          "Force on a current-carrying conductor in a uniform magnetic field. Force between two parallel current-",
+          "carrying conductors – definition of ampere. Torque experienced by a current loop in a magnetic field;",
+          "moving coil galvanometer – its current sensitivity and conversion to ammeter and voltmeter.",
+          "Current loop as a magnetic dipole and its magnetic dipole moment. Magnetic dipole moment of a",
+          "revolving electron. Magnetic field intensity due to a magnetic dipole (bar magnet) along its axis and",
+          "perpendicular to its axis. Torque on a magnetic dipole (bar magnet) in a uniform magnetic field; bar magnet",
+          "as an equivalent solenoid, magnetic field lines; Earth’s magnetic field and magnetic elements.",
+          "Para-, dia- and ferro - magnetic substances, with examples.",
+          "Electromagnets and factors affecting their strengths. Permanent magnets."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit IV: Electromagnetic Induction and Alternating Currents",
+        "content": [
+          "(Periods 20)",
+          "Electromagnetic induction; Faraday’s law, induced emf and current; Lenz’s Law, Eddy currents. Self",
+          "and mutual inductance.",
+          "Alternating currents, peak and rms value of alternating current/voltage; reactance and impedance; LC",
+          "oscillations (qualitative treatment only), LCR series circuit, resonance; power in AC circuits, wattless",
+          "current.",
+          "AC generator and transformer."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit V: Electromagnetic Waves (Periods 4)",
+        "content": [
+          "Need for displacement current.",
+          "Electromagnetic waves and their characteristics (qualitative ideas only). Transverse nature of",
+          "electromagnetic waves.",
+          "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, x-rays, gamma",
+          "rays) including elementary facts about their uses."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VI: Optics (Periods 30)",
+        "content": [
+          "Reflection of light, spherical mirrors, mirror formula. Refraction of light, total internal reflection and its",
+          "applications, optical fibres, refraction at spherical surfaces, lenses, thin lens formula, lens-maker’s formula.",
+          "Magnification, power of a lens, combination of thin lenses in contact combination of a lens and a mirror.",
+          "Refraction and dispersion of light through a prism.",
+          "Scattering of light – blue colour of the sky and reddish appearance of the sun at sunrise and sunset.",
+          "Optical instruments: Human eye, image formation and accommodation, correction of eye defects",
+          "(myopia and hypermetropia) using lenses.",
+          "Microscopes and astronomical telescopes (reflecting and refracting) and their magnifying powers.",
+          "Wave optics: Wavefront and Huygens’ principle, reflection and refraction of plane wave at a plane",
+          "surface using wavefronts.",
+          "Proof of laws of reflection and refraction using Huygens’ principle.",
+          "Interference, Young’s double hole experiment and expression for fringe width, coherent sources and",
+          "sustained interference of light.",
+          "Diffraction due to a single slit, width of central maximum.",
+          "Resolving power of microscopes and astronomical telescopes. Polarisation, plane polarised light;",
+          "Brewster’s law, uses of plane polarised light and Polaroids."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VII: Dual Nature of Matter and Radiation (Periods 8)",
+        "content": [
+          "Photoelectric effect, Hertz and Lenard’s observations; Einstein’s photoelectric equation – particle",
+          "nature of light.",
+          "Matter waves – wave nature of particles, de Broglie relation. Davisson-Germer experiment",
+          "(experimental details should be omitted; only conclusion should be explained.)"
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit VIII: Atoms and Nuclei (Periods 18)",
+        "content": [
+          "Alpha - particle scattering experiment; Rutherford’s model of atom; Bohr model, energy levels,",
+          "hydrogen spectrum. Composition and size of nucleus, atomic masses, isotopes, isobars; isotones.",
+          "Radioactivity – alpha, beta and gamma particles/rays and their properties; radioactive decay law.",
+          "Mass-energy relation, mass defect; binding energy per nucleon and its variation with mass number; nuclear",
+          "fission and fusion."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit IX: Electronic Devices (Periods 18)",
+        "content": [
+          "Energy bands in solids (qualitative ideas only), conductors, insulators and semiconductors;",
+          "semiconductor diode – I-V characteristics in forward and reverse bias, diode as a rectifier; I-V characteristics",
+          "of LED, photodiode, solar cell, and Zener diode; Zener diode as a voltage regulator. Junction transistor,",
+          "transistor action, characteristics of a transistor; transistor as an amplifier (common emitter configuration)",
+          "and oscillator. Logic gates (OR, AND, NOT, NAND and NOR). Transistor as a switch."
+        ]
+      },
+      {
+        "grade": "XII",
+        "heading": "Unit X: Communication Systems (Periods 10)",
+        "content": [
+          "Elements of a communication system (block diagram only); bandwidth of signals (speech, TV and",
+          "digital data); bandwidth of transmission medium. Propagation of electromagnetic waves in the atmosphere,",
+          "sky and space wave propagation. Need for modulation. Production and detection of an amplitude-modulated",
+          "wave.",
+          "Practicals",
+          "Total Periods 60",
+          "Section A",
+          "Experiments",
+          "1. To find resistance of a given wire using metre bridge and hence determine the specific resistance",
+          "of its material.",
+          "2. To determine resistance per cm of a given wire by plotting a graph of potential difference versus",
+          "current.",
+          "3. To verify the laws of combination (series/parallel) of resistances using a metre bridge.",
+          "4. To compare the emf ’s of two given primary cells using potentiometer.",
+          "5. To determine the internal resistance of given primary cell using potentiometer.",
+          "6. To determine resistance of a galvanometer by half-deflection method and to find its figure of",
+          "merit.",
+          "7. To convert the given galvanometer (of known resistance of figure of merit) into an ammeter and",
+          "voltmeter of desired range and to verify the same.",
+          "8. To find the frequency of the ac mains with a sonometer.",
+          "Activities",
+          "1. To measure the resistance and impedance of an inductor with or without iron core.",
+          "2. To measure resistance, voltage (ac/dc), current (ac) and check continuity of a given circuit using",
+          "multimeter.",
+          "3. To assemble a household circuit comprising three bulbs, three (on/off) switches, a fuse and a",
+          "power source.",
+          "4. To assemble the components of a given electrical circuit.",
+          "5. To study the variation in potential drop with length of a wire for a steady current.",
+          "6. To draw the diagram of a given open circuit comprising at least a battery, resistor/rheostat, key,",
+          "ammeter and voltmeter. Mark the components that are not connected in proper order and correct",
+          "the circuit and also the circuit diagram.",
+          "Section B",
+          "Experiments",
+          "1. To find the value of v for different values of u in case of a concave mirror and to find the focal",
+          "length.",
+          "2. To find the focal length of a convex mirror, using a convex lens.",
+          "3. To find the focal length of a convex lens by plotting graphs between u and v or between 1/u and",
+          "1/v.",
+          "4. To find the focal length of a concave lens, using a convex lens.",
+          "5. To determine angle of minimum deviation for a given prism by plotting a graph between the angle",
+          "of incidence and the angle of deviation.",
+          "6. To determine refractive index of a glass slab using a travelling microscope.",
+          "7. To find refractive index of a liquid by using (i) concave mirror, (ii) convex lens and plane mirror.",
+          "8. To draw the I-V characteristics curves of a p-n junction in forward bias and reverse bias.",
+          "9. To draw the characteristics curve of a zener diode and to determine its reverse break down",
+          "voltage.",
+          "10. To study the characteristics of a common-emitter npn or pnp transistor and to find out the values",
+          "of current and voltage gains.",
+          "Activities",
+          "1. To identify a diode, an LED, a transistor, and IC, a resistor and a capacitor from mixed collection",
+          "of such items.",
+          "2. Use of multimeter to (i) identify base of transistor, (ii) distinguish between npn and pnp type",
+          "transistors, (iii) see the unidirectional flow of current in case of a diode and an LED, (iv) check",
+          "whether a given electronic component (e.g. diode, transistor or IC) is in working order.",
+          "3. To study effect of intensity of light (by varying distance of the source) on an LDR.",
+          "4. To observe refraction and lateral deviation of a beam of light incident obliquely on a glass slab.",
+          "5. To observe polarization of light using two polaroids.",
+          "6. To observe diffraction of light due to a thin slit.",
+          "7. To study the nature and size of the image formed by (i) convex lens (ii) concave mirror, on a",
+          "screen by using a candle and a screen (for different distances of the candle from the lens/mirror).",
+          "8. To obtain a lens combination with the specified focal length by using two lenses from the given set",
+          "of lenses.",
+          "PHYSICS"
+        ]
+      }
+    ],
+    "grades": [
+      {
+        "grade": "XI",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "The syllabus for Physics at the Higher Secondary Stage has been developed with a view that this stage of",
+              "school education is crucial and challenging as it is a transition from general science to discipline-based",
+              "curriculum. The recommendations of National Curriculum Framework-2005 have been followed, keeping",
+              "the disciplinary approach with rigour and depth, appropriate to the comprehension level of learners. Due",
+              "care has been taken that the syllabus is not heavy and at the same time it is comparable to the international",
+              "standards. The syllabus provides logical sequencing of the subject matter with proper placement of concepts",
+              "with their linkages for better understanding.",
+              "It is expected that the syllabus will help to develop an interest in the learners to study Physics as a",
+              "discipline and inculcate in learners the abilities, useful concepts of Physics in real-life situations for making",
+              "learning of Physics relevant, meaningful and interesting. The learner is expected to realize and appreciate",
+              "the interface of Physics with other disciplines.",
+              "RATIONALE",
+              "The higher secondary stage is crucial and challenging stage of school education as it is a transition from",
+              "general science to discipline-based curriculum. Physics is being offered as an elective subject at the higher",
+              "secondary stage of school education. At this stage, the students take up Physics, as a discipline, with a",
+              "purpose of pursuing their future careers in basic sciences or professional courses like medicine, engineering,",
+              "technology and studying courses in applied areas of science and technology at tertiary level. There is a",
+              "need to provide the learners with sufficient conceptual background of Physics which would eventually",
+              "make them competent to meet the challenges of academic and professional courses after the higher secondary",
+              "stage.",
+              "The present effort of reforming and updating the Physics curriculum is an exercise based on the",
+              "feedback received from the school system about existing syllabus and curricular material, large expansion",
+              "of Physics knowledge, and also the educational and curricular concerns and issues provided in the National",
+              "Curriculum Framework-2005.",
+              "The recommendations of National Curriculum Framework-2005 have been followed, keeping the",
+              "disciplinary approach with rigour and depth, appropriate to the comprehension level of learners. Due care",
+              "has been taken that the syllabus is not heavy and at the same time, it is comparable to the international",
+              "standards. Also, it is essential to develop linkages with other disciplines for better learning of Physics",
+              "concepts and establishing relationship with daily-life situations and life-skills.",
+              "SALIENT FEATURES",
+              "• Emphasis on basic conceptual understanding of content.",
+              "• Promoting process-skills, problem-solving abilities and applications of Physics concepts/content,",
+              "useful in real-life situations for making Physics learning more relevant, meaningful and interesting.",
+              "• Emphasis on use of SI Units, Symbols, nomenclature of physical quantities and formulations as",
+              "per international standards.",
+              "• Emphasis on Physics-related technological/industrial aspects to cope up with changing demand",
+              "of society committed to the use of Physics, technology and informatics.",
+              "• Providing logical sequencing of the ‘Units’ of the subject matter and proper placement of concepts",
+              "with their linkages for better learning and matching the concepts/content with comprehension",
+              "level of the learners.",
+              "• Reducing the curriculum load by eliminating overlapping of concepts/content within the discipline",
+              "of Physics or with other disciplines; reducing the descriptive portion and providing suitable",
+              "formulation/depth of treatment appropriate to the comprehension level of learners, making room",
+              "for contemporary core - topics and emerging curricular areas in Physics.",
+              "• The syllabus is arranged in Units spread over two years duration. The Units are so sequenced as",
+              "to provide different dimensions of Physics as a discipline. The time allocation for learning Physics",
+              "content per Unit in terms of instructional periods have been mentioned for each Unit to help the",
+              "Textbook Development Team members to develop the instructional material so as to cover it",
+              "within the time frame. Each Unit has been arranged with a topic, content related practical work",
+              "(one core experiment, two activities to be evaluated) and suggested investigatory projects (one",
+              "project to be evaluated). There is an imperative need for evaluating the learners through Continuous",
+              "and Comprehensive Evaluation of various concepts covered in a Unit."
+            ]
+          },
+          {
+            "heading": "With this background, the Physics curriculum at the higher secondary stage attempts to",
+            "content": [
+              "• Strengthen the concepts developed at the secondary stage to provide firm ground work and",
+              "foundation for further learning Physics at the tertiary level more effectively and learning the",
+              "relationship with daily-life situations;",
+              "• Develop conceptual competence in the learners and make them realize and appreciate the interface",
+              "of Physics with other disciplines;",
+              "• Expose the learners to different processes used in Physics-related industrial and technological",
+              "applications;",
+              "• Develop process-skills and experimental, observational, manipulative, decision-making and",
+              "investigatory skills in the learners;",
+              "• Promote problem-solving abilities and creative thinking to develop interest in the learners in the",
+              "study of Physics as a discipline;",
+              "• Understand the relationship between nature and matter on scientific basis, develop positive scientific",
+              "attitude, and appreciate the contribution of Physics towards the improvement of quality of life and",
+              "human welfare;",
+              "• Physics teaching-learning at the higher secondary stage enables the learners to comprehend the",
+              "contemporary knowledge and develop aesthetic sensibilities and process skills. The experimental",
+              "skills and process-skills developed together with conceptual Physics knowledge prepare the",
+              "learners for more meaningful learning experiences and contribute to the significant improvement",
+              "of quality of life. The learners would also appreciate the role and impact of Physics and technology,",
+              "and their linkages with overall national development."
+            ]
+          },
+          {
+            "heading": "Introduction",
+            "content": [
+              "(Total Periods: 180)"
+            ]
+          },
+          {
+            "heading": "Unit I: Physical World and Measurement (Periods 10)",
+            "content": [
+              "Physics: Scope and excitement; nature of physical laws; Physics, technology and society.",
+              "Need for measurement: Units of measurement; systems of units; SI units, fundamental and derived",
+              "units. Length, mass and time measurements; accuracy and precision of measuring instruments; errors in",
+              "measurement; significant figures.",
+              "Dimensions of physical quantities, dimensional analysis and its applications."
+            ]
+          },
+          {
+            "heading": "Unit II: Kinematics (Periods 30)",
+            "content": [
+              "Frame of reference, Motion in a straight line: Position-time graph, speed and velocity. Uniform and",
+              "non-uniform motion, average speed and instantaneous velocity. Uniformly accelerated motion, velocity-",
+              "time and position-time graphs, relations for uniformly accelerated motion (graphical treatment).",
+              "Elementary concepts of differentiation and integration for describing motion. Scalar and vector",
+              "quantities: Position and displacement vectors, general vectors and notation, equality of vectors, multiplication",
+              "of vectors by a real number; addition and subtraction of vectors. Relative velocity.",
+              "Unit vectors. Resolution of a vector in a plane – rectangular components.",
+              "Scalar and Vector products of Vectors. Motion in a plane. Cases of uniform velocity and uniform",
+              "acceleration – projectile motion. Uniform circular motion."
+            ]
+          },
+          {
+            "heading": "Unit III: Laws of Motion (Periods 16)",
+            "content": [
+              "Intuitive concept of force. Inertia, Newton’s first law of motion; momentum and Newton’s second",
+              "law of motion; impulse; Newton’s third law of motion. Law of conservation of linear momentum and its",
+              "applications.",
+              "Equilibrium of concurrent forces. Static and kinetic friction, laws of friction, rolling friction, lubrication.",
+              "Dynamics of uniform circular motion: Centripetal force, examples of circular motion (vehicle on",
+              "level circular road, vehicle on banked road)."
+            ]
+          },
+          {
+            "heading": "Unit IV: Work, Energy and Power (Periods 16)",
+            "content": [
+              "Work done by a constant force and a variable force; kinetic energy, work-energy theorem, power.",
+              "Notion of potential energy, potential energy of a spring, conservative forces; conservation of mechanical",
+              "energy (kinetic and potential energies); non-conservative forces; motion in a vertical circle, elastic and",
+              "inelastic collisions in one and two dimensions."
+            ]
+          },
+          {
+            "heading": "Unit V: Motion of System of Particles and Rigid Body (Periods 18)",
+            "content": [
+              "Centre of mass of a two-particle system, momentum conservation and centre of mass motion. Centre",
+              "of mass of a rigid body; centre of mass of uniform rod.",
+              "Moment of a force, torque, angular momentum, conservation of angular momentum with some",
+              "examples.",
+              "Equilibrium of rigid bodies, rigid body rotation and equation of rotational motion, comparison of linear",
+              "and rotational motions; moment of inertia, radius of gyration. Values of M.I. for simple geometrical objects",
+              "(no derivation). Statement of parallel and perpendicular axes theorems and their applications."
+            ]
+          },
+          {
+            "heading": "Unit VI: Gravitation (Periods 14)",
+            "content": [
+              "Kepler’s laws of planetary motion. The universal law of gravitation. Acceleration due to gravity and its",
+              "variation with altitude and depth.",
+              "Gravitational potential energy; gravitational potential. Escape velocity, orbital velocity of a satellite.",
+              "Geostationary satellites."
+            ]
+          },
+          {
+            "heading": "Unit VII: Properties of Bulk Matter (Periods 28)",
+            "content": [
+              "Elastic behaviour, Stress-strain relationship, Hooke’s law, Young’s modulus, bulk modulus, shear,",
+              "modulus of rigidity, poisson’s ratio; elastic energy.",
+              "Pressure due to a fluid column; Pascal’s law and its applications (hydraulic lift and hydraulic brakes).",
+              "Effect of gravity on fluid pressure.",
+              "Viscosity, Stokes’ law, terminal velocity, Reynold’s number, streamline and turbulent flow. Critical",
+              "velocity, Bernoulli’s theorem and its applications.",
+              "Surface energy and surface tension, angle of contact, excess of pressure, application of surface tension",
+              "ideas to drops, bubbles and capillary rise.",
+              "Heat, temperature, thermal expansion; thermal expansion of solids, liquids, and gases. Anomalous",
+              "expansion. Specific heat capacity: C , C – calorimetry; change of state – latent heat.",
+              "p v",
+              "Heat transfer – conduction and thermal conductivity, convection and radiation. Qualitative ideas of",
+              "Black Body Radiation, Wein’s displacement law, and Green House effect.",
+              "Newton’s law of cooling and Stefan’s law."
+            ]
+          },
+          {
+            "heading": "Unit VIII: Thermodynamics (Periods 12)",
+            "content": [
+              "Thermal equilibrium and definition of temperature (zeroth law of Thermodynamics). Heat, work and",
+              "internal energy. First law of thermodynamics. Isothermal and adiabatic processes.",
+              "Second law of thermodynamics: Reversible and irreversible processes. Heat engines and refrigerators."
+            ]
+          },
+          {
+            "heading": "Unit IX: Behaviour of Perfect Gas and Kinetic Theory (Periods 8)",
+            "content": [
+              "Equation of state of a perfect gas, work done on compressing a gas.",
+              "Kinetic theory of gases: Assumptions, concept of pressure. Kinetic energy and temperature; rms",
+              "speed of gas molecules; degrees of freedom, law of equipartition of energy (statement only) and application",
+              "to specific heat capacities of gases; concept of mean free path, Avogadro’s number."
+            ]
+          },
+          {
+            "heading": "Unit X: Oscillations and Waves (Periods 28)",
+            "content": [
+              "Periodic motion – period, frequency, displacement as a function of time. Periodic functions. Simple",
+              "harmonic motion (SHM) and its equation; phase; oscillations of a spring – restoring force and force constant;",
+              "energy in SHM – kinetic and potential energies; simple pendulum – derivation of expression for its time",
+              "period; free, forced and damped oscillations (qualitative ideas only), resonance.",
+              "Wave motion. Longitudinal and transverse waves, speed of wave motion. Displacement relation for a",
+              "progressive wave. Principle of superposition of waves, reflection of waves, standing waves in strings and",
+              "organ pipes, fundamental mode and harmonics. Beats. Doppler effect.",
+              "PRACTICALS",
+              "Total Periods 60",
+              "Section A",
+              "Experiments",
+              "1. To measure diameter of a small spherical/cylindrical body using Vernier callipers.",
+              "2. To measure internal diameter and depth of a given beaker/calorimeter using Vernier callipers and",
+              "hence find its volume.",
+              "3. To measure diameter of a given wire using screw gauge.",
+              "4. To measure thickness of a given sheet using screw gauge.",
+              "5. To measure volume of an irregular lamina using screw gauge.",
+              "6. To determine radius of curvature of a given spherical surface by a spherometer.",
+              "7. To determine the mass of two different objects using a beam balance.",
+              "8. To find the weight of a given body using parallelogram law of vectors.",
+              "9. Using a simple pendulum, plot L-T and L-T2 graphs. Hence find the effective length of a second’s",
+              "pendulum using appropriate graph.",
+              "10. To study the relationship between force of limiting friction and normal reaction and to find the",
+              "coefficient of friction between a block and a horizontal surface.",
+              "11. To find the downward force, along an inclined plane, acting on a roller due to gravitational pull of",
+              "the earth and study its relationship with the angle of inclination (θ) by plotting graph between force",
+              "and sin θ.",
+              "Activities",
+              "1. To make a paper scale of given least count, e.g. 0.2 cm, 0.5 cm.",
+              "2. To determine mass of a given body using a metre scale by principle of moments.",
+              "3. To plot a graph for a given set of data, with proper choice of scales and error bars.",
+              "4. To measure the force of limiting friction for rolling of a roller on a horizontal plane.",
+              "5. To study the variation in the range of a jet of water with the angle of projection.",
+              "6. To study the conservation of energy of a ball rolling down on inclined plane (using a double",
+              "inclined plane).",
+              "7. To study dissipation of energy of a simple pendulum by plotting a graph between square of",
+              "amplitude and time.",
+              "Section B",
+              "Experiments",
+              "1. To determine Young’s modulus of elasticity of the material of a given wire.",
+              "2. To find the force constant of a helical spring by plotting a graph between load and extension.",
+              "3. To study the variation in volume with pressure for a sample of air at constant temperature by",
+              "plotting graphs between P and V, and between P and 1/V.",
+              "4. To determine the surface tension of water by capillary rise method.",
+              "5. To determine the coefficient of viscosity of a given viscous liquid by measuring the terminal velocity",
+              "of a given spherical body.",
+              "6. To study the relationship between the temperature of a hot body and time by plotting a cooling",
+              "curve.",
+              "7. To determine specific heat capacity of a given (i) solid (ii) liquid, by method of mixtures.",
+              "8. (i) To study the relation between frequency and length of a given wire under constant tension",
+              "using sonometer.",
+              "(ii) To study the relation between the length of a given wire and tension for constant frequency",
+              "using sonometer.",
+              "9. To find the speed of sound in air at room temperature using a resonance tube by two resonance",
+              "positions.",
+              "Activities",
+              "1. To observe change of state and plot a cooling curve for molten wax.",
+              "2. To observe and explain the effect of heating on a bi-metallic strip.",
+              "3. To note the change in level of liquid in a container on heating and interpret the observations.",
+              "4. To study the effect of detergent on surface tension of water by observing capillary rise.",
+              "5. To study the factors affecting the rate of loss of heat of a liquid.",
+              "6. To study the effect of load on depression of a suitably clamped meter scale loaded at (i) at its end",
+              "(ii) in the middle."
+            ]
+          }
+        ]
+      },
+      {
+        "grade": "XII",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "(Total Periods: 180)"
+            ]
+          },
+          {
+            "heading": "Unit I: Electrostatics (Periods 25)",
+            "content": [
+              "Electric charges and their conservation. Coulomb’s law – force between two point charges, forces",
+              "between multiple charges; superposition principle and continuous charge distribution.",
+              "Electric field, electric field due to a point charge, electric field lines; electric dipole, electric field due to",
+              "a dipole; torque on a dipole in a uniform electric field.",
+              "Electric flux, statement of Gauss’s theorem and its applications to find field due to infinitely long",
+              "straight wire, uniformly charged infinite plane sheet and uniformly charged thin spherical shell (field inside",
+              "and outside).",
+              "Electric potential, potential difference, electric potential due to a point charge, a dipole and system of",
+              "charges; equipotential surfaces, electrical potential energy of a system of two point charges and of electric",
+              "dipoles in an electrostatic field.",
+              "Conductors and insulators, free charges and bound charges inside a conductor. Dielectrics and electric",
+              "polarisation, capacitors and capacitance, combination of capacitors in series and in parallel, capacitance",
+              "of a parallel plate capacitor with and without dielectric medium between the plates, energy stored in a",
+              "capacitor, Van de Graaff generator."
+            ]
+          },
+          {
+            "heading": "Unit II: Current Electricity (Periods 22)",
+            "content": [
+              "Electric current, flow of electric charges in a metallic conductor, drift velocity and mobility, and their",
+              "relation with electric current; Ohm’s law, electrical resistance, V-I characteristics (linear and non-linear),",
+              "electrical energy and power, electrical resistivity and conductivity.",
+              "Carbon resistors, colour code for carbon resistors; series and parallel combinations of resistors;",
+              "temperature dependence of resistance.",
+              "Internal resistance of a cell, potential difference and emf of a cell, combination of cells in series and in",
+              "parallel.",
+              "Kirchhoff ’s laws and simple applications. Wheatstone bridge, metre bridge.",
+              "Potentiometer – principle and applications to measure potential difference, and for comparing emf of",
+              "two cells; measurement of internal resistance of a cell."
+            ]
+          },
+          {
+            "heading": "Unit III: Magnetic Effects of Current and Magnetism (Periods 25)",
+            "content": [
+              "Concept of magnetic field, Oersted’s experiment. Biot - Savart law and its application to current",
+              "carrying circular loop.",
+              "Ampere’s law and its applications to infinitely long straight wire, straight and toroidal solenoids. Force",
+              "on a moving charge in uniform magnetic and electric fields. Cyclotron.",
+              "Force on a current-carrying conductor in a uniform magnetic field. Force between two parallel current-",
+              "carrying conductors – definition of ampere. Torque experienced by a current loop in a magnetic field;",
+              "moving coil galvanometer – its current sensitivity and conversion to ammeter and voltmeter.",
+              "Current loop as a magnetic dipole and its magnetic dipole moment. Magnetic dipole moment of a",
+              "revolving electron. Magnetic field intensity due to a magnetic dipole (bar magnet) along its axis and",
+              "perpendicular to its axis. Torque on a magnetic dipole (bar magnet) in a uniform magnetic field; bar magnet",
+              "as an equivalent solenoid, magnetic field lines; Earth’s magnetic field and magnetic elements.",
+              "Para-, dia- and ferro - magnetic substances, with examples.",
+              "Electromagnets and factors affecting their strengths. Permanent magnets."
+            ]
+          },
+          {
+            "heading": "Unit IV: Electromagnetic Induction and Alternating Currents",
+            "content": [
+              "(Periods 20)",
+              "Electromagnetic induction; Faraday’s law, induced emf and current; Lenz’s Law, Eddy currents. Self",
+              "and mutual inductance.",
+              "Alternating currents, peak and rms value of alternating current/voltage; reactance and impedance; LC",
+              "oscillations (qualitative treatment only), LCR series circuit, resonance; power in AC circuits, wattless",
+              "current.",
+              "AC generator and transformer."
+            ]
+          },
+          {
+            "heading": "Unit V: Electromagnetic Waves (Periods 4)",
+            "content": [
+              "Need for displacement current.",
+              "Electromagnetic waves and their characteristics (qualitative ideas only). Transverse nature of",
+              "electromagnetic waves.",
+              "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, x-rays, gamma",
+              "rays) including elementary facts about their uses."
+            ]
+          },
+          {
+            "heading": "Unit VI: Optics (Periods 30)",
+            "content": [
+              "Reflection of light, spherical mirrors, mirror formula. Refraction of light, total internal reflection and its",
+              "applications, optical fibres, refraction at spherical surfaces, lenses, thin lens formula, lens-maker’s formula.",
+              "Magnification, power of a lens, combination of thin lenses in contact combination of a lens and a mirror.",
+              "Refraction and dispersion of light through a prism.",
+              "Scattering of light – blue colour of the sky and reddish appearance of the sun at sunrise and sunset.",
+              "Optical instruments: Human eye, image formation and accommodation, correction of eye defects",
+              "(myopia and hypermetropia) using lenses.",
+              "Microscopes and astronomical telescopes (reflecting and refracting) and their magnifying powers.",
+              "Wave optics: Wavefront and Huygens’ principle, reflection and refraction of plane wave at a plane",
+              "surface using wavefronts.",
+              "Proof of laws of reflection and refraction using Huygens’ principle.",
+              "Interference, Young’s double hole experiment and expression for fringe width, coherent sources and",
+              "sustained interference of light.",
+              "Diffraction due to a single slit, width of central maximum.",
+              "Resolving power of microscopes and astronomical telescopes. Polarisation, plane polarised light;",
+              "Brewster’s law, uses of plane polarised light and Polaroids."
+            ]
+          },
+          {
+            "heading": "Unit VII: Dual Nature of Matter and Radiation (Periods 8)",
+            "content": [
+              "Photoelectric effect, Hertz and Lenard’s observations; Einstein’s photoelectric equation – particle",
+              "nature of light.",
+              "Matter waves – wave nature of particles, de Broglie relation. Davisson-Germer experiment",
+              "(experimental details should be omitted; only conclusion should be explained.)"
+            ]
+          },
+          {
+            "heading": "Unit VIII: Atoms and Nuclei (Periods 18)",
+            "content": [
+              "Alpha - particle scattering experiment; Rutherford’s model of atom; Bohr model, energy levels,",
+              "hydrogen spectrum. Composition and size of nucleus, atomic masses, isotopes, isobars; isotones.",
+              "Radioactivity – alpha, beta and gamma particles/rays and their properties; radioactive decay law.",
+              "Mass-energy relation, mass defect; binding energy per nucleon and its variation with mass number; nuclear",
+              "fission and fusion."
+            ]
+          },
+          {
+            "heading": "Unit IX: Electronic Devices (Periods 18)",
+            "content": [
+              "Energy bands in solids (qualitative ideas only), conductors, insulators and semiconductors;",
+              "semiconductor diode – I-V characteristics in forward and reverse bias, diode as a rectifier; I-V characteristics",
+              "of LED, photodiode, solar cell, and Zener diode; Zener diode as a voltage regulator. Junction transistor,",
+              "transistor action, characteristics of a transistor; transistor as an amplifier (common emitter configuration)",
+              "and oscillator. Logic gates (OR, AND, NOT, NAND and NOR). Transistor as a switch."
+            ]
+          },
+          {
+            "heading": "Unit X: Communication Systems (Periods 10)",
+            "content": [
+              "Elements of a communication system (block diagram only); bandwidth of signals (speech, TV and",
+              "digital data); bandwidth of transmission medium. Propagation of electromagnetic waves in the atmosphere,",
+              "sky and space wave propagation. Need for modulation. Production and detection of an amplitude-modulated",
+              "wave.",
+              "Practicals",
+              "Total Periods 60",
+              "Section A",
+              "Experiments",
+              "1. To find resistance of a given wire using metre bridge and hence determine the specific resistance",
+              "of its material.",
+              "2. To determine resistance per cm of a given wire by plotting a graph of potential difference versus",
+              "current.",
+              "3. To verify the laws of combination (series/parallel) of resistances using a metre bridge.",
+              "4. To compare the emf ’s of two given primary cells using potentiometer.",
+              "5. To determine the internal resistance of given primary cell using potentiometer.",
+              "6. To determine resistance of a galvanometer by half-deflection method and to find its figure of",
+              "merit.",
+              "7. To convert the given galvanometer (of known resistance of figure of merit) into an ammeter and",
+              "voltmeter of desired range and to verify the same.",
+              "8. To find the frequency of the ac mains with a sonometer.",
+              "Activities",
+              "1. To measure the resistance and impedance of an inductor with or without iron core.",
+              "2. To measure resistance, voltage (ac/dc), current (ac) and check continuity of a given circuit using",
+              "multimeter.",
+              "3. To assemble a household circuit comprising three bulbs, three (on/off) switches, a fuse and a",
+              "power source.",
+              "4. To assemble the components of a given electrical circuit.",
+              "5. To study the variation in potential drop with length of a wire for a steady current.",
+              "6. To draw the diagram of a given open circuit comprising at least a battery, resistor/rheostat, key,",
+              "ammeter and voltmeter. Mark the components that are not connected in proper order and correct",
+              "the circuit and also the circuit diagram.",
+              "Section B",
+              "Experiments",
+              "1. To find the value of v for different values of u in case of a concave mirror and to find the focal",
+              "length.",
+              "2. To find the focal length of a convex mirror, using a convex lens.",
+              "3. To find the focal length of a convex lens by plotting graphs between u and v or between 1/u and",
+              "1/v.",
+              "4. To find the focal length of a concave lens, using a convex lens.",
+              "5. To determine angle of minimum deviation for a given prism by plotting a graph between the angle",
+              "of incidence and the angle of deviation.",
+              "6. To determine refractive index of a glass slab using a travelling microscope.",
+              "7. To find refractive index of a liquid by using (i) concave mirror, (ii) convex lens and plane mirror.",
+              "8. To draw the I-V characteristics curves of a p-n junction in forward bias and reverse bias.",
+              "9. To draw the characteristics curve of a zener diode and to determine its reverse break down",
+              "voltage.",
+              "10. To study the characteristics of a common-emitter npn or pnp transistor and to find out the values",
+              "of current and voltage gains.",
+              "Activities",
+              "1. To identify a diode, an LED, a transistor, and IC, a resistor and a capacitor from mixed collection",
+              "of such items.",
+              "2. Use of multimeter to (i) identify base of transistor, (ii) distinguish between npn and pnp type",
+              "transistors, (iii) see the unidirectional flow of current in case of a diode and an LED, (iv) check",
+              "whether a given electronic component (e.g. diode, transistor or IC) is in working order.",
+              "3. To study effect of intensity of light (by varying distance of the source) on an LDR.",
+              "4. To observe refraction and lateral deviation of a beam of light incident obliquely on a glass slab.",
+              "5. To observe polarization of light using two polaroids.",
+              "6. To observe diffraction of light due to a thin slit.",
+              "7. To study the nature and size of the image formed by (i) convex lens (ii) concave mirror, on a",
+              "screen by using a candle and a screen (for different distances of the candle from the lens/mirror).",
+              "8. To obtain a lens combination with the specified focal length by using two lenses from the given set",
+              "of lenses.",
+              "PHYSICS"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "raw_text": "PHYSICS (CLASSES XI –XII)\nThe syllabus for Physics at the Higher Secondary Stage has been developed with a view that this stage of\nschool education is crucial and challenging as it is a transition from general science to discipline-based\ncurriculum. The recommendations of National Curriculum Framework-2005 have been followed, keeping\nthe disciplinary approach with rigour and depth, appropriate to the comprehension level of learners. Due\ncare has been taken that the syllabus is not heavy and at the same time it is comparable to the international\nstandards. The syllabus provides logical sequencing of the subject matter with proper placement of concepts\nwith their linkages for better understanding.\nIt is expected that the syllabus will help to develop an interest in the learners to study Physics as a\ndiscipline and inculcate in learners the abilities, useful concepts of Physics in real-life situations for making\nlearning of Physics relevant, meaningful and interesting. The learner is expected to realize and appreciate\nthe interface of Physics with other disciplines.\nRATIONALE\nThe higher secondary stage is crucial and challenging stage of school education as it is a transition from\ngeneral science to discipline-based curriculum. Physics is being offered as an elective subject at the higher\nsecondary stage of school education. At this stage, the students take up Physics, as a discipline, with a\npurpose of pursuing their future careers in basic sciences or professional courses like medicine, engineering,\ntechnology and studying courses in applied areas of science and technology at tertiary level. There is a\nneed to provide the learners with sufficient conceptual background of Physics which would eventually\nmake them competent to meet the challenges of academic and professional courses after the higher secondary\nstage.\nThe present effort of reforming and updating the Physics curriculum is an exercise based on the\nfeedback received from the school system about existing syllabus and curricular material, large expansion\nof Physics knowledge, and also the educational and curricular concerns and issues provided in the National\nCurriculum Framework-2005.\nThe recommendations of National Curriculum Framework-2005 have been followed, keeping the\ndisciplinary approach with rigour and depth, appropriate to the comprehension level of learners. Due care\nhas been taken that the syllabus is not heavy and at the same time, it is comparable to the international\nstandards. Also, it is essential to develop linkages with other disciplines for better learning of Physics\nconcepts and establishing relationship with daily-life situations and life-skills.\nSALIENT FEATURES\n• Emphasis on basic conceptual understanding of content.\n• Promoting process-skills, problem-solving abilities and applications of Physics concepts/content,\nuseful in real-life situations for making Physics learning more relevant, meaningful and interesting.\n• Emphasis on use of SI Units, Symbols, nomenclature of physical quantities and formulations as\nper international standards.\n• Emphasis on Physics-related technological/industrial aspects to cope up with changing demand\nof society committed to the use of Physics, technology and informatics.\n• Providing logical sequencing of the ‘Units’ of the subject matter and proper placement of concepts\n1\n\nwith their linkages for better learning and matching the concepts/content with comprehension\nlevel of the learners.\n• Reducing the curriculum load by eliminating overlapping of concepts/content within the discipline\nof Physics or with other disciplines; reducing the descriptive portion and providing suitable\nformulation/depth of treatment appropriate to the comprehension level of learners, making room\nfor contemporary core - topics and emerging curricular areas in Physics.\n• The syllabus is arranged in Units spread over two years duration. The Units are so sequenced as\nto provide different dimensions of Physics as a discipline. The time allocation for learning Physics\ncontent per Unit in terms of instructional periods have been mentioned for each Unit to help the\nTextbook Development Team members to develop the instructional material so as to cover it\nwithin the time frame. Each Unit has been arranged with a topic, content related practical work\n(one core experiment, two activities to be evaluated) and suggested investigatory projects (one\nproject to be evaluated). There is an imperative need for evaluating the learners through Continuous\nand Comprehensive Evaluation of various concepts covered in a Unit.\nWith this background, the Physics curriculum at the higher secondary stage attempts to:\n• Strengthen the concepts developed at the secondary stage to provide firm ground work and\nfoundation for further learning Physics at the tertiary level more effectively and learning the\nrelationship with daily-life situations;\n• Develop conceptual competence in the learners and make them realize and appreciate the interface\nof Physics with other disciplines;\n• Expose the learners to different processes used in Physics-related industrial and technological\napplications;\n• Develop process-skills and experimental, observational, manipulative, decision-making and\ninvestigatory skills in the learners;\n• Promote problem-solving abilities and creative thinking to develop interest in the learners in the\nstudy of Physics as a discipline;\n• Understand the relationship between nature and matter on scientific basis, develop positive scientific\nattitude, and appreciate the contribution of Physics towards the improvement of quality of life and\nhuman welfare;\n• Physics teaching-learning at the higher secondary stage enables the learners to comprehend the\ncontemporary knowledge and develop aesthetic sensibilities and process skills. The experimental\nskills and process-skills developed together with conceptual Physics knowledge prepare the\nlearners for more meaningful learning experiences and contribute to the significant improvement\nof quality of life. The learners would also appreciate the role and impact of Physics and technology,\nand their linkages with overall national development.\n2\n\nCLASS XI (THEORY)\n(Total Periods: 180)\nUnit I: Physical World and Measurement (Periods 10)\nPhysics: Scope and excitement; nature of physical laws; Physics, technology and society.\nNeed for measurement: Units of measurement; systems of units; SI units, fundamental and derived\nunits. Length, mass and time measurements; accuracy and precision of measuring instruments; errors in\nmeasurement; significant figures.\nDimensions of physical quantities, dimensional analysis and its applications.\nUnit II: Kinematics (Periods 30)\nFrame of reference, Motion in a straight line: Position-time graph, speed and velocity. Uniform and\nnon-uniform motion, average speed and instantaneous velocity. Uniformly accelerated motion, velocity-\ntime and position-time graphs, relations for uniformly accelerated motion (graphical treatment).\nElementary concepts of differentiation and integration for describing motion. Scalar and vector\nquantities: Position and displacement vectors, general vectors and notation, equality of vectors, multiplication\nof vectors by a real number; addition and subtraction of vectors. Relative velocity.\nUnit vectors. Resolution of a vector in a plane – rectangular components.\nScalar and Vector products of Vectors. Motion in a plane. Cases of uniform velocity and uniform\nacceleration – projectile motion. Uniform circular motion.\nUnit III: Laws of Motion (Periods 16)\nIntuitive concept of force. Inertia, Newton’s first law of motion; momentum and Newton’s second\nlaw of motion; impulse; Newton’s third law of motion. Law of conservation of linear momentum and its\napplications.\nEquilibrium of concurrent forces. Static and kinetic friction, laws of friction, rolling friction, lubrication.\nDynamics of uniform circular motion: Centripetal force, examples of circular motion (vehicle on\nlevel circular road, vehicle on banked road).\nUnit IV: Work, Energy and Power (Periods 16)\nWork done by a constant force and a variable force; kinetic energy, work-energy theorem, power.\nNotion of potential energy, potential energy of a spring, conservative forces; conservation of mechanical\nenergy (kinetic and potential energies); non-conservative forces; motion in a vertical circle, elastic and\ninelastic collisions in one and two dimensions.\nUnit V: Motion of System of Particles and Rigid Body (Periods 18)\nCentre of mass of a two-particle system, momentum conservation and centre of mass motion. Centre\nof mass of a rigid body; centre of mass of uniform rod.\nMoment of a force, torque, angular momentum, conservation of angular momentum with some\nexamples.\n3\n\nEquilibrium of rigid bodies, rigid body rotation and equation of rotational motion, comparison of linear\nand rotational motions; moment of inertia, radius of gyration. Values of M.I. for simple geometrical objects\n(no derivation). Statement of parallel and perpendicular axes theorems and their applications.\nUnit VI: Gravitation (Periods 14)\nKepler’s laws of planetary motion. The universal law of gravitation. Acceleration due to gravity and its\nvariation with altitude and depth.\nGravitational potential energy; gravitational potential. Escape velocity, orbital velocity of a satellite.\nGeostationary satellites.\nUnit VII: Properties of Bulk Matter (Periods 28)\nElastic behaviour, Stress-strain relationship, Hooke’s law, Young’s modulus, bulk modulus, shear,\nmodulus of rigidity, poisson’s ratio; elastic energy.\nPressure due to a fluid column; Pascal’s law and its applications (hydraulic lift and hydraulic brakes).\nEffect of gravity on fluid pressure.\nViscosity, Stokes’ law, terminal velocity, Reynold’s number, streamline and turbulent flow. Critical\nvelocity, Bernoulli’s theorem and its applications.\nSurface energy and surface tension, angle of contact, excess of pressure, application of surface tension\nideas to drops, bubbles and capillary rise.\nHeat, temperature, thermal expansion; thermal expansion of solids, liquids, and gases. Anomalous\nexpansion. Specific heat capacity: C , C – calorimetry; change of state – latent heat.\np v\nHeat transfer – conduction and thermal conductivity, convection and radiation. Qualitative ideas of\nBlack Body Radiation, Wein’s displacement law, and Green House effect.\nNewton’s law of cooling and Stefan’s law.\nUnit VIII: Thermodynamics (Periods 12)\nThermal equilibrium and definition of temperature (zeroth law of Thermodynamics). Heat, work and\ninternal energy. First law of thermodynamics. Isothermal and adiabatic processes.\nSecond law of thermodynamics: Reversible and irreversible processes. Heat engines and refrigerators.\nUnit IX: Behaviour of Perfect Gas and Kinetic Theory (Periods 8)\nEquation of state of a perfect gas, work done on compressing a gas.\nKinetic theory of gases: Assumptions, concept of pressure. Kinetic energy and temperature; rms\nspeed of gas molecules; degrees of freedom, law of equipartition of energy (statement only) and application\nto specific heat capacities of gases; concept of mean free path, Avogadro’s number.\nUnit X: Oscillations and Waves (Periods 28)\nPeriodic motion – period, frequency, displacement as a function of time. Periodic functions. Simple\nharmonic motion (SHM) and its equation; phase; oscillations of a spring – restoring force and force constant;\nenergy in SHM – kinetic and potential energies; simple pendulum – derivation of expression for its time\nperiod; free, forced and damped oscillations (qualitative ideas only), resonance.\nWave motion. Longitudinal and transverse waves, speed of wave motion. Displacement relation for a\nprogressive wave. Principle of superposition of waves, reflection of waves, standing waves in strings and\norgan pipes, fundamental mode and harmonics. Beats. Doppler effect.\n4\n\nPRACTICALS\nTotal Periods 60\nSection A\nExperiments\n1. To measure diameter of a small spherical/cylindrical body using Vernier callipers.\n2. To measure internal diameter and depth of a given beaker/calorimeter using Vernier callipers and\nhence find its volume.\n3. To measure diameter of a given wire using screw gauge.\n4. To measure thickness of a given sheet using screw gauge.\n5. To measure volume of an irregular lamina using screw gauge.\n6. To determine radius of curvature of a given spherical surface by a spherometer.\n7. To determine the mass of two different objects using a beam balance.\n8. To find the weight of a given body using parallelogram law of vectors.\n9. Using a simple pendulum, plot L-T and L-T2 graphs. Hence find the effective length of a second’s\npendulum using appropriate graph.\n10. To study the relationship between force of limiting friction and normal reaction and to find the\ncoefficient of friction between a block and a horizontal surface.\n11. To find the downward force, along an inclined plane, acting on a roller due to gravitational pull of\nthe earth and study its relationship with the angle of inclination (θ) by plotting graph between force\nand sin θ.\nActivities\n1. To make a paper scale of given least count, e.g. 0.2 cm, 0.5 cm.\n2. To determine mass of a given body using a metre scale by principle of moments.\n3. To plot a graph for a given set of data, with proper choice of scales and error bars.\n4. To measure the force of limiting friction for rolling of a roller on a horizontal plane.\n5. To study the variation in the range of a jet of water with the angle of projection.\n6. To study the conservation of energy of a ball rolling down on inclined plane (using a double\ninclined plane).\n7. To study dissipation of energy of a simple pendulum by plotting a graph between square of\namplitude and time.\n5\n\nSection B\nExperiments\n1. To determine Young’s modulus of elasticity of the material of a given wire.\n2. To find the force constant of a helical spring by plotting a graph between load and extension.\n3. To study the variation in volume with pressure for a sample of air at constant temperature by\nplotting graphs between P and V, and between P and 1/V.\n4. To determine the surface tension of water by capillary rise method.\n5. To determine the coefficient of viscosity of a given viscous liquid by measuring the terminal velocity\nof a given spherical body.\n6. To study the relationship between the temperature of a hot body and time by plotting a cooling\ncurve.\n7. To determine specific heat capacity of a given (i) solid (ii) liquid, by method of mixtures.\n8. (i) To study the relation between frequency and length of a given wire under constant tension\nusing sonometer.\n(ii) To study the relation between the length of a given wire and tension for constant frequency\nusing sonometer.\n9. To find the speed of sound in air at room temperature using a resonance tube by two resonance\npositions.\nActivities\n1. To observe change of state and plot a cooling curve for molten wax.\n2. To observe and explain the effect of heating on a bi-metallic strip.\n3. To note the change in level of liquid in a container on heating and interpret the observations.\n4. To study the effect of detergent on surface tension of water by observing capillary rise.\n5. To study the factors affecting the rate of loss of heat of a liquid.\n6. To study the effect of load on depression of a suitably clamped meter scale loaded at (i) at its end\n(ii) in the middle.\nCLASS XII (THEORY)\n(Total Periods: 180)\nUnit I: Electrostatics (Periods 25)\nElectric charges and their conservation. Coulomb’s law – force between two point charges, forces\nbetween multiple charges; superposition principle and continuous charge distribution.\nElectric field, electric field due to a point charge, electric field lines; electric dipole, electric field due to\na dipole; torque on a dipole in a uniform electric field.\nElectric flux, statement of Gauss’s theorem and its applications to find field due to infinitely long\nstraight wire, uniformly charged infinite plane sheet and uniformly charged thin spherical shell (field inside\nand outside).\n6\n\nElectric potential, potential difference, electric potential due to a point charge, a dipole and system of\ncharges; equipotential surfaces, electrical potential energy of a system of two point charges and of electric\ndipoles in an electrostatic field.\nConductors and insulators, free charges and bound charges inside a conductor. Dielectrics and electric\npolarisation, capacitors and capacitance, combination of capacitors in series and in parallel, capacitance\nof a parallel plate capacitor with and without dielectric medium between the plates, energy stored in a\ncapacitor, Van de Graaff generator.\nUnit II: Current Electricity (Periods 22)\nElectric current, flow of electric charges in a metallic conductor, drift velocity and mobility, and their\nrelation with electric current; Ohm’s law, electrical resistance, V-I characteristics (linear and non-linear),\nelectrical energy and power, electrical resistivity and conductivity.\nCarbon resistors, colour code for carbon resistors; series and parallel combinations of resistors;\ntemperature dependence of resistance.\nInternal resistance of a cell, potential difference and emf of a cell, combination of cells in series and in\nparallel.\nKirchhoff ’s laws and simple applications. Wheatstone bridge, metre bridge.\nPotentiometer – principle and applications to measure potential difference, and for comparing emf of\ntwo cells; measurement of internal resistance of a cell.\nUnit III: Magnetic Effects of Current and Magnetism (Periods 25)\nConcept of magnetic field, Oersted’s experiment. Biot - Savart law and its application to current\ncarrying circular loop.\nAmpere’s law and its applications to infinitely long straight wire, straight and toroidal solenoids. Force\non a moving charge in uniform magnetic and electric fields. Cyclotron.\nForce on a current-carrying conductor in a uniform magnetic field. Force between two parallel current-\ncarrying conductors – definition of ampere. Torque experienced by a current loop in a magnetic field;\nmoving coil galvanometer – its current sensitivity and conversion to ammeter and voltmeter.\nCurrent loop as a magnetic dipole and its magnetic dipole moment. Magnetic dipole moment of a\nrevolving electron. Magnetic field intensity due to a magnetic dipole (bar magnet) along its axis and\nperpendicular to its axis. Torque on a magnetic dipole (bar magnet) in a uniform magnetic field; bar magnet\nas an equivalent solenoid, magnetic field lines; Earth’s magnetic field and magnetic elements.\nPara-, dia- and ferro - magnetic substances, with examples.\nElectromagnets and factors affecting their strengths. Permanent magnets.\nUnit IV: Electromagnetic Induction and Alternating Currents\n(Periods 20)\nElectromagnetic induction; Faraday’s law, induced emf and current; Lenz’s Law, Eddy currents. Self\nand mutual inductance.\nAlternating currents, peak and rms value of alternating current/voltage; reactance and impedance; LC\noscillations (qualitative treatment only), LCR series circuit, resonance; power in AC circuits, wattless\ncurrent.\nAC generator and transformer.\n7\n\nUnit V: Electromagnetic Waves (Periods 4)\nNeed for displacement current.\nElectromagnetic waves and their characteristics (qualitative ideas only). Transverse nature of\nelectromagnetic waves.\nElectromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, x-rays, gamma\nrays) including elementary facts about their uses.\nUnit VI: Optics (Periods 30)\nReflection of light, spherical mirrors, mirror formula. Refraction of light, total internal reflection and its\napplications, optical fibres, refraction at spherical surfaces, lenses, thin lens formula, lens-maker’s formula.\nMagnification, power of a lens, combination of thin lenses in contact combination of a lens and a mirror.\nRefraction and dispersion of light through a prism.\nScattering of light – blue colour of the sky and reddish appearance of the sun at sunrise and sunset.\nOptical instruments: Human eye, image formation and accommodation, correction of eye defects\n(myopia and hypermetropia) using lenses.\nMicroscopes and astronomical telescopes (reflecting and refracting) and their magnifying powers.\nWave optics: Wavefront and Huygens’ principle, reflection and refraction of plane wave at a plane\nsurface using wavefronts.\nProof of laws of reflection and refraction using Huygens’ principle.\nInterference, Young’s double hole experiment and expression for fringe width, coherent sources and\nsustained interference of light.\nDiffraction due to a single slit, width of central maximum.\nResolving power of microscopes and astronomical telescopes. Polarisation, plane polarised light;\nBrewster’s law, uses of plane polarised light and Polaroids.\nUnit VII: Dual Nature of Matter and Radiation (Periods 8)\nPhotoelectric effect, Hertz and Lenard’s observations; Einstein’s photoelectric equation – particle\nnature of light.\nMatter waves – wave nature of particles, de Broglie relation. Davisson-Germer experiment\n(experimental details should be omitted; only conclusion should be explained.)\nUnit VIII: Atoms and Nuclei (Periods 18)\nAlpha - particle scattering experiment; Rutherford’s model of atom; Bohr model, energy levels,\nhydrogen spectrum. Composition and size of nucleus, atomic masses, isotopes, isobars; isotones.\nRadioactivity – alpha, beta and gamma particles/rays and their properties; radioactive decay law.\nMass-energy relation, mass defect; binding energy per nucleon and its variation with mass number; nuclear\nfission and fusion.\nUnit IX: Electronic Devices (Periods 18)\nEnergy bands in solids (qualitative ideas only), conductors, insulators and semiconductors;\nsemiconductor diode – I-V characteristics in forward and reverse bias, diode as a rectifier; I-V characteristics\nof LED, photodiode, solar cell, and Zener diode; Zener diode as a voltage regulator. Junction transistor,\n8\n\ntransistor action, characteristics of a transistor; transistor as an amplifier (common emitter configuration)\nand oscillator. Logic gates (OR, AND, NOT, NAND and NOR). Transistor as a switch.\nUnit X: Communication Systems (Periods 10)\nElements of a communication system (block diagram only); bandwidth of signals (speech, TV and\ndigital data); bandwidth of transmission medium. Propagation of electromagnetic waves in the atmosphere,\nsky and space wave propagation. Need for modulation. Production and detection of an amplitude-modulated\nwave.\nPracticals\nTotal Periods 60\nSection A\nExperiments\n1. To find resistance of a given wire using metre bridge and hence determine the specific resistance\nof its material.\n2. To determine resistance per cm of a given wire by plotting a graph of potential difference versus\ncurrent.\n3. To verify the laws of combination (series/parallel) of resistances using a metre bridge.\n4. To compare the emf ’s of two given primary cells using potentiometer.\n5. To determine the internal resistance of given primary cell using potentiometer.\n6. To determine resistance of a galvanometer by half-deflection method and to find its figure of\nmerit.\n7. To convert the given galvanometer (of known resistance of figure of merit) into an ammeter and\nvoltmeter of desired range and to verify the same.\n8. To find the frequency of the ac mains with a sonometer.\nActivities\n1. To measure the resistance and impedance of an inductor with or without iron core.\n2. To measure resistance, voltage (ac/dc), current (ac) and check continuity of a given circuit using\nmultimeter.\n3. To assemble a household circuit comprising three bulbs, three (on/off) switches, a fuse and a\npower source.\n4. To assemble the components of a given electrical circuit.\n5. To study the variation in potential drop with length of a wire for a steady current.\n6. To draw the diagram of a given open circuit comprising at least a battery, resistor/rheostat, key,\nammeter and voltmeter. Mark the components that are not connected in proper order and correct\nthe circuit and also the circuit diagram.\n9\n\nSection B\nExperiments\n1. To find the value of v for different values of u in case of a concave mirror and to find the focal\nlength.\n2. To find the focal length of a convex mirror, using a convex lens.\n3. To find the focal length of a convex lens by plotting graphs between u and v or between 1/u and\n1/v.\n4. To find the focal length of a concave lens, using a convex lens.\n5. To determine angle of minimum deviation for a given prism by plotting a graph between the angle\nof incidence and the angle of deviation.\n6. To determine refractive index of a glass slab using a travelling microscope.\n7. To find refractive index of a liquid by using (i) concave mirror, (ii) convex lens and plane mirror.\n8. To draw the I-V characteristics curves of a p-n junction in forward bias and reverse bias.\n9. To draw the characteristics curve of a zener diode and to determine its reverse break down\nvoltage.\n10. To study the characteristics of a common-emitter npn or pnp transistor and to find out the values\nof current and voltage gains.\nActivities\n1. To identify a diode, an LED, a transistor, and IC, a resistor and a capacitor from mixed collection\nof such items.\n2. Use of multimeter to (i) identify base of transistor, (ii) distinguish between npn and pnp type\ntransistors, (iii) see the unidirectional flow of current in case of a diode and an LED, (iv) check\nwhether a given electronic component (e.g. diode, transistor or IC) is in working order.\n3. To study effect of intensity of light (by varying distance of the source) on an LDR.\n4. To observe refraction and lateral deviation of a beam of light incident obliquely on a glass slab.\n5. To observe polarization of light using two polaroids.\n6. To observe diffraction of light due to a thin slit.\n7. To study the nature and size of the image formed by (i) convex lens (ii) concave mirror, on a\nscreen by using a candle and a screen (for different distances of the candle from the lens/mirror).\n8. To obtain a lens combination with the specified focal length by using two lenses from the given set\nof lenses.\n10\n\nPHYSICS",
+  "ai_summary": "AI summary failed: AI summary generation failed: Anthropic error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CZmxnp2bhZC2kK1mWqMXX'}"
+}

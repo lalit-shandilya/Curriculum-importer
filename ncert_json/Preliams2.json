@@ -1,0 +1,95 @@
+{
+  "id": "4c9690e5-01c1-4fa9-ab99-2c6d42b43d52",
+  "source": "ncert_pdfs\\Preliams2.pdf",
+  "raw_text_length": 799,
+  "parsed": {
+    "total_lines": 33,
+    "title": "C",
+    "sections": [
+      {
+        "grade": "general",
+        "heading": "Introduction",
+        "content": [
+          "ONTENTS",
+          "CONTENTS",
+          "FOREWORD iii",
+          "PREAMBLE v",
+          "Science (Classes IX-X) 1",
+          "Chemistry (Classes XI-XII) 22",
+          "Physics (Classes XI-XII) 33",
+          "Biology (Classes XI-XII) 44",
+          "Mathematics (Classes IX-XII) 57",
+          "Social Science (Classes IX-XII) 74",
+          "History (Classes IX-X) 77",
+          "Geography (Classes IX-X) 81",
+          "Political Science (Classes IX-X) 85",
+          "Economics (Classes IX-X) 88",
+          "History (Classes XI-XII) 93",
+          "Geography (Classes XI-XII) 101",
+          "Political Science (Classes XI-XII) 107",
+          "Economics (Classes XI-XII) 114",
+          "Sociology (Classes XI-XII) 120",
+          "Psychology (Classes XI-XII) 125",
+          "Business Studies (Classes XI-XII) 129",
+          "Accountancy (Classes XI-XII) 136",
+          "Language - English 142",
+          "English (Classes IX-XII) 149",
+          "Hkk\"kk&fganh",
+          "fganh (d{kk 9&10)",
+          "fganh (d{kk 11&12)",
+          "laLÑr (d{kk 9&10)",
+          "laLÑr (d{kk 11&12)",
+          "”kcku&mnwZ",
+          "mnZw (d{kk 9&12)",
+          "x"
+        ]
+      }
+    ],
+    "grades": [
+      {
+        "grade": "general",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "content": [
+              "ONTENTS",
+              "CONTENTS",
+              "FOREWORD iii",
+              "PREAMBLE v",
+              "Science (Classes IX-X) 1",
+              "Chemistry (Classes XI-XII) 22",
+              "Physics (Classes XI-XII) 33",
+              "Biology (Classes XI-XII) 44",
+              "Mathematics (Classes IX-XII) 57",
+              "Social Science (Classes IX-XII) 74",
+              "History (Classes IX-X) 77",
+              "Geography (Classes IX-X) 81",
+              "Political Science (Classes IX-X) 85",
+              "Economics (Classes IX-X) 88",
+              "History (Classes XI-XII) 93",
+              "Geography (Classes XI-XII) 101",
+              "Political Science (Classes XI-XII) 107",
+              "Economics (Classes XI-XII) 114",
+              "Sociology (Classes XI-XII) 120",
+              "Psychology (Classes XI-XII) 125",
+              "Business Studies (Classes XI-XII) 129",
+              "Accountancy (Classes XI-XII) 136",
+              "Language - English 142",
+              "English (Classes IX-XII) 149",
+              "Hkk\"kk&fganh",
+              "fganh (d{kk 9&10)",
+              "fganh (d{kk 11&12)",
+              "laLÑr (d{kk 9&10)",
+              "laLÑr (d{kk 11&12)",
+              "”kcku&mnwZ",
+              "mnZw (d{kk 9&12)",
+              "x"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "raw_text": "C\nONTENTS\nCONTENTS\nFOREWORD iii\nPREAMBLE v\nScience (Classes IX-X) 1\nChemistry (Classes XI-XII) 22\nPhysics (Classes XI-XII) 33\nBiology (Classes XI-XII) 44\nMathematics (Classes IX-XII) 57\nSocial Science (Classes IX-XII) 74\nHistory (Classes IX-X) 77\nGeography (Classes IX-X) 81\nPolitical Science (Classes IX-X) 85\nEconomics (Classes IX-X) 88\nHistory (Classes XI-XII) 93\nGeography (Classes XI-XII) 101\nPolitical Science (Classes XI-XII) 107\nEconomics (Classes XI-XII) 114\nSociology (Classes XI-XII) 120\nPsychology (Classes XI-XII) 125\nBusiness Studies (Classes XI-XII) 129\nAccountancy (Classes XI-XII) 136\nLanguage - English 142\nEnglish (Classes IX-XII) 149\nHkk\"kk&fganh\n161\nfganh (d{kk 9&10)\n170\n\nfganh (d{kk 11&12)\n176\nlaLÑr (d{kk 9&10)\n182\nlaLÑr (d{kk 11&12)\n188\n”kcku&mnwZ\n205\nmnZw (d{kk 9&12)\n214\nx",
+  "ai_summary": "AI summary failed: AI summary generation failed: Anthropic error: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CZmyL9M4Xc5mzM4CgtvVT'}"
+}
