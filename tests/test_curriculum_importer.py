@@ -2,8 +2,11 @@ import json
 
 from curriculum_importer import (
     CurriculumParseResult,
+    _build_ncert_suffixes,
     _build_curriculum_item_rows,
+    _extract_ncert_textbook_catalog,
     _grade_to_int,
+    _ncert_pdf_urls_from_book_value,
     _save_to_curriculum_schema,
     _upsert_curriculum_items,
     parse_curriculum,
@@ -48,6 +51,52 @@ Topic B
 
 def test_grade_to_int_parses_noisy_syllabus_grade_label():
     assert _grade_to_int("PARTIAL OCR SYLLABUS OF CLASS XI") == 11
+
+
+def test_extract_ncert_textbook_catalog_parses_class_subject_book_options():
+        html = """
+        <select name="tclass" id="tclass">
+      <option value="-1">Select Class</option>
+      <option value="1">Class I</option>
+    </select>
+    <script>
+    function change() {
+      if (document.test.tclass.value==1) {
+        document.test.tsubject.options[0].text="..Select Subject..";
+        document.test.tsubject.options[1].text="English";
+        document.test.tsubject.options[2].text="Mathematics";
+      }
+    }
+    function change1(sind) {
+      if((document.test.tclass.value==1) && (document.test.tsubject.options[sind].text=="English"))
+      {
+        document.test.tbook.options[0].text="..Select Book Title..";
+        document.test.tbook.options[1].text="First Book";
+        document.test.tbook.options[1].value="textbook.php?aemr=0-4";
+        document.test.tbook.options[2].text="Second Book";
+        document.test.tbook.options[2].value="textbook.php?bxmr=1-4";
+        """
+
+        catalog = _extract_ncert_textbook_catalog(html)
+        assert len(catalog) == 1
+        row = catalog[0]
+        assert row["class_label"] == "Class I"
+        assert row["subject"] == "English"
+        assert len(row["book_options"]) == 2
+        assert row["book_options"][1]["book_title"] == "Second Book"
+
+
+def test_build_ncert_suffixes_handles_special_patterns():
+        assert _build_ncert_suffixes(4) == ["01", "02", "03", "04"]
+        assert _build_ncert_suffixes(10)[-2:] == ["poe", "ex"]
+        assert _build_ncert_suffixes(11)[-3:] == ["ps", "pr", "ex"]
+
+
+def test_ncert_pdf_urls_from_book_value_uses_publication_code_and_count():
+        out = _ncert_pdf_urls_from_book_value("textbook.php?aemr=1-3")
+        assert len(out) == 3
+        assert out[0]["pdf_url"].endswith("/aemr01.pdf")
+        assert out[-1]["pdf_url"].endswith("/aemr03.pdf")
 
 
 

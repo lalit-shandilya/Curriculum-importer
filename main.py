@@ -3,16 +3,18 @@ import os
 import tempfile
 import uuid
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 from fastapi import BackgroundTasks, FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import uvicorn
 
 from curriculum_importer import (
     build_ui_curriculum_payload,
     CurriculumParseResult,
+    download_ncert_grade_books,
     fetch_ncert_pdfs,
     discover_ncert_pdf_urls,
     ingest_ncert_curriculum,
@@ -24,6 +26,9 @@ from curriculum_importer import (
 )
 
 app = FastAPI(title="Curriculum PDF Importer")
+
+Path("./ncert_pdfs").mkdir(parents=True, exist_ok=True)
+app.mount("/pdfs", StaticFiles(directory="./ncert_pdfs"), name="pdfs")
 
 app.add_middleware(
     CORSMiddleware,
@@ -78,10 +83,28 @@ class RagQueryRequest(BaseModel):
     use_ai: bool = False
 
 
+class DownloadGradeBooksRequest(BaseModel):
+    textbook_url: str = "https://ncert.nic.in/textbook.php"
+    dest_dir: str = "./ncert_pdfs/grade_books"
+    third_dropdown_item: int = 2
+    public_base_url: Optional[str] = None
+    save_supabase: bool = False
+    supabase_table: str = "ncert_grade_books"
+
+
 def _run_ingest_job(job_id: str, request_data: Dict[str, object]) -> None:
     jobs[job_id].update({"status": "running", "stage": "ingesting"})
     try:
         result = ingest_ncert_curriculum(**request_data)
+        jobs[job_id].update({"status": "completed", "stage": "completed", "result": result})
+    except Exception as exc:
+        jobs[job_id].update({"status": "failed", "stage": "failed", "error": str(exc)})
+
+
+def _run_grade_books_job(job_id: str, request_data: Dict[str, object]) -> None:
+    jobs[job_id].update({"status": "running", "stage": "downloading_grade_books"})
+    try:
+        result = download_ncert_grade_books(**request_data)
         jobs[job_id].update({"status": "completed", "stage": "completed", "result": result})
     except Exception as exc:
         jobs[job_id].update({"status": "failed", "stage": "failed", "error": str(exc)})
@@ -207,6 +230,25 @@ async def ingest_ncert_simple(req: SimpleIngestNcertRequest, background_tasks: B
     }
     background_tasks.add_task(_run_ingest_job, job_id, request_data)
     return {"job_id": job_id, "status": "queued", "message": "NCERT ingestion started"}
+
+
+@app.post("/download-ncert-grade-books")
+async def download_ncert_grade_books_endpoint(req: DownloadGradeBooksRequest, background_tasks: BackgroundTasks):
+    job_id = str(uuid.uuid4())
+    request_data = req.model_dump()
+    jobs[job_id] = {
+        "id": job_id,
+        "status": "queued",
+        "stage": "queued",
+        "request": request_data,
+    }
+    background_tasks.add_task(_run_grade_books_job, job_id, request_data)
+    return {
+        "job_id": job_id,
+        "status": "queued",
+        "message": "NCERT grade books download started",
+        "note": "Track progress with GET /results/{job_id}",
+    }
 
 
 @app.post("/rag/query")

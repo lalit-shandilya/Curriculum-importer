@@ -1,13 +1,19 @@
 import hashlib
+import html as html_stdlib
 import json
 import math
 import os
 import re
+import shutil
+import subprocess
 import time
 import uuid
 from collections import Counter
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import parse_qs, urljoin, urlparse
+
+html_unescape = html_stdlib.unescape
 
 import pdfplumber
 import requests
@@ -48,6 +54,455 @@ except ImportError:
 LOCAL_EMBEDDING_DIMENSIONS = 256
 DEFAULT_RAG_CHUNK_WORDS = 180
 DEFAULT_RAG_OVERLAP_WORDS = 40
+
+
+def _slugify_fragment(value: str) -> str:
+    normalized = re.sub(r"[^a-z0-9]+", "_", str(value).strip().lower())
+    return normalized.strip("_") or "unknown"
+
+
+def _fetch_ncert_html(url: str) -> str:
+    """Fetch an NCERT HTML page. Uses curl to bypass TLS fingerprint blocking, with a requests fallback."""
+    curl_bin = shutil.which("curl") or "curl"
+    try:
+        result = subprocess.run(
+            [
+                curl_bin, "--silent", "--location", "--max-time", "60",
+                "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "-H", "Accept-Language: en-US,en;q=0.9",
+                "-H", "Referer: https://ncert.nic.in/",
+                url,
+            ],
+            capture_output=True,
+            text=True,
+            timeout=90,
+        )
+        if result.returncode == 0 and result.stdout:
+            return result.stdout
+    except Exception:
+        pass
+
+    # Fallback: requests (may fail on NCERT TLS fingerprint check)
+    _headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://ncert.nic.in/",
+    }
+    resp = requests.get(url, headers=_headers, timeout=60)
+    resp.raise_for_status()
+    return resp.text
+
+
+def _extract_js_function_block(html: str, fn_name: str) -> str:
+    marker = f"function {fn_name}("
+    start = html.find(marker)
+    if start < 0:
+        return ""
+
+    brace_start = html.find("{", start)
+    if brace_start < 0:
+        return ""
+
+    depth = 0
+    for i in range(brace_start, len(html)):
+        ch = html[i]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return html[start : i + 1]
+    return ""
+
+
+def _extract_ncert_textbook_catalog(html: str) -> List[Dict[str, Any]]:
+    # --- Class label map from HTML <select name="tclass"> ---
+    soup = BeautifulSoup(html, "html.parser")
+    class_label_by_value: Dict[int, str] = {}
+    class_select = soup.find("select", attrs={"name": "tclass"})
+    if class_select is not None:
+        for option in class_select.find_all("option"):
+            raw_val = str(option.get("value", "")).strip()
+            text = html_unescape(option.get_text(strip=True))
+            if raw_val.lstrip("-").isdigit() and int(raw_val) > 0 and text and "select" not in text.lower():
+                class_label_by_value[int(raw_val)] = text
+
+    def _strip_comments(js: str) -> str:
+        return re.sub(r"^\s*//.*$", "", js, flags=re.MULTILINE)
+
+    def _extract_brace_block(text: str, start: int) -> Tuple[str, int]:
+        open_pos = text.find("{", start)
+        if open_pos < 0:
+            return ("", len(text))
+        depth = 0
+        for i in range(open_pos, len(text)):
+            if text[i] == "{":
+                depth += 1
+            elif text[i] == "}":
+                depth -= 1
+                if depth == 0:
+                    return (text[open_pos + 1 : i], i + 1)
+        return ("", len(text))
+
+    # --- Parse change(): tclass.value==N → list of subject text labels ---
+    change_js = _strip_comments(_extract_js_function_block(html, "change"))
+    for cm in re.finditer(r"tclass\.value\s*==\s*(\d+)", change_js):
+        pass  # just validate the function exists; subjects come from change1 conditions directly
+
+    # --- Parse change1(): (tclass.value==N) && (options[sind].text=="Subject") → book options ---
+    change1_js = _strip_comments(_extract_js_function_block(html, "change1"))
+    cond_pattern = re.compile(
+        r'tclass\.value\s*==\s*(\d+)\s*\)\s*&&\s*\(\s*document\.test\.tsubject\.options\[sind\]\.text\s*==\s*"([^"]+)"',
+    )
+
+    catalog: List[Dict[str, Any]] = []
+    for cm in cond_pattern.finditer(change1_js):
+        class_val = int(cm.group(1))
+        subject_text = cm.group(2).strip()
+        block, _ = _extract_brace_block(change1_js, cm.end())
+
+        texts: Dict[int, str] = {}
+        values: Dict[int, str] = {}
+        for tm in re.finditer(r'tbook\.options\[(\d+)\]\.text\s*=\s*"([^"]+)"', block):
+            idx, label = int(tm.group(1)), tm.group(2).strip()
+            if idx > 0 and label:
+                texts[idx] = label
+        for vm in re.finditer(r'tbook\.options\[(\d+)\]\.value\s*=\s*"([^"]+)"', block):
+            idx, value = int(vm.group(1)), vm.group(2).strip()
+            if idx > 0 and value:
+                values[idx] = value
+
+        book_options: List[Dict[str, Any]] = [
+            {"option_index": idx, "book_title": texts[idx], "value": values[idx]}
+            for idx in sorted(set(texts.keys()) & set(values.keys()))
+        ]
+        if not book_options:
+            continue
+
+        class_label = class_label_by_value.get(class_val, f"Class {class_val}")
+        catalog.append(
+            {
+                "class_index": class_val,
+                "class_label": class_label,
+                "subject": subject_text,
+                "book_options": sorted(book_options, key=lambda b: b["option_index"]),
+            }
+        )
+
+    return sorted(catalog, key=lambda row: (row["class_index"], row["subject"]))
+
+
+def _build_ncert_suffixes(count: int) -> List[str]:
+    if count <= 0:
+        return []
+
+    fmt: Dict[int, str] = {}
+    for y in range(0, count + 1):
+        if y == 0:
+            fmt[y] = "cc"
+        elif y < 10:
+            fmt[y] = f"0{y}"
+        else:
+            fmt[y] = str(y)
+
+    if count in {11, 12, 13, 15, 16, 17, 18, 20, 21, 22, 23, 24, 26, 27, 31, 32, 33, 36, 40}:
+        fmt[count - 2] = "ps"
+        fmt[count - 1] = "pr"
+        fmt[count] = "ex"
+
+    if count in {10, 14}:
+        fmt[count - 1] = "poe"
+        fmt[count] = "ex"
+
+    if count == 17:
+        fmt[9] = "ps"
+        fmt[10] = "pr"
+        fmt[11] = "pe"
+        fmt[12] = "pt1"
+        fmt[13] = "pt2"
+        fmt[14] = "pt3"
+        fmt[15] = "pt4"
+        fmt[16] = "poe"
+        fmt[17] = "ex"
+
+    if count == 33:
+        fmt[20] = "pt1"
+        fmt[21] = "pt2"
+        fmt[22] = "pt3"
+        fmt[23] = "pt4"
+        fmt[24] = "pt5"
+        fmt[25] = "pt6"
+        fmt[26] = "pt7"
+        fmt[27] = "pt8"
+        fmt[28] = "poe"
+        fmt[29] = "ex"
+
+    return [fmt[idx] for idx in range(1, count + 1)]
+
+
+def _ncert_pdf_urls_from_book_value(book_value: str, base_url: str = "https://ncert.nic.in/textbook.php") -> List[Dict[str, Any]]:
+    absolute_value_url = urljoin(base_url, book_value)
+    parsed = urlparse(absolute_value_url)
+    query = parse_qs(parsed.query)
+    if len(query) != 1:
+        raise ValueError(f"Unexpected NCERT book value format: {book_value}")
+
+    publication_code = next(iter(query.keys()))
+    raw_value = query[publication_code][0]
+    if "-" not in raw_value:
+        raise ValueError(f"Unexpected NCERT chapter count format: {book_value}")
+
+    _, count_text = raw_value.split("-", 1)
+    count = int(count_text)
+    suffixes = _build_ncert_suffixes(count)
+
+    pdfs = []
+    for chapter_index, suffix in enumerate(suffixes, start=1):
+        pdf_url = f"https://ncert.nic.in/textbook/pdf/{publication_code}{suffix}.pdf"
+        pdfs.append(
+            {
+                "chapter_index": chapter_index,
+                "suffix": suffix,
+                "pdf_url": pdf_url,
+            }
+        )
+
+    return pdfs
+
+
+def save_ncert_grade_books_to_supabase(rows: List[Dict[str, Any]], table: str = "ncert_grade_books") -> Dict[str, Any]:
+    if not rows:
+        return {"table": table, "inserted": 0}
+
+    load_supabase_env_from_registry()
+    url = os.getenv("SUPABASE_URL")
+    key = os.getenv("SUPABASE_KEY")
+    if not url or not key:
+        raise RuntimeError("SUPABASE_URL and SUPABASE_KEY must be set")
+    if create_client is None:
+        raise RuntimeError("supabase package is not installed")
+
+    supabase = create_client(url, key)
+    _insert_with_column_adaptation(supabase, table, rows)
+    return {"table": table, "inserted": len(rows)}
+
+
+def download_ncert_grade_books(
+    textbook_url: str = "https://ncert.nic.in/textbook.php",
+    dest_dir: str = "./ncert_pdfs/grade_books",
+    third_dropdown_item: int = 2,
+    public_base_url: Optional[str] = None,
+    save_supabase: bool = False,
+    supabase_table: str = "ncert_grade_books",
+) -> Dict[str, Any]:
+    if third_dropdown_item < 1:
+        raise ValueError("third_dropdown_item must be >= 1")
+
+    dest_root = Path(dest_dir)
+    dest_root.mkdir(parents=True, exist_ok=True)
+    manifest_path = dest_root / "grade_books_manifest.json"
+    if manifest_path.exists():
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+    else:
+        manifest = {}
+
+    session = requests.Session()
+    retries = requests.adapters.Retry(total=5, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+    adapter = requests.adapters.HTTPAdapter(max_retries=retries)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+
+    catalog = _extract_ncert_textbook_catalog(_fetch_ncert_html(textbook_url))
+    if not catalog:
+        raise RuntimeError("No textbook dropdown combinations discovered from NCERT page")
+
+    ncert_root = Path("./ncert_pdfs").resolve()
+    books_report: List[Dict[str, Any]] = []
+    supabase_rows: List[Dict[str, Any]] = []
+
+    for row in catalog:
+        valid_books = [opt for opt in row["book_options"] if "textbook.php?" in opt["value"]]
+        if len(valid_books) < third_dropdown_item:
+            books_report.append(
+                {
+                    "class": row["class_label"],
+                    "subject": row["subject"],
+                    "status": "skipped",
+                    "reason": f"Only {len(valid_books)} book options available",
+                }
+            )
+            continue
+
+        selected_book = valid_books[third_dropdown_item - 1]
+        try:
+            pdf_entries = _ncert_pdf_urls_from_book_value(selected_book["value"], textbook_url)
+        except Exception as exc:
+            books_report.append(
+                {
+                    "class": row["class_label"],
+                    "subject": row["subject"],
+                    "book_title": selected_book["book_title"],
+                    "status": "error",
+                    "error": str(exc),
+                }
+            )
+            continue
+
+        parsed = urlparse(urljoin(textbook_url, selected_book["value"]))
+        query = parse_qs(parsed.query)
+        publication_code = next(iter(query.keys()))
+
+        class_slug = _slugify_fragment(row["class_label"])
+        subject_slug = _slugify_fragment(row["subject"])
+        book_slug = _slugify_fragment(publication_code)
+        book_dir = dest_root / class_slug / subject_slug / book_slug
+        book_dir.mkdir(parents=True, exist_ok=True)
+
+        files_report: List[Dict[str, Any]] = []
+        for entry in pdf_entries:
+            pdf_url = entry["pdf_url"]
+            filename = os.path.basename(urlparse(pdf_url).path)
+            dest_file = book_dir / filename
+            manifest_key = str(dest_file)
+
+            prev_hash = manifest.get(manifest_key, {}).get("sha256")
+            if dest_file.exists() and prev_hash:
+                current_hash = compute_file_hash(str(dest_file))
+                if current_hash == prev_hash:
+                    status = "skipped"
+                    file_hash = current_hash
+                else:
+                    status = "downloaded"
+                    file_hash = ""
+            else:
+                status = "downloaded"
+                file_hash = ""
+
+            if status == "downloaded":
+                error_msg = None
+                for attempt in range(1, 5):
+                    try:
+                        pdf_response = session.get(
+                            pdf_url,
+                            stream=True,
+                            timeout=60,
+                            headers={
+                                "User-Agent": headers["User-Agent"],
+                                "Accept": "application/pdf,application/octet-stream;q=0.9,*/*;q=0.8",
+                                "Referer": textbook_url,
+                            },
+                        )
+                        pdf_response.raise_for_status()
+                        with open(dest_file, "wb") as f:
+                            for chunk in pdf_response.iter_content(chunk_size=8192):
+                                if chunk:
+                                    f.write(chunk)
+                        file_hash = compute_file_hash(str(dest_file))
+                        error_msg = None
+                        break
+                    except Exception as exc:
+                        error_msg = str(exc)
+                        time.sleep(attempt * 2)
+
+                if error_msg is not None:
+                    files_report.append({"pdf_url": pdf_url, "status": "error", "error": error_msg})
+                    continue
+
+            try:
+                static_relative = dest_file.resolve().relative_to(ncert_root).as_posix()
+                app_path = f"/pdfs/{static_relative}"
+            except Exception:
+                app_path = f"/pdfs/{dest_file.name}"
+
+            app_pdf_url = f"{public_base_url.rstrip('/')}{app_path}" if public_base_url else app_path
+
+            manifest[manifest_key] = {
+                "class": row["class_label"],
+                "subject": row["subject"],
+                "book_title": selected_book["book_title"],
+                "publication_code": publication_code,
+                "chapter_index": entry["chapter_index"],
+                "pdf_url": pdf_url,
+                "app_pdf_url": app_pdf_url,
+                "sha256": file_hash,
+                "downloaded_at": time.time(),
+            }
+
+            files_report.append(
+                {
+                    "chapter_index": entry["chapter_index"],
+                    "pdf_url": pdf_url,
+                    "file": str(dest_file),
+                    "app_pdf_url": app_pdf_url,
+                    "status": status,
+                    "sha256": file_hash,
+                }
+            )
+
+            supabase_rows.append(
+                {
+                    "class_label": row["class_label"],
+                    "subject": row["subject"],
+                    "book_title": selected_book["book_title"],
+                    "publication_code": publication_code,
+                    "chapter_index": entry["chapter_index"],
+                    "chapter_suffix": entry["suffix"],
+                    "source_pdf_url": pdf_url,
+                    "local_file_path": str(dest_file),
+                    "app_pdf_url": app_pdf_url,
+                    "sha256": file_hash,
+                }
+            )
+
+        books_report.append(
+            {
+                "class": row["class_label"],
+                "subject": row["subject"],
+                "book_title": selected_book["book_title"],
+                "publication_code": publication_code,
+                "status": "completed",
+                "files": files_report,
+            }
+        )
+
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2)
+
+    supabase_status = None
+    if save_supabase:
+        try:
+            supabase_status = save_ncert_grade_books_to_supabase(supabase_rows, table=supabase_table)
+        except Exception as exc:
+            supabase_status = {"table": supabase_table, "status": "error", "error": str(exc)}
+
+    downloaded_count = sum(
+        1
+        for book in books_report
+        for file_entry in book.get("files", [])
+        if file_entry.get("status") == "downloaded"
+    )
+    skipped_count = sum(
+        1
+        for book in books_report
+        for file_entry in book.get("files", [])
+        if file_entry.get("status") == "skipped"
+    )
+
+    return {
+        "textbook_url": textbook_url,
+        "third_dropdown_item": third_dropdown_item,
+        "dest_dir": str(dest_root),
+        "manifest_path": str(manifest_path),
+        "catalog_entries": len(catalog),
+        "books_considered": len(books_report),
+        "pdfs_downloaded": downloaded_count,
+        "pdfs_skipped": skipped_count,
+        "supabase": supabase_status,
+        "books": books_report,
+    }
 
 
 def load_supabase_env_from_registry() -> None:

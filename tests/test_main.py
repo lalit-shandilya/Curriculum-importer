@@ -147,6 +147,46 @@ def test_ingest_ncert_simple_runs_background_job(monkeypatch, tmp_path):
     assert result_body["request"]["output_dir"] == "./ncert_json"
 
 
+def test_download_ncert_grade_books_runs_background_job(monkeypatch):
+    def fake_download(**kwargs):
+        return {
+            "textbook_url": kwargs["textbook_url"],
+            "books_considered": 1,
+            "pdfs_downloaded": 2,
+            "books": [
+                {
+                    "class": "Class I",
+                    "subject": "English",
+                    "book_title": "Second Book",
+                    "status": "completed",
+                    "files": [
+                        {
+                            "app_pdf_url": "/pdfs/grade_books/class_i/english/aemr/aemr01.pdf",
+                            "status": "downloaded",
+                        }
+                    ],
+                }
+            ],
+        }
+
+    monkeypatch.setattr("main.download_ncert_grade_books", fake_download)
+
+    response = client.post(
+        "/download-ncert-grade-books",
+        json={"textbook_url": "https://ncert.nic.in/textbook.php", "third_dropdown_item": 2},
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["status"] == "queued"
+
+    result_response = client.get(f"/results/{body['job_id']}")
+    assert result_response.status_code == 200
+    result_body = result_response.json()
+    assert result_body["status"] == "completed"
+    assert result_body["result"]["pdfs_downloaded"] == 2
+
+
 def test_rag_query_reads_index(tmp_path):
     rag_index_path = tmp_path / "rag_index.json"
     rag_index_path.write_text(

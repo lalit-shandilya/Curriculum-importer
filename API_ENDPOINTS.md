@@ -259,6 +259,45 @@ Upload one PDF file and parse immediately.
 
 ## 8) Extract Curriculum (Path or Upload)
 
+---
+
+## 9) Download NCERT Grade Books (All Classes/Subjects)
+
+### `POST /download-ncert-grade-books`
+
+Runs asynchronous NCERT textbook scraping and download from `https://ncert.nic.in/textbook.php`:
+- iterates every class and subject combination
+- selects only one configured item from the 3rd dropdown (default: second item)
+- downloads all chapter PDFs for that selected title
+- stores files locally under `ncert_pdfs`
+- returns app-facing links (`/pdfs/...`) that you can use in your frontend
+
+### Request Body
+
+```json
+{
+  "textbook_url": "https://ncert.nic.in/textbook.php",
+  "dest_dir": "./ncert_pdfs/grade_books",
+  "third_dropdown_item": 2,
+  "public_base_url": "http://127.0.0.1:8000",
+  "save_supabase": false,
+  "supabase_table": "ncert_grade_books"
+}
+```
+
+### Immediate Response
+
+```json
+{
+  "job_id": "8d4a3fb9-...",
+  "status": "queued",
+  "message": "NCERT grade books download started",
+  "note": "Track progress with GET /results/{job_id}"
+}
+```
+
+Fetch final result from `GET /results/{job_id}`.
+
 ### `POST /extract-curriculum`
 
 Extract curriculum from one PDF using either `file_path` or uploaded `file`.
